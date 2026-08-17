@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Sat, 15 Aug 2026 19:14:23 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 17 Aug 2026 15:30:13 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,800 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>📦 Azure Roadmap update: Azure PST Import Is Coming to Exchange Online &#8211; and It Changes How Administrators Handle Archived Email</title>
+		<link>https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/</link>
+					<comments>https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Mon, 17 Aug 2026 15:30:13 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=239</guid>
+
+					<description><![CDATA[If you&#8217;ve ever had to deal with PST files, you&#8217;ll know they have a habit of appearing at exactly the wrong time. Old Outlook archives. Historical mailboxes. Former employees. Data sitting on file shares or someone&#8217;s laptop. And eventually someone asks the inevitable question: &#8220;Can we get all of this email back into Microsoft 365?&#8221; [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="241" data-permalink="https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/azure-pst-import-pic-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Azure PST import pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1024%2C683&amp;ssl=1" data-id="241" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-241" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;ve ever had to deal with PST files, you&#8217;ll know they have a habit of appearing at exactly the wrong time.</p>
+
+
+
+<p class="wp-block-paragraph">Old Outlook archives. Historical mailboxes. Former employees. Data sitting on file shares or someone&#8217;s laptop. And eventually someone asks the inevitable question:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Can we get all of this email back into Microsoft 365?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is introducing Azure PST Import, providing administrators with a structured, PowerShell-based way to import PST files stored in Azure Blob Storage directly into Exchange Online mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">The new capability is designed to make the process more controlled and auditable, while adding an important step that administrators will appreciate:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>You can analyse and validate the import before actually importing the data.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a potentially significant improvement when you&#8217;re dealing with large quantities of historical email.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2601.png" alt="☁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> So, what is Azure PST Import?</strong></p>
+
+
+
+<p class="wp-block-paragraph">At its simplest, Azure PST Import provides a way for administrators to take PST files stored in Azure Blob Storage and import their contents into Exchange Online mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">The process is administrator-driven and uses PowerShell cmdlets rather than a graphical user interface.</p>
+
+
+
+<p class="wp-block-paragraph">The basic workflow looks like this:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Azure Blob Storage → Analyse → Validate → Import → Report → Clean up</strong></p>
+
+
+
+<p class="wp-block-paragraph">The idea is to provide administrators with greater confidence before the data actually lands in users&#8217; mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">And when you&#8217;re dealing with historical email data, that&#8217;s a very useful capability.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f50d.png" alt="🔍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Analyse first, import second</strong></p>
+
+
+
+<p class="wp-block-paragraph">One of the more interesting aspects of the new experience is the Analyze mode.</p>
+
+
+
+<p class="wp-block-paragraph">Rather than immediately starting an import and discovering problems halfway through, administrators can first run a migration batch in Analyze mode.</p>
+
+
+
+<p class="wp-block-paragraph">This allows Microsoft 365 to validate the readiness of the import.</p>
+
+
+
+<p class="wp-block-paragraph">For example, the analysis can validate things such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Whether the specified PST files actually exist</li>
+
+
+
+<li>PST file sizes</li>
+
+
+
+<li>Whether the target mailbox is suitable</li>
+
+
+
+<li>Whether the appropriate licence is assigned</li>
+
+
+
+<li>Whether the mailbox is inactive or soft-deleted</li>
+
+
+
+<li>Whether the recipient type is UserMailbox</li>
+
+
+
+<li>Whether an archive is enabled when importing to an archive</li>
+
+
+
+<li>Relevant mailbox quota requirements</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s an important change in mindset.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Let&#8217;s start the migration and see what happens.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">You can take the approach of:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Let&#8217;s validate everything first.&#8221;</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e0.png" alt="🛠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> How does the process work?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The process is essentially broken into several stages.</p>
+
+
+
+<p class="wp-block-paragraph">1. Create the Azure PST Import endpoint</p>
+
+
+
+<p class="wp-block-paragraph">The first step is establishing the connection between Azure storage and Exchange Online.</p>
+
+
+
+<p class="wp-block-paragraph">Administrators create an Azure PST Import migration endpoint using PowerShell.</p>
+
+
+
+<p class="wp-block-paragraph">The endpoint setup also validates that the Azure storage account and container exist and are reachable.</p>
+
+
+
+<p class="wp-block-paragraph">There&#8217;s an important permission requirement here.</p>
+
+
+
+<p class="wp-block-paragraph">The Office 365 Import Service application needs the:</p>
+
+
+
+<p class="wp-block-paragraph">Storage Blob Data Reader</p>
+
+
+
+<p class="wp-block-paragraph">role on the target Azure storage account.</p>
+
+
+
+<p class="wp-block-paragraph">Without that permission, endpoint creation will fail.</p>
+
+
+
+<p class="wp-block-paragraph">So this is something worth checking before you start troubleshooting the migration itself.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Prepare your import files</strong></p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ll need to prepare your batch input files, using XML and/or CSV, depending on the requirements of your import.</p>
+
+
+
+<p class="wp-block-paragraph">These files provide the information required to tell the service what should be imported and where it should go.</p>
+
+
+
+<p class="wp-block-paragraph">This is another area where preparation matters.</p>
+
+
+
+<p class="wp-block-paragraph">A little time spent getting your input files right can save considerably more time later.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Run the migration in Analyse mode</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is arguably the most useful part of the new workflow.</p>
+
+
+
+<p class="wp-block-paragraph">Rather than immediately importing the PST data, run the migration batch in:</p>
+
+
+
+<p class="wp-block-paragraph">Analyze</p>
+
+
+
+<p class="wp-block-paragraph">mode.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft can then validate the import and provide analysis results and reports.</p>
+
+
+
+<p class="wp-block-paragraph">This gives administrators the opportunity to identify potential problems before the actual import begins.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Review the results</strong></p>
+
+
+
+<p class="wp-block-paragraph">Once analysis is complete, administrators can review the results and reports.</p>
+
+
+
+<p class="wp-block-paragraph">This is your opportunity to stop and fix anything that isn&#8217;t quite right.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps a mailbox doesn&#8217;t meet the requirements.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps a PST file isn&#8217;t where you expected it to be.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps a quota isn&#8217;t sufficient.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps the target mailbox isn&#8217;t in the correct state.</p>
+
+
+
+<p class="wp-block-paragraph">Whatever the issue, the idea is to discover it before starting the real import.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Create and start the import batch</strong></p>
+
+
+
+<p class="wp-block-paragraph">Once you&#8217;re happy with the analysis results, you can use those results to create and start the actual <strong>import batch</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">At that point, the PST files are imported into the specified Exchange Online mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">The process is controlled by administrators through PowerShell.</p>
+
+
+
+<p class="wp-block-paragraph">There is currently <strong>no graphical user interface for this experience</strong>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9f9.png" alt="🧹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> And then comes the clean-up</strong></p>
+
+
+
+<p class="wp-block-paragraph">Once the import has completed, administrators can perform the required post-import clean-up.</p>
+
+
+
+<p class="wp-block-paragraph">This is worth considering as part of the migration plan rather than treating it as an afterthought.</p>
+
+
+
+<p class="wp-block-paragraph">PST files have a habit of multiplying.</p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;ve ever discovered a folder containing:</p>
+
+
+
+<p class="wp-block-paragraph">Archive.pst<br>Archive-old.pst<br>Archive-final.pst<br>Archive-final-2.pst<br>Archive-final-REALLY-FINAL.pst</p>
+
+
+
+<p class="wp-block-paragraph">&#8230;you&#8217;ll understand why.</p>
+
+
+
+<p class="wp-block-paragraph">A structured import process gives organisations an opportunity to bring historical email into a more manageable Microsoft 365 environment.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What does this mean for compliance?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where Azure PST Import becomes particularly interesting from a Microsoft Purview and governance perspective.</p>
+
+
+
+<p class="wp-block-paragraph">Once PST content has been imported into Exchange Online, it becomes part of the mailbox environment.</p>
+
+
+
+<p class="wp-block-paragraph">That means the imported data is then subject to the existing behaviours and controls associated with the target mailbox.</p>
+
+
+
+<p class="wp-block-paragraph">According to Microsoft&#8217;s announcement, imported mailbox data becomes subject to existing:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Microsoft Purview retention policies</strong></li>
+
+
+
+<li><strong>Retention labels</strong></li>
+
+
+
+<li><strong>Holds</strong></li>
+
+
+
+<li><strong>Deletion workflows</strong></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">That could be particularly valuable for organisations that have historically had important business records sitting inside unmanaged PST files.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of having historical information isolated inside individual PST files, the data can be brought into the Microsoft 365 environment where existing governance processes can apply.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9fe.png" alt="🧾" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What about auditing?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The change also provides administrators with existing audit and reporting capabilities.</p>
+
+
+
+<p class="wp-block-paragraph">Administrative activity relating to the PST import, along with resulting mailbox changes, can be monitored using existing:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Exchange Online audit logging</strong></p>
+
+
+
+<p class="wp-block-paragraph">and</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Purview audit capabilities.</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is important from a compliance perspective because organisations don&#8217;t simply need to move data.</p>
+
+
+
+<p class="wp-block-paragraph">They may also need to demonstrate:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>What was imported?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>When was it imported?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Who performed the activity?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>What happened to the data afterwards?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Being able to monitor the process using existing audit and reporting mechanisms helps support that requirement.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f465.png" alt="👥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Who is this relevant to?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This update is particularly relevant to:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Microsoft 365 administrators</li>
+
+
+
+<li>Exchange Online administrators</li>
+
+
+
+<li>Organisations managing historical PST archives</li>
+
+
+
+<li>Organisations importing PST data into user mailboxes</li>
+
+
+
+<li>Organisations importing PST data into archive mailboxes</li>
+
+
+
+<li>Teams responsible for Microsoft Purview Data Lifecycle Management</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">There is no direct user action required.</p>
+
+
+
+<p class="wp-block-paragraph">This is an administrator-driven process.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/26a0.png" alt="⚠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> There are some important prerequisites</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before jumping straight in, administrators should make sure the environment is ready.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ll need:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Azure storage</strong></p>
+
+
+
+<p class="wp-block-paragraph">Your Azure storage account and container need to exist and be reachable.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Azure permissions</strong></p>
+
+
+
+<p class="wp-block-paragraph">The Office 365 Import Service needs the Storage Blob Data Reader role on the target storage account.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Import files</strong></p>
+
+
+
+<p class="wp-block-paragraph">Your XML and/or CSV batch input files need to be prepared correctly.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Mailbox readiness</strong></p>
+
+
+
+<p class="wp-block-paragraph">The target mailbox needs to meet the required conditions.</p>
+
+
+
+<p class="wp-block-paragraph">That includes checking:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Appropriate licensing</li>
+
+
+
+<li>Mailbox status</li>
+
+
+
+<li>Recipient type</li>
+
+
+
+<li>Archive status, where applicable</li>
+
+
+
+<li>Archive quota</li>
+
+
+
+<li>Recoverable Items quota</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>PST readiness</strong></p>
+
+
+
+<p class="wp-block-paragraph">The PST files themselves also need to be checked.</p>
+
+
+
+<p class="wp-block-paragraph">Analysis validates that the specified PST files exist and validates their file size.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Why is this interesting from a governance perspective?</strong></p>
+
+
+
+<p class="wp-block-paragraph">For me, the most interesting part of this isn&#8217;t actually the PST import itself.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s what happens after the PST is imported.</p>
+
+
+
+<p class="wp-block-paragraph">PST files have traditionally been a bit of an information governance headache.</p>
+
+
+
+<p class="wp-block-paragraph">They can contain years of email.</p>
+
+
+
+<p class="wp-block-paragraph">They can exist outside the normal Microsoft 365 governance framework.</p>
+
+
+
+<p class="wp-block-paragraph">They can be difficult to discover.</p>
+
+
+
+<p class="wp-block-paragraph">They can be difficult to manage consistently.</p>
+
+
+
+<p class="wp-block-paragraph">And they can sit quietly on a laptop or file share for years.</p>
+
+
+
+<p class="wp-block-paragraph">Moving that information into Exchange Online changes the conversation.</p>
+
+
+
+<p class="wp-block-paragraph">Once imported, the data becomes part of the Microsoft 365 environment and can fall under the organisation&#8217;s existing retention, hold, deletion and auditing processes.</p>
+
+
+
+<p class="wp-block-paragraph">In other words:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>The goal isn&#8217;t just to move old email.</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>It&#8217;s to bring that information into a governed environment.</strong></p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s a much more interesting proposition.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What should administrators do now?</strong></p>
+
+
+
+<p class="wp-block-paragraph">If your organisation has a significant PST estate, this is worth putting on the radar.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d start by asking a few simple questions:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>How many PST files do we actually have?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Where are they?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Who owns them?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>What information do they contain?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Do they contain records that need to be retained?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Are any subject to legal or regulatory requirements?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Which mailboxes should they ultimately belong to?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Do our current retention policies apply appropriately to the target mailboxes?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Those questions turn a technical migration into an information governance exercise.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s exactly how I would approach it.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> When is it coming?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft says the global rollout is expected to:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Begin:</strong> Late August 2026<br><strong>Complete:</strong> Early September 2026</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft 365 Roadmap ID:</strong> 565865</p>
+
+
+
+<p class="wp-block-paragraph">The experience is <strong>PowerShell-only</strong> and isn&#8217;t currently being delivered through a graphical administration interface.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">PSTs aren&#8217;t going away overnight.</p>
+
+
+
+<p class="wp-block-paragraph">But perhaps we can finally start moving away from the idea of treating them as mysterious containers of historical email sitting somewhere on a network drive.</p>
+
+
+
+<p class="wp-block-paragraph">Azure PST Import gives administrators a structured path for bringing that information into Exchange Online.</p>
+
+
+
+<p class="wp-block-paragraph">And the really important part isn&#8217;t simply the ability to import it.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s the ability to analyse first, validate the destination, import in a controlled way, audit the activity and then bring that historical information under the organisation&#8217;s existing Microsoft 365 governance processes.</p>
+
+
+
+<p class="wp-block-paragraph">Because ultimately:</p>
+
+
+
+<p class="wp-block-paragraph">Moving information is migration.</p>
+
+
+
+<p class="wp-block-paragraph">Bringing it into a governed environment is information governance.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s where this update gets interesting.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">239</post-id>	</item>
+		<item>
 		<title>🚨 Shadow AI: The AI Your Organisation Doesn&#8217;t Know It&#8217;s Using</title>
 		<link>https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/</link>
 					<comments>https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/#respond</comments>
@@ -39,8 +833,8 @@
 
 					<description><![CDATA[&#8220;Are our employees using AI?&#8221; If your immediate answer is &#8220;Not really&#8221; or &#8220;We don&#8217;t think so&#8221;, you might want to keep reading. Because here&#8217;s the uncomfortable truth: AI adoption is moving much faster than most organisations can govern it. Employees are already using AI to write emails, summarise meetings, analyse spreadsheets, create presentations, write [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="229" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/designer-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Designer" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1024%2C683&amp;ssl=1" data-id="229" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-229" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="229" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/designer-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Designer" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1024%2C683&amp;ssl=1" data-id="229" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-229" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1541,7 +2335,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 
 
 
@@ -1565,7 +2359,7 @@
 
 					<description><![CDATA[Yes, you read that right. Again, hear me out. I am a big believer in shared interests and finding things we can enjoy with others. When the chance came to watch a horror film with a loved one, I was sure it was something we could enjoy and discuss afterwards. The film came and went. [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="205" data-permalink="https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/chatgpt-image-aug-15-2026-12_38_20-pm-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Aug 15, 2026, 12_38_20 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1024%2C683&amp;ssl=1" data-id="205" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-205" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1615,7 +2409,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/feed/</wfw:commentRss>
@@ -1737,8 +2531,8 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="180" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/ediscovery-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="eDiscovery picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1024%2C683&amp;ssl=1" data-id="180" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-180" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="180" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/ediscovery-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="eDiscovery picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1024%2C683&amp;ssl=1" data-id="180" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-180" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 ]]></content:encoded>
 					
@@ -1787,7 +2581,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" data-attachment-id="171" data-permalink="https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/purview-alerts-pic-july-29th-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview alerts pic July 29th" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1024%2C1024&amp;ssl=1" data-id="171" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-171" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1200%2C1200&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=800%2C800&amp;ssl=1 800w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=600%2C600&amp;ssl=1 600w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 ]]></content:encoded>
@@ -1885,7 +2679,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="165" data-permalink="https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/sharepoint-data-at-rest-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="SharePoint data at rest" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?fit=1024%2C683&amp;ssl=1" data-id="165" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-165" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 ]]></content:encoded>
@@ -1907,7 +2701,7 @@
 
 					<description><![CDATA[Crazy headline right? I thought so too. However, just hear me out. I was once asked to do a large presentation on all things Microsoft 365. Scary stuff. In my research on how to cope with the nerves, I came across a video of English comedian Rik Mayall (pan-global phenomenon), &#160;giving a speech at Exeter [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="724" data-attachment-id="218" data-permalink="https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/comedy-5/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?fit=1600%2C1131&amp;ssl=1" data-orig-size="1600,1131" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Comedy&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Comedy" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?fit=1024%2C724&amp;ssl=1" data-id="218" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1024%2C724&#038;ssl=1" alt="" class="wp-image-218" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1024%2C724&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=300%2C212&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=768%2C543&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1536%2C1086&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1200%2C848&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?w=1600&amp;ssl=1 1600w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1949,7 +2743,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 
 
 
