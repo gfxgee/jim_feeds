@@ -1,0 +1,5 @@
+# Local runs only — CI sets FEED_KEEP_SNAPSHOTS=0 so these never appear there.
+docs/**/snapshots/
+docs/**/fetch.log
+docs/**/last-failure.raw
+feeds/

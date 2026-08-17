@@ -1,0 +1,59 @@
+name: Mirror feed
+
+on:
+  schedule:
+    # Minute 7 rather than 0 — top-of-hour is the busiest slot on GitHub's
+    # shared scheduler and runs there are the most likely to be delayed.
+    - cron: '7 * * * *'
+  workflow_dispatch:        # lets you trigger a run by hand from the Actions tab
+
+permissions:
+  contents: write           # needed to push the updated latest.xml
+
+concurrency:
+  group: mirror-feed
+  cancel-in-progress: false # never cancel a run mid-push
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install xmllint
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq libxml2-utils
+
+      - name: Fetch and validate feed
+        id: fetch
+        env:
+          FEED_BASE_DIR: ${{ github.workspace }}/docs
+          FEED_KEEP_SNAPSHOTS: '0'   # git history is the snapshot history
+        run: |
+          chmod +x ./fetch-feed.sh
+          set +e
+          ./fetch-feed.sh "https://jimtalks.co.uk/feed/" jimtalks
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Commit if the feed changed
+        run: |
+          git config user.name  "feed-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- docs/ && [ -z "$(git ls-files --others --exclude-standard docs/)" ]; then
+            echo "No change — nothing to commit."
+            exit 0
+          fi
+          git add docs/
+          git commit -m "feed: jimtalks $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Fail the run if the fetch was unhealthy
+        run: |
+          code="${{ steps.fetch.outputs.code }}"
+          case "$code" in
+            0) echo "Feed healthy." ;;
+            2) echo "::error::Fetch failed — upstream unreachable or returned an error status."; exit 1 ;;
+            3) echo "::error::Response was not a feed — upstream is likely serving an error or maintenance page."; exit 1 ;;
+            4) echo "::error::Feed parsed but contained zero items."; exit 1 ;;
+            5) echo "::warning::Feed is valid but stale — no new items within the freshness window."; exit 1 ;;
+            *) echo "::error::Unexpected exit code $code"; exit 1 ;;
+          esac
