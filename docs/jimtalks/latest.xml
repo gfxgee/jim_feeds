@@ -1,0 +1,3511 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Welcome to JimTalks</title>
+	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
+	<link>https://jimtalks.co.uk</link>
+	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
+	<lastBuildDate>Tue, 18 Aug 2026 14:57:35 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://s0.wp.com/i/webclip.png</url>
+	<title>Welcome to JimTalks</title>
+	<link>https://jimtalks.co.uk</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Bringing Anthropic Claude Enterprise into Microsoft Purview: A Practical Deployment Guide</title>
+		<link>https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/</link>
+					<comments>https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Tue, 18 Aug 2026 14:57:35 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=247</guid>
+
+					<description><![CDATA[As organisations accelerate their adoption of generative AI, governance teams face a familiar challenge: how do you maintain visibility, compliance and security when business users are interacting with AI platforms outside of Microsoft 365? Microsoft Purview&#8217;s Anthropic Claude Enterprise connector helps address this challenge by bringing Claude activity and conversation data into the Microsoft Purview [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="249" data-permalink="https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/claude-anthropic-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Claude Anthropic pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1024%2C683&amp;ssl=1" data-id="249" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-249" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">As organisations accelerate their adoption of generative AI, governance teams face a familiar challenge: how do you maintain visibility, compliance and security when business users are interacting with AI platforms outside of Microsoft 365?</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview&#8217;s Anthropic Claude Enterprise connector helps address this challenge by bringing Claude activity and conversation data into the Microsoft Purview ecosystem, enabling organisations to monitor usage, investigate activity, support compliance initiatives and strengthen AI governance.</p>
+
+
+
+<p class="wp-block-paragraph">In this article, we&#8217;ll explore the key considerations, prerequisites and validation steps required to successfully deploy the Anthropic Claude Enterprise connector in Microsoft Purview.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Why Connect Claude Enterprise to Microsoft Purview?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Many organisations are adopting multiple AI platforms to meet different business requirements. While this can increase productivity, it can also create governance blind spots.</p>
+
+
+
+<p class="wp-block-paragraph">The Anthropic Claude Enterprise connector enables Microsoft Purview to ingest data from Claude Enterprise, providing visibility into:</p>
+
+
+
+<ul class="wp-block-list">
+<li>User activity and authentication events</li>
+
+
+
+<li>Administrative actions</li>
+
+
+
+<li>File uploads</li>
+
+
+
+<li>AI interactions and conversation history</li>
+
+
+
+<li>Compliance and audit-related information</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">This allows security, compliance and governance teams to extend oversight beyond the Microsoft ecosystem while maintaining a more unified view of AI usage across the organisation.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Start with Governance, Not Technology</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before deploying the connector, it is important to understand what data should be collected and why.</p>
+
+
+
+<p class="wp-block-paragraph">The connector supports two primary data scopes:</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f50d.png" alt="🔍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Activity Feed</strong></p>
+
+
+
+<p class="wp-block-paragraph">The Activity Feed captures operational and audit information, including:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Authentication events</li>
+
+
+
+<li>User interactions</li>
+
+
+
+<li>Administrative actions</li>
+
+
+
+<li>Compliance-related activity</li>
+
+
+
+<li>File upload activity</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">This scope is particularly useful when organisations want to monitor adoption trends, user activity and overall platform usage.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Chat Conversations</strong></p>
+
+
+
+<p class="wp-block-paragraph">Chat Conversations provide access to:</p>
+
+
+
+<ul class="wp-block-list">
+<li>User prompts</li>
+
+
+
+<li>Claude-generated responses</li>
+
+
+
+<li>Conversation metadata</li>
+
+
+
+<li>Message history</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">While this provides valuable insight into AI usage patterns, it also introduces additional privacy and governance considerations because conversation content may contain business-sensitive information.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>A Critical Governance Decision</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before deployment, organisations should determine:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Whether both data scopes are required</li>
+
+
+
+<li>Who will own the data</li>
+
+
+
+<li>Who can access the imported information</li>
+
+
+
+<li>How conversation data will be governed and reviewed</li>
+
+
+
+<li>Whether the business has a clear justification for collecting conversation content</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Many organisations find that conversation data represents the most sensitive aspect of an AI governance programme and should therefore be considered carefully before implementation.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/26a0.png" alt="⚠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Anthropic Prerequisites</strong></p>
+
+
+
+<p class="wp-block-paragraph">Successful deployment begins within the Anthropic environment.</p>
+
+
+
+<p class="wp-block-paragraph">First, confirm that your organisation is using <strong>Claude Enterprise</strong>, as the connector does not support consumer or Team subscriptions.</p>
+
+
+
+<p class="wp-block-paragraph">You will also need to identify the <strong>Anthropic Primary Owner</strong>, who is responsible for configuring the Compliance API.</p>
+
+
+
+<p class="wp-block-paragraph">The primary configuration activities include:</p>
+
+
+
+<ol start="1" class="wp-block-list">
+<li>Enabling the Compliance API.</li>
+
+
+
+<li>Generating a Compliance Access Key.</li>
+
+
+
+<li>Identifying the correct Anthropic Organisation ID.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">The Compliance Access Key should be treated as a privileged credential and handled using the same security standards applied to other integration secrets.</p>
+
+
+
+<p class="wp-block-paragraph">Avoid storing it in:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Documentation</li>
+
+
+
+<li>Email messages</li>
+
+
+
+<li>Teams conversations</li>
+
+
+
+<li>Scripts</li>
+
+
+
+<li>Screenshots</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/26a0.png" alt="⚠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Microsoft Purview Requirements</strong></p>
+
+
+
+<p class="wp-block-paragraph">On the Microsoft side, several prerequisites should be validated before connector deployment begins.</p>
+
+
+
+<p class="wp-block-paragraph">These include:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Appropriate Microsoft 365 and Purview licensing</li>
+
+
+
+<li>Data Connector Admin permissions</li>
+
+
+
+<li>Access to the Microsoft Purview portal</li>
+
+
+
+<li>Data Security Posture Management (DSPM) permissions, where required</li>
+
+
+
+<li>Microsoft Purview auditing enabled within the tenant</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">In addition, administrators should verify that the Anthropic Claude connector is available within the Data Connectors section of Microsoft Purview.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>How Claude Data Supports Purview Capabilities</strong></p>
+
+
+
+<p class="wp-block-paragraph">One common misconception is that the connector enables every Purview capability for Claude interactions.</p>
+
+
+
+<p class="wp-block-paragraph">In reality, the strongest value today lies in visibility, auditing and governance.</p>
+
+
+
+<p class="wp-block-paragraph">Supported areas include:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Data Security Posture Management (DSPM)</li>
+
+
+
+<li>Auditing</li>
+
+
+
+<li>Data Classification</li>
+
+
+
+<li>Insider Risk Management</li>
+
+
+
+<li>Communication Compliance</li>
+
+
+
+<li>eDiscovery</li>
+
+
+
+<li>Data Lifecycle Management</li>
+
+
+
+<li>Compliance Manager</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Organisations should view the integration primarily as a mechanism for monitoring, investigation and governance rather than a method for applying the full Microsoft Purview compliance stack directly to Claude interactions.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e0.png" alt="🛠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> A Recommended Deployment Approach</strong></p>
+
+
+
+<p class="wp-block-paragraph">Rather than configuring the connector immediately, organisations should follow a phased deployment model.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Phase 1: Anthropic Preparation</strong></p>
+
+
+
+<p class="wp-block-paragraph">Confirm:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Claude Enterprise licensing</li>
+
+
+
+<li>Primary Owner assignment</li>
+
+
+
+<li>Compliance API activation</li>
+
+
+
+<li>Compliance Access Key creation</li>
+
+
+
+<li>Organisation ID identification</li>
+
+
+
+<li>Agreed governance scope</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Phase 2: Microsoft Preparation</strong></p>
+
+
+
+<p class="wp-block-paragraph">Validate:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Licensing</li>
+
+
+
+<li>Administrative permissions</li>
+
+
+
+<li>Purview access</li>
+
+
+
+<li>DSPM permissions</li>
+
+
+
+<li>Auditing configuration</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Phase 3: Connector Configuration</strong></p>
+
+
+
+<p class="wp-block-paragraph">Within Microsoft Purview:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Settings → Data Connectors → All Connectors → Anthropic Claude → Add Connector</strong></p>
+
+
+
+<p class="wp-block-paragraph">The configuration process requires:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Connector name</li>
+
+
+
+<li>Compliance Access Key</li>
+
+
+
+<li>Anthropic Organisation ID</li>
+
+
+
+<li>API endpoint information</li>
+
+
+
+<li>Data scope selection</li>
+
+
+
+<li>Synchronisation frequency</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">A clear naming convention, such as <em>&#8220;Anthropic Claude Enterprise – Production&#8221;</em>, makes ongoing management significantly easier.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Phase 4: Validation</strong></p>
+
+
+
+<p class="wp-block-paragraph">Deployment is not complete simply because the connector status shows as connected.</p>
+
+
+
+<p class="wp-block-paragraph">A structured validation exercise should confirm that:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Synchronisation is functioning correctly</li>
+
+
+
+<li>Expected Claude activity is appearing</li>
+
+
+
+<li>Activity Feed data is visible</li>
+
+
+
+<li>Chat Conversation data is available where configured</li>
+
+
+
+<li>DSPM reporting is being populated</li>
+
+
+
+<li>Expected users and events can be located within Purview</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Don&#8217;t Forget Post-Deployment Validation</strong></p>
+
+
+
+<p class="wp-block-paragraph">One of the most common mistakes during connector deployments is assuming that a successful connection equals a successful implementation.</p>
+
+
+
+<p class="wp-block-paragraph">Instead, organisations should perform validation checks in both platforms.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Within Anthropic</strong></p>
+
+
+
+<p class="wp-block-paragraph">Confirm:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Compliance API remains enabled</li>
+
+
+
+<li>Access keys remain valid</li>
+
+
+
+<li>Correct organisation configuration</li>
+
+
+
+<li>Expected user activity exists</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Within Microsoft Purview</strong></p>
+
+
+
+<p class="wp-block-paragraph">Confirm:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Healthy connector status</li>
+
+
+
+<li>Ongoing synchronisation</li>
+
+
+
+<li>Activity Explorer visibility</li>
+
+
+
+<li>DSPM data population</li>
+
+
+
+<li>Expected user activity</li>
+
+
+
+<li>Prompt and response visibility when conversation ingestion is enabled</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">It is also worth noting that data may not appear immediately. Microsoft guidance indicates that it can take approximately one day for information to begin populating DSPM reporting following connector configuration.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Security and Operational Best Practices</strong></p>
+
+
+
+<p class="wp-block-paragraph">As with any governance integration, operational ownership is essential.</p>
+
+
+
+<p class="wp-block-paragraph">Organisations should:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Restrict connector administration to authorised personnel</li>
+
+
+
+<li>Document approved data scopes</li>
+
+
+
+<li>Review access permissions regularly</li>
+
+
+
+<li>Assign clear ownership for monitoring and maintenance</li>
+
+
+
+<li>Protect Compliance API credentials using secure credential management practices</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Most importantly, stakeholders should understand exactly what information is being ingested, particularly where conversation content is included in scope.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">As AI adoption continues to expand, visibility across multiple AI platforms will become an increasingly important governance requirement. The Anthropic Claude Enterprise connector for Microsoft Purview provides organisations with a practical way to extend their compliance, auditing and monitoring capabilities beyond Microsoft-native AI experiences.</p>
+
+
+
+<p class="wp-block-paragraph">By taking the time to address governance decisions, validate prerequisites and perform thorough post-deployment testing, organisations can establish a secure and well-governed foundation for managing Claude Enterprise activity within Microsoft Purview.</p>
+
+
+
+<p class="wp-block-paragraph">The result is greater transparency, stronger compliance oversight and increased confidence in how AI is being used across the business.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">247</post-id>	</item>
+		<item>
+		<title>📦 Azure Roadmap update: Azure PST Import Is Coming to Exchange Online &#8211; and It Changes How Administrators Handle Archived Email</title>
+		<link>https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/</link>
+					<comments>https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Mon, 17 Aug 2026 15:30:13 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=239</guid>
+
+					<description><![CDATA[If you&#8217;ve ever had to deal with PST files, you&#8217;ll know they have a habit of appearing at exactly the wrong time. Old Outlook archives. Historical mailboxes. Former employees. Data sitting on file shares or someone&#8217;s laptop. And eventually someone asks the inevitable question: &#8220;Can we get all of this email back into Microsoft 365?&#8221; [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="241" data-permalink="https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/azure-pst-import-pic-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Azure PST import pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1024%2C683&amp;ssl=1" data-id="241" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-241" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;ve ever had to deal with PST files, you&#8217;ll know they have a habit of appearing at exactly the wrong time.</p>
+
+
+
+<p class="wp-block-paragraph">Old Outlook archives. Historical mailboxes. Former employees. Data sitting on file shares or someone&#8217;s laptop. And eventually someone asks the inevitable question:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Can we get all of this email back into Microsoft 365?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is introducing Azure PST Import, providing administrators with a structured, PowerShell-based way to import PST files stored in Azure Blob Storage directly into Exchange Online mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">The new capability is designed to make the process more controlled and auditable, while adding an important step that administrators will appreciate:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>You can analyse and validate the import before actually importing the data.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a potentially significant improvement when you&#8217;re dealing with large quantities of historical email.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2601.png" alt="☁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> So, what is Azure PST Import?</strong></p>
+
+
+
+<p class="wp-block-paragraph">At its simplest, Azure PST Import provides a way for administrators to take PST files stored in Azure Blob Storage and import their contents into Exchange Online mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">The process is administrator-driven and uses PowerShell cmdlets rather than a graphical user interface.</p>
+
+
+
+<p class="wp-block-paragraph">The basic workflow looks like this:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Azure Blob Storage → Analyse → Validate → Import → Report → Clean up</strong></p>
+
+
+
+<p class="wp-block-paragraph">The idea is to provide administrators with greater confidence before the data actually lands in users&#8217; mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">And when you&#8217;re dealing with historical email data, that&#8217;s a very useful capability.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f50d.png" alt="🔍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Analyse first, import second</strong></p>
+
+
+
+<p class="wp-block-paragraph">One of the more interesting aspects of the new experience is the Analyze mode.</p>
+
+
+
+<p class="wp-block-paragraph">Rather than immediately starting an import and discovering problems halfway through, administrators can first run a migration batch in Analyze mode.</p>
+
+
+
+<p class="wp-block-paragraph">This allows Microsoft 365 to validate the readiness of the import.</p>
+
+
+
+<p class="wp-block-paragraph">For example, the analysis can validate things such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Whether the specified PST files actually exist</li>
+
+
+
+<li>PST file sizes</li>
+
+
+
+<li>Whether the target mailbox is suitable</li>
+
+
+
+<li>Whether the appropriate licence is assigned</li>
+
+
+
+<li>Whether the mailbox is inactive or soft-deleted</li>
+
+
+
+<li>Whether the recipient type is UserMailbox</li>
+
+
+
+<li>Whether an archive is enabled when importing to an archive</li>
+
+
+
+<li>Relevant mailbox quota requirements</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s an important change in mindset.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Let&#8217;s start the migration and see what happens.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">You can take the approach of:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Let&#8217;s validate everything first.&#8221;</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e0.png" alt="🛠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> How does the process work?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The process is essentially broken into several stages.</p>
+
+
+
+<p class="wp-block-paragraph">1. Create the Azure PST Import endpoint</p>
+
+
+
+<p class="wp-block-paragraph">The first step is establishing the connection between Azure storage and Exchange Online.</p>
+
+
+
+<p class="wp-block-paragraph">Administrators create an Azure PST Import migration endpoint using PowerShell.</p>
+
+
+
+<p class="wp-block-paragraph">The endpoint setup also validates that the Azure storage account and container exist and are reachable.</p>
+
+
+
+<p class="wp-block-paragraph">There&#8217;s an important permission requirement here.</p>
+
+
+
+<p class="wp-block-paragraph">The Office 365 Import Service application needs the:</p>
+
+
+
+<p class="wp-block-paragraph">Storage Blob Data Reader</p>
+
+
+
+<p class="wp-block-paragraph">role on the target Azure storage account.</p>
+
+
+
+<p class="wp-block-paragraph">Without that permission, endpoint creation will fail.</p>
+
+
+
+<p class="wp-block-paragraph">So this is something worth checking before you start troubleshooting the migration itself.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Prepare your import files</strong></p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ll need to prepare your batch input files, using XML and/or CSV, depending on the requirements of your import.</p>
+
+
+
+<p class="wp-block-paragraph">These files provide the information required to tell the service what should be imported and where it should go.</p>
+
+
+
+<p class="wp-block-paragraph">This is another area where preparation matters.</p>
+
+
+
+<p class="wp-block-paragraph">A little time spent getting your input files right can save considerably more time later.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Run the migration in Analyse mode</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is arguably the most useful part of the new workflow.</p>
+
+
+
+<p class="wp-block-paragraph">Rather than immediately importing the PST data, run the migration batch in:</p>
+
+
+
+<p class="wp-block-paragraph">Analyze</p>
+
+
+
+<p class="wp-block-paragraph">mode.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft can then validate the import and provide analysis results and reports.</p>
+
+
+
+<p class="wp-block-paragraph">This gives administrators the opportunity to identify potential problems before the actual import begins.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Review the results</strong></p>
+
+
+
+<p class="wp-block-paragraph">Once analysis is complete, administrators can review the results and reports.</p>
+
+
+
+<p class="wp-block-paragraph">This is your opportunity to stop and fix anything that isn&#8217;t quite right.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps a mailbox doesn&#8217;t meet the requirements.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps a PST file isn&#8217;t where you expected it to be.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps a quota isn&#8217;t sufficient.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps the target mailbox isn&#8217;t in the correct state.</p>
+
+
+
+<p class="wp-block-paragraph">Whatever the issue, the idea is to discover it before starting the real import.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Create and start the import batch</strong></p>
+
+
+
+<p class="wp-block-paragraph">Once you&#8217;re happy with the analysis results, you can use those results to create and start the actual <strong>import batch</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">At that point, the PST files are imported into the specified Exchange Online mailboxes.</p>
+
+
+
+<p class="wp-block-paragraph">The process is controlled by administrators through PowerShell.</p>
+
+
+
+<p class="wp-block-paragraph">There is currently <strong>no graphical user interface for this experience</strong>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9f9.png" alt="🧹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> And then comes the clean-up</strong></p>
+
+
+
+<p class="wp-block-paragraph">Once the import has completed, administrators can perform the required post-import clean-up.</p>
+
+
+
+<p class="wp-block-paragraph">This is worth considering as part of the migration plan rather than treating it as an afterthought.</p>
+
+
+
+<p class="wp-block-paragraph">PST files have a habit of multiplying.</p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;ve ever discovered a folder containing:</p>
+
+
+
+<p class="wp-block-paragraph">Archive.pst<br>Archive-old.pst<br>Archive-final.pst<br>Archive-final-2.pst<br>Archive-final-REALLY-FINAL.pst</p>
+
+
+
+<p class="wp-block-paragraph">&#8230;you&#8217;ll understand why.</p>
+
+
+
+<p class="wp-block-paragraph">A structured import process gives organisations an opportunity to bring historical email into a more manageable Microsoft 365 environment.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What does this mean for compliance?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where Azure PST Import becomes particularly interesting from a Microsoft Purview and governance perspective.</p>
+
+
+
+<p class="wp-block-paragraph">Once PST content has been imported into Exchange Online, it becomes part of the mailbox environment.</p>
+
+
+
+<p class="wp-block-paragraph">That means the imported data is then subject to the existing behaviours and controls associated with the target mailbox.</p>
+
+
+
+<p class="wp-block-paragraph">According to Microsoft&#8217;s announcement, imported mailbox data becomes subject to existing:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Microsoft Purview retention policies</strong></li>
+
+
+
+<li><strong>Retention labels</strong></li>
+
+
+
+<li><strong>Holds</strong></li>
+
+
+
+<li><strong>Deletion workflows</strong></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">That could be particularly valuable for organisations that have historically had important business records sitting inside unmanaged PST files.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of having historical information isolated inside individual PST files, the data can be brought into the Microsoft 365 environment where existing governance processes can apply.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9fe.png" alt="🧾" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What about auditing?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The change also provides administrators with existing audit and reporting capabilities.</p>
+
+
+
+<p class="wp-block-paragraph">Administrative activity relating to the PST import, along with resulting mailbox changes, can be monitored using existing:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Exchange Online audit logging</strong></p>
+
+
+
+<p class="wp-block-paragraph">and</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Purview audit capabilities.</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is important from a compliance perspective because organisations don&#8217;t simply need to move data.</p>
+
+
+
+<p class="wp-block-paragraph">They may also need to demonstrate:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>What was imported?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>When was it imported?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Who performed the activity?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>What happened to the data afterwards?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Being able to monitor the process using existing audit and reporting mechanisms helps support that requirement.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f465.png" alt="👥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Who is this relevant to?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This update is particularly relevant to:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Microsoft 365 administrators</li>
+
+
+
+<li>Exchange Online administrators</li>
+
+
+
+<li>Organisations managing historical PST archives</li>
+
+
+
+<li>Organisations importing PST data into user mailboxes</li>
+
+
+
+<li>Organisations importing PST data into archive mailboxes</li>
+
+
+
+<li>Teams responsible for Microsoft Purview Data Lifecycle Management</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">There is no direct user action required.</p>
+
+
+
+<p class="wp-block-paragraph">This is an administrator-driven process.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/26a0.png" alt="⚠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> There are some important prerequisites</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before jumping straight in, administrators should make sure the environment is ready.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ll need:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Azure storage</strong></p>
+
+
+
+<p class="wp-block-paragraph">Your Azure storage account and container need to exist and be reachable.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Azure permissions</strong></p>
+
+
+
+<p class="wp-block-paragraph">The Office 365 Import Service needs the Storage Blob Data Reader role on the target storage account.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Import files</strong></p>
+
+
+
+<p class="wp-block-paragraph">Your XML and/or CSV batch input files need to be prepared correctly.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Mailbox readiness</strong></p>
+
+
+
+<p class="wp-block-paragraph">The target mailbox needs to meet the required conditions.</p>
+
+
+
+<p class="wp-block-paragraph">That includes checking:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Appropriate licensing</li>
+
+
+
+<li>Mailbox status</li>
+
+
+
+<li>Recipient type</li>
+
+
+
+<li>Archive status, where applicable</li>
+
+
+
+<li>Archive quota</li>
+
+
+
+<li>Recoverable Items quota</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>PST readiness</strong></p>
+
+
+
+<p class="wp-block-paragraph">The PST files themselves also need to be checked.</p>
+
+
+
+<p class="wp-block-paragraph">Analysis validates that the specified PST files exist and validates their file size.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Why is this interesting from a governance perspective?</strong></p>
+
+
+
+<p class="wp-block-paragraph">For me, the most interesting part of this isn&#8217;t actually the PST import itself.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s what happens after the PST is imported.</p>
+
+
+
+<p class="wp-block-paragraph">PST files have traditionally been a bit of an information governance headache.</p>
+
+
+
+<p class="wp-block-paragraph">They can contain years of email.</p>
+
+
+
+<p class="wp-block-paragraph">They can exist outside the normal Microsoft 365 governance framework.</p>
+
+
+
+<p class="wp-block-paragraph">They can be difficult to discover.</p>
+
+
+
+<p class="wp-block-paragraph">They can be difficult to manage consistently.</p>
+
+
+
+<p class="wp-block-paragraph">And they can sit quietly on a laptop or file share for years.</p>
+
+
+
+<p class="wp-block-paragraph">Moving that information into Exchange Online changes the conversation.</p>
+
+
+
+<p class="wp-block-paragraph">Once imported, the data becomes part of the Microsoft 365 environment and can fall under the organisation&#8217;s existing retention, hold, deletion and auditing processes.</p>
+
+
+
+<p class="wp-block-paragraph">In other words:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>The goal isn&#8217;t just to move old email.</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>It&#8217;s to bring that information into a governed environment.</strong></p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s a much more interesting proposition.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What should administrators do now?</strong></p>
+
+
+
+<p class="wp-block-paragraph">If your organisation has a significant PST estate, this is worth putting on the radar.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d start by asking a few simple questions:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>How many PST files do we actually have?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Where are they?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Who owns them?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>What information do they contain?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Do they contain records that need to be retained?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Are any subject to legal or regulatory requirements?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Which mailboxes should they ultimately belong to?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Do our current retention policies apply appropriately to the target mailboxes?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Those questions turn a technical migration into an information governance exercise.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s exactly how I would approach it.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> When is it coming?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft says the global rollout is expected to:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Begin:</strong> Late August 2026<br><strong>Complete:</strong> Early September 2026</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft 365 Roadmap ID:</strong> 565865</p>
+
+
+
+<p class="wp-block-paragraph">The experience is <strong>PowerShell-only</strong> and isn&#8217;t currently being delivered through a graphical administration interface.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">PSTs aren&#8217;t going away overnight.</p>
+
+
+
+<p class="wp-block-paragraph">But perhaps we can finally start moving away from the idea of treating them as mysterious containers of historical email sitting somewhere on a network drive.</p>
+
+
+
+<p class="wp-block-paragraph">Azure PST Import gives administrators a structured path for bringing that information into Exchange Online.</p>
+
+
+
+<p class="wp-block-paragraph">And the really important part isn&#8217;t simply the ability to import it.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s the ability to analyse first, validate the destination, import in a controlled way, audit the activity and then bring that historical information under the organisation&#8217;s existing Microsoft 365 governance processes.</p>
+
+
+
+<p class="wp-block-paragraph">Because ultimately:</p>
+
+
+
+<p class="wp-block-paragraph">Moving information is migration.</p>
+
+
+
+<p class="wp-block-paragraph">Bringing it into a governed environment is information governance.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s where this update gets interesting.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">239</post-id>	</item>
+		<item>
+		<title>🚨 Shadow AI: The AI Your Organisation Doesn&#8217;t Know It&#8217;s Using</title>
+		<link>https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/</link>
+					<comments>https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Sat, 15 Aug 2026 19:14:23 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=221</guid>
+
+					<description><![CDATA[&#8220;Are our employees using AI?&#8221; If your immediate answer is &#8220;Not really&#8221; or &#8220;We don&#8217;t think so&#8221;, you might want to keep reading. Because here&#8217;s the uncomfortable truth: AI adoption is moving much faster than most organisations can govern it. Employees are already using AI to write emails, summarise meetings, analyse spreadsheets, create presentations, write [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="229" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/designer-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Designer" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1024%2C683&amp;ssl=1" data-id="229" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-229" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Are our employees using AI?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">If your immediate answer is <em>&#8220;Not really&#8221;</em> or <em>&#8220;We don&#8217;t think so&#8221;</em>, you might want to keep reading.</p>
+
+
+
+<p class="wp-block-paragraph">Because here&#8217;s the uncomfortable truth:</p>
+
+
+
+<p class="wp-block-paragraph">AI adoption is moving much faster than most organisations can govern it.</p>
+
+
+
+<p class="wp-block-paragraph">Employees are already using AI to write emails, summarise meetings, analyse spreadsheets, create presentations, write code, research customers and generally make their working lives easier.</p>
+
+
+
+<p class="wp-block-paragraph">And why wouldn&#8217;t they?</p>
+
+
+
+<p class="wp-block-paragraph">If something takes an hour and AI can get it down to ten minutes, people are going to use it.</p>
+
+
+
+<p class="wp-block-paragraph">The problem isn&#8217;t necessarily that employees are doing something wrong.</p>
+
+
+
+<p class="wp-block-paragraph">The problem is that you might not know what they&#8217;re doing.</p>
+
+
+
+<p class="wp-block-paragraph">Welcome to the world of Shadow AI.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f47b.png" alt="👻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> So&#8230; what exactly is Shadow AI?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s keep this simple.</p>
+
+
+
+<p class="wp-block-paragraph">Shadow AI is AI being used without the knowledge, approval or governance of the organisation.</p>
+
+
+
+<p class="wp-block-paragraph">It could be an employee copying a customer email into a public AI chatbot and asking it to write a response.</p>
+
+
+
+<p class="wp-block-paragraph">It could be someone uploading a spreadsheet containing sensitive information and asking AI to analyse it.</p>
+
+
+
+<p class="wp-block-paragraph">It could be a developer using an AI coding assistant that hasn&#8217;t been approved.</p>
+
+
+
+<p class="wp-block-paragraph">Or someone in HR asking an online AI service to summarise a document containing employee information.</p>
+
+
+
+<p class="wp-block-paragraph">And here&#8217;s the interesting part:</p>
+
+
+
+<p class="wp-block-paragraph">They might not be trying to break any rules.</p>
+
+
+
+<p class="wp-block-paragraph">They might simply be trying to do their job.</p>
+
+
+
+<p class="wp-block-paragraph">They&#8217;ve found a tool that saves them time, makes their work easier or helps them solve a problem.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s precisely why Shadow AI is such a difficult governance problem.</p>
+
+
+
+<p class="wp-block-paragraph">The employee isn&#8217;t necessarily the problem.</p>
+
+
+
+<p class="wp-block-paragraph">The lack of visibility is.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e8.png" alt="🧨" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The uncomfortable truth</strong></p>
+
+
+
+<p class="wp-block-paragraph">For years, we&#8217;ve built increasingly sophisticated controls around organisational information.</p>
+
+
+
+<p class="wp-block-paragraph">We ask:</p>
+
+
+
+<p class="wp-block-paragraph">Where is it stored?</p>
+
+
+
+<p class="wp-block-paragraph">Who can access it?</p>
+
+
+
+<p class="wp-block-paragraph">How is it protected?</p>
+
+
+
+<p class="wp-block-paragraph">How long should we keep it?</p>
+
+
+
+<p class="wp-block-paragraph">Then AI came along and changed the game.</p>
+
+
+
+<p class="wp-block-paragraph">Suddenly, an employee doesn&#8217;t necessarily need to give an AI system direct access to an information repository.</p>
+
+
+
+<p class="wp-block-paragraph">They can simply copy the information into the AI.</p>
+
+
+
+<p class="wp-block-paragraph">And that changes the governance question.</p>
+
+
+
+<p class="wp-block-paragraph">It is no longer just:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Who has access to our information?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s becoming:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Where is our information going, what is being done with it, and who or what is processing it?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a much bigger question.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> So what&#8217;s the actual risk?</strong></p>
+
+
+
+<p class="wp-block-paragraph">There are three big ones.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Data leakage</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is the obvious one.</p>
+
+
+
+<p class="wp-block-paragraph">Someone takes sensitive information and puts it into an AI service outside the organisation&#8217;s controlled environment.</p>
+
+
+
+<p class="wp-block-paragraph">It might be:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Customer information</li>
+
+
+
+<li>Financial data</li>
+
+
+
+<li>Personal information</li>
+
+
+
+<li>Intellectual property</li>
+
+
+
+<li>Commercial plans</li>
+
+
+
+<li>Internal documents</li>
+
+
+
+<li>Source code</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The employee might think:</p>
+
+
+
+<p class="wp-block-paragraph"><em>&#8220;I&#8217;ll just paste this in and ask AI to summarise it.&#8221;</em></p>
+
+
+
+<p class="wp-block-paragraph">But suddenly the organisation has some serious questions to answer.</p>
+
+
+
+<p class="wp-block-paragraph">Where did the information go?</p>
+
+
+
+<p class="wp-block-paragraph">Who processed it?</p>
+
+
+
+<p class="wp-block-paragraph">What controls applied?</p>
+
+
+
+<p class="wp-block-paragraph">What happened to the output?</p>
+
+
+
+<p class="wp-block-paragraph">And perhaps most importantly:</p>
+
+
+
+<p class="wp-block-paragraph">Can we prove what happened<strong>?</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4cb.png" alt="📋" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 2. Compliance gaps</strong></p>
+
+
+
+<p class="wp-block-paragraph">Organisations have rules.</p>
+
+
+
+<p class="wp-block-paragraph">Regulatory requirements.</p>
+
+
+
+<p class="wp-block-paragraph">Contractual obligations.</p>
+
+
+
+<p class="wp-block-paragraph">Legal responsibilities.</p>
+
+
+
+<p class="wp-block-paragraph">Internal policies.</p>
+
+
+
+<p class="wp-block-paragraph">All of those things exist for a reason.</p>
+
+
+
+<p class="wp-block-paragraph">But here&#8217;s the problem:</p>
+
+
+
+<p class="wp-block-paragraph">Your policies don&#8217;t automatically follow your data into every AI tool on the internet.</p>
+
+
+
+<p class="wp-block-paragraph">If employees are using unmanaged AI services, there can be a significant gap between:</p>
+
+
+
+<p class="wp-block-paragraph">What your organisation says should happen</p>
+
+
+
+<p class="wp-block-paragraph">and</p>
+
+
+
+<p class="wp-block-paragraph">What is actually happening.</p>
+
+
+
+<p class="wp-block-paragraph">And that gap?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>That&#8217;s where governance problems start.</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f440.png" alt="👀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 3. You simply don&#8217;t know</strong></p>
+
+
+
+<p class="wp-block-paragraph">This might actually be the biggest problem.</p>
+
+
+
+<p class="wp-block-paragraph">Which AI tools are people using?</p>
+
+
+
+<p class="wp-block-paragraph">Who is using them?</p>
+
+
+
+<p class="wp-block-paragraph">How often?</p>
+
+
+
+<p class="wp-block-paragraph">Why?</p>
+
+
+
+<p class="wp-block-paragraph">What information are they putting into them?</p>
+
+
+
+<p class="wp-block-paragraph">And are some employees regularly handling sensitive information through unmanaged AI?</p>
+
+
+
+<p class="wp-block-paragraph">If you don&#8217;t know the answers, you&#8217;re not really governing AI.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;re guessing.</p>
+
+
+
+<p class="wp-block-paragraph">And guessing isn&#8217;t a particularly great governance strategy.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> &#8220;But we have Microsoft 365 Copilot&#8230;&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Great.</p>
+
+
+
+<p class="wp-block-paragraph">That is an important part of your AI strategy.</p>
+
+
+
+<p class="wp-block-paragraph">But it doesn&#8217;t mean Shadow AI has disappeared.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft 365 Copilot is an enterprise AI capability designed to operate within the Microsoft 365 ecosystem and work with your organisation&#8217;s identity, permissions and security controls.</p>
+
+
+
+<p class="wp-block-paragraph">But here&#8217;s the important question:</p>
+
+
+
+<p class="wp-block-paragraph">What other AI are your employees using alongside Copilot?</p>
+
+
+
+<p class="wp-block-paragraph">Because an organisation can have a perfectly good Microsoft 365 Copilot deployment&#8230;</p>
+
+
+
+<p class="wp-block-paragraph">&#8230;and still have employees using external AI services every day.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s where the Shadow AI conversation gets interesting.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/26a1.png" alt="⚡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Here&#8217;s the Shadow AI paradox</strong></p>
+
+
+
+<p class="wp-block-paragraph">People aren&#8217;t using Shadow AI because they hate their organisation.</p>
+
+
+
+<p class="wp-block-paragraph">They&#8217;re using it because it works.</p>
+
+
+
+<p class="wp-block-paragraph">Think about it.</p>
+
+
+
+<p class="wp-block-paragraph">You have a difficult email.</p>
+
+
+
+<p class="wp-block-paragraph">AI can help.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ve got a huge document.</p>
+
+
+
+<p class="wp-block-paragraph">AI can summarise it.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ve got a spreadsheet.</p>
+
+
+
+<p class="wp-block-paragraph">AI can analyse it.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ve got a presentation to create.</p>
+
+
+
+<p class="wp-block-paragraph">AI can help.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ve got some code that isn&#8217;t behaving.</p>
+
+
+
+<p class="wp-block-paragraph">AI might know why.</p>
+
+
+
+<p class="wp-block-paragraph">And if something takes an hour manually but five minutes with AI&#8230;</p>
+
+
+
+<p class="wp-block-paragraph">Which option do you think people are going to choose?</p>
+
+
+
+<p class="wp-block-paragraph">Exactly.</p>
+
+
+
+<p class="wp-block-paragraph">So here&#8217;s one of the most important things organisations need to understand:</p>
+
+
+
+<p class="wp-block-paragraph">You cannot govern AI effectively by pretending people won&#8217;t use it.</p>
+
+
+
+<p class="wp-block-paragraph">The technology is already here.</p>
+
+
+
+<p class="wp-block-paragraph">The challenge is creating an environment where people can use it safely and responsibly.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6ab.png" alt="🚫" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Should we just block everything?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Ah, the classic IT response. We’ve all been there right?</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Block it.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Sometimes that&#8217;s absolutely the right answer.</p>
+
+
+
+<p class="wp-block-paragraph">But making <em>&#8220;block AI&#8221;</em> your entire strategy probably isn&#8217;t going to end well.</p>
+
+
+
+<p class="wp-block-paragraph">Because if employees are getting genuine value from AI, they&#8217;ll keep looking for ways to use it.</p>
+
+
+
+<p class="wp-block-paragraph">Block one application?</p>
+
+
+
+<p class="wp-block-paragraph">Another appears.</p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t provide an approved alternative?</p>
+
+
+
+<p class="wp-block-paragraph">People find their own.</p>
+
+
+
+<p class="wp-block-paragraph">And suddenly you&#8217;ve pushed the behaviour further underground.</p>
+
+
+
+<p class="wp-block-paragraph">So perhaps the better question isn&#8217;t:</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> &#8220;How do we stop people using AI?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s:</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> &#8220;How do we make it safe for people to use AI?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">That means providing trusted alternatives, protecting sensitive information, establishing clear guidance and applying sensible controls.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f441.png" alt="👁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The first step isn&#8217;t blocking. It&#8217;s visibility.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before you reach for the block button, ask a much more useful question:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;What AI are our employees actually using?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s where things get interesting.</p>
+
+
+
+<p class="wp-block-paragraph">You want to understand:</p>
+
+
+
+<p class="wp-block-paragraph">Which tools are being used?</p>
+
+
+
+<p class="wp-block-paragraph">Who is using them?</p>
+
+
+
+<p class="wp-block-paragraph">How often?</p>
+
+
+
+<p class="wp-block-paragraph">Why?</p>
+
+
+
+<p class="wp-block-paragraph">What information could be involved?</p>
+
+
+
+<p class="wp-block-paragraph">Which applications represent the greatest risk?</p>
+
+
+
+<p class="wp-block-paragraph">Once you have those answers, Shadow AI stops being an abstract concern.</p>
+
+
+
+<p class="wp-block-paragraph">It becomes something you can actually measure, understand and manage.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> From &#8220;we think&#8221; to &#8220;we know&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Imagine asking your organisation:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Are employees using AI tools outside Microsoft 365?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Someone might respond:</p>
+
+
+
+<p class="wp-block-paragraph"><em>&#8220;Probably not very much.&#8221;</em></p>
+
+
+
+<p class="wp-block-paragraph">Hmm.</p>
+
+
+
+<p class="wp-block-paragraph">Now imagine being able to say:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;We&#8217;ve identified 1,200 employees interacting with external AI applications over the last 90 days.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Different conversation, isn&#8217;t it?</p>
+
+
+
+<p class="wp-block-paragraph">Now you can ask:</p>
+
+
+
+<p class="wp-block-paragraph">Which applications?</p>
+
+
+
+<p class="wp-block-paragraph">Which departments?</p>
+
+
+
+<p class="wp-block-paragraph">Which users?</p>
+
+
+
+<p class="wp-block-paragraph">Which applications are approved?</p>
+
+
+
+<p class="wp-block-paragraph">Which aren&#8217;t?</p>
+
+
+
+<p class="wp-block-paragraph">Where is sensitive information involved?</p>
+
+
+
+<p class="wp-block-paragraph">Where do we need controls?</p>
+
+
+
+<p class="wp-block-paragraph">This is why discovery is the turning point.</p>
+
+
+
+<p class="wp-block-paragraph">It takes you from:</p>
+
+
+
+<p class="wp-block-paragraph">Assumption → Evidence</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s where real governance begins.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e1.png" alt="🛡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Control the apps. Control the data.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Once you understand what&#8217;s happening, you&#8217;ve got something much more useful than a list of scary headlines.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;ve got information you can act on.</p>
+
+
+
+<p class="wp-block-paragraph">I think about Shadow AI governance around two fundamental questions.</p>
+
+
+
+<p class="wp-block-paragraph">1. Which AI applications are we comfortable with?</p>
+
+
+
+<p class="wp-block-paragraph">Assess them against things like:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Security</li>
+
+
+
+<li>Privacy</li>
+
+
+
+<li>Data handling</li>
+
+
+
+<li>Compliance</li>
+
+
+
+<li>Vendor risk</li>
+
+
+
+<li>Business need</li>
+
+
+
+<li>Regulatory requirements</li>
+
+
+
+<li>Organisational policy</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Then classify them.</p>
+
+
+
+<p class="wp-block-paragraph">Approved.</p>
+
+
+
+<p class="wp-block-paragraph">Restricted.</p>
+
+
+
+<p class="wp-block-paragraph">Monitored.</p>
+
+
+
+<p class="wp-block-paragraph">Blocked.</p>
+
+
+
+<p class="wp-block-paragraph">Because not every AI application presents the same risk.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 2. What information can people put into them?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This might actually be the more important question.</p>
+
+
+
+<p class="wp-block-paragraph">Imagine two prompts.</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Rewrite this generic paragraph.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Pretty harmless.</p>
+
+
+
+<p class="wp-block-paragraph">Now:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Summarise this document containing confidential customer information.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Same AI tool.</p>
+
+
+
+<p class="wp-block-paragraph">Very different risk.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s why AI governance and information governance are so closely connected.</p>
+
+
+
+<p class="wp-block-paragraph">Classification.</p>
+
+
+
+<p class="wp-block-paragraph">Sensitivity labels.</p>
+
+
+
+<p class="wp-block-paragraph">DLP.</p>
+
+
+
+<p class="wp-block-paragraph">Access controls.</p>
+
+
+
+<p class="wp-block-paragraph">Retention.</p>
+
+
+
+<p class="wp-block-paragraph">Monitoring.</p>
+
+
+
+<p class="wp-block-paragraph">Audit.</p>
+
+
+
+<p class="wp-block-paragraph">All suddenly become part of the AI conversation.</p>
+
+
+
+<p class="wp-block-paragraph">The question changes from:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Can I use this AI tool?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">to:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;What am I allowed to put into this AI tool?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">And that is a much more mature governance conversation.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The biggest Shadow AI mistake</strong></p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s tempting to think the answer is simply:</p>
+
+
+
+<p class="wp-block-paragraph">Block.</p>
+
+
+
+<p class="wp-block-paragraph">But blocking everything isn&#8217;t governance.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s a reaction.</p>
+
+
+
+<p class="wp-block-paragraph">A better model is:</p>
+
+
+
+<p class="wp-block-paragraph">Discover → Assess → Govern → Protect → Monitor</p>
+
+
+
+<p class="wp-block-paragraph">First, understand what is happening.</p>
+
+
+
+<p class="wp-block-paragraph">Then assess the risk.</p>
+
+
+
+<p class="wp-block-paragraph">Decide what controls are appropriate.</p>
+
+
+
+<p class="wp-block-paragraph">Protect the information that matters.</p>
+
+
+
+<p class="wp-block-paragraph">And keep monitoring.</p>
+
+
+
+<p class="wp-block-paragraph">Because AI isn&#8217;t standing still.</p>
+
+
+
+<p class="wp-block-paragraph">New applications will appear.</p>
+
+
+
+<p class="wp-block-paragraph">Existing applications will gain new capabilities.</p>
+
+
+
+<p class="wp-block-paragraph">Employees will discover new ways of using them.</p>
+
+
+
+<p class="wp-block-paragraph">And increasingly, AI agents will be able to interact with business systems and information.</p>
+
+
+
+<p class="wp-block-paragraph">The Shadow AI challenge isn&#8217;t going away.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s probably going to get more interesting.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e9.png" alt="🧩" class="wp-smiley" style="height: 1em; max-height: 1em;" /> This isn&#8217;t just an IT problem</strong></p>
+
+
+
+<p class="wp-block-paragraph">Here&#8217;s another thing worth remembering.</p>
+
+
+
+<p class="wp-block-paragraph">Shadow AI touches almost everyone.</p>
+
+
+
+<p class="wp-block-paragraph">IT</p>
+
+
+
+<p class="wp-block-paragraph">Which applications are being used?</p>
+
+
+
+<p class="wp-block-paragraph">Security</p>
+
+
+
+<p class="wp-block-paragraph">What risks do they introduce?</p>
+
+
+
+<p class="wp-block-paragraph">Information Governance</p>
+
+
+
+<p class="wp-block-paragraph">What information is being processed?</p>
+
+
+
+<p class="wp-block-paragraph">Compliance</p>
+
+
+
+<p class="wp-block-paragraph">Are our obligations being met?</p>
+
+
+
+<p class="wp-block-paragraph">HR</p>
+
+
+
+<p class="wp-block-paragraph">What are employees permitted to do?</p>
+
+
+
+<p class="wp-block-paragraph">Legal</p>
+
+
+
+<p class="wp-block-paragraph">What are our obligations around data and intellectual property?</p>
+
+
+
+<p class="wp-block-paragraph">Business Leadership</p>
+
+
+
+<p class="wp-block-paragraph">How do we capture the productivity benefits without taking unnecessary risks?</p>
+
+
+
+<p class="wp-block-paragraph">This isn&#8217;t something you can simply throw over the wall to the IT department.</p>
+
+
+
+<p class="wp-block-paragraph">AI governance needs a joined-up approach.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f91d.png" alt="🤝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> And then there&#8217;s Copilot&#8230;</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where things get particularly interesting for Microsoft 365 organisations.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft 365 Copilot provides an enterprise AI capability within the Microsoft ecosystem.</p>
+
+
+
+<p class="wp-block-paragraph">But there&#8217;s an important point:</p>
+
+
+
+<p class="wp-block-paragraph">Copilot can work with the information the user already has access to.</p>
+
+
+
+<p class="wp-block-paragraph">So if your Microsoft 365 environment contains years of overshared documents, messy permissions and information that has accumulated without proper governance&#8230;</p>
+
+
+
+<p class="wp-block-paragraph">Copilot doesn&#8217;t magically clean that up.</p>
+
+
+
+<p class="wp-block-paragraph">In fact, AI could make those existing issues far more visible and potentially more consequential.</p>
+
+
+
+<p class="wp-block-paragraph">Which brings us to a rather important question:</p>
+
+
+
+<p class="wp-block-paragraph">Are you ready for AI to help people discover the information they already have access to?</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e1.png" alt="🛡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Where does Purview fit?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where Microsoft Purview becomes particularly interesting.</p>
+
+
+
+<p class="wp-block-paragraph">Purview can form an important part of the wider information governance strategy, helping organisations understand, protect and govern their information.</p>
+
+
+
+<p class="wp-block-paragraph">But I wouldn&#8217;t think of Purview simply as another security product.</p>
+
+
+
+<p class="wp-block-paragraph">Think of it as part of your organisation&#8217;s information control layer.</p>
+
+
+
+<p class="wp-block-paragraph">Ask:</p>
+
+
+
+<p class="wp-block-paragraph">Where is our sensitive information?</p>
+
+
+
+<p class="wp-block-paragraph">How is it classified?</p>
+
+
+
+<p class="wp-block-paragraph">Who can access it?</p>
+
+
+
+<p class="wp-block-paragraph">How is it being shared?</p>
+
+
+
+<p class="wp-block-paragraph">What policies apply?</p>
+
+
+
+<p class="wp-block-paragraph">What needs to be retained?</p>
+
+
+
+<p class="wp-block-paragraph">What needs to be deleted?</p>
+
+
+
+<p class="wp-block-paragraph">What happens when we need to investigate something?</p>
+
+
+
+<p class="wp-block-paragraph">And increasingly:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;How should this information be governed when AI gets involved?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Because AI governance without information governance is going to be difficult.</p>
+
+
+
+<p class="wp-block-paragraph">You can&#8217;t safely govern AI if you don&#8217;t understand the information AI is interacting with.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> So what should organisations actually do?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t panic.</p>
+
+
+
+<p class="wp-block-paragraph">You don&#8217;t need to solve every AI governance problem tomorrow.</p>
+
+
+
+<p class="wp-block-paragraph">Start somewhere sensible.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>01 &#8211; Get visibility</strong></p>
+
+
+
+<p class="wp-block-paragraph">Find out which AI applications are being used.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Don&#8217;t guess.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Find the evidence.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>02 &#8211; Find your highest-risk scenarios</strong></p>
+
+
+
+<p class="wp-block-paragraph">Focus on sensitive information, regulated data and intellectual property.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>03 &#8211; Give people safe alternatives</strong></p>
+
+
+
+<p class="wp-block-paragraph">If employees are using AI because it makes them more productive, give them an approved way to achieve the same outcome.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>04 &#8211; Protect the data</strong></p>
+
+
+
+<p class="wp-block-paragraph">Use the controls already available to you &#8211; information protection, DLP, classification and appropriate access controls.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>05 &#8211; Give people clear guidance</strong></p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t just tell employees:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;You can&#8217;t do this.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Tell them:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Here&#8217;s what you can do.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph"><strong>06 &#8211; Keep watching</strong></p>
+
+
+
+<p class="wp-block-paragraph">AI governance isn&#8217;t a project with a completion date.</p>
+
+
+
+<p class="wp-block-paragraph">The landscape will keep moving.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f3af.png" alt="🎯" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The goal isn&#8217;t to stop AI</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is probably the biggest message I&#8217;d take away from the whole Shadow AI conversation.</p>
+
+
+
+<p class="wp-block-paragraph">The goal isn&#8217;t to stop employees using AI.</p>
+
+
+
+<p class="wp-block-paragraph">It isn&#8217;t to block every application.</p>
+
+
+
+<p class="wp-block-paragraph">And it certainly isn&#8217;t to write a 50-page AI policy that nobody reads.</p>
+
+
+
+<p class="wp-block-paragraph">The goal is much simpler:</p>
+
+
+
+<p class="wp-block-paragraph">Make AI useful, safe and governable.</p>
+
+
+
+<p class="wp-block-paragraph">Understand what&#8217;s happening.</p>
+
+
+
+<p class="wp-block-paragraph">Protect the information that matters.</p>
+
+
+
+<p class="wp-block-paragraph">Provide trusted alternatives.</p>
+
+
+
+<p class="wp-block-paragraph">And put sensible controls around the technology.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s the sweet spot.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f52e.png" alt="🔮" class="wp-smiley" style="height: 1em; max-height: 1em;" /> And then things get really interesting&#8230;</strong></p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;re still relatively early in the AI journey.</p>
+
+
+
+<p class="wp-block-paragraph">Today&#8217;s Shadow AI might be an employee copying text into a chatbot.</p>
+
+
+
+<p class="wp-block-paragraph">Tomorrow?</p>
+
+
+
+<p class="wp-block-paragraph">It could be an AI agent connecting to multiple business systems, accessing information, making decisions and taking actions on someone&#8217;s behalf.</p>
+
+
+
+<p class="wp-block-paragraph">Suddenly, the questions become very different.</p>
+
+
+
+<p class="wp-block-paragraph">Not just:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;What information did the employee give the AI?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">But:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;What information can the agent access?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;What can it do?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Who authorised it?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;What decisions did it make?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;What actions did it take?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">And perhaps the most important question of all:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Can we prove what happened?&#8221;</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f440.png" alt="👀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> You can&#8217;t govern what you can&#8217;t see</strong></p>
+
+
+
+<p class="wp-block-paragraph">And perhaps that&#8217;s what Shadow AI really comes down to.</p>
+
+
+
+<p class="wp-block-paragraph">It isn&#8217;t fundamentally an AI problem.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s a visibility, information and governance problem that AI has brought into the spotlight.</p>
+
+
+
+<p class="wp-block-paragraph">The organisations that get this right won&#8217;t necessarily be the ones with the biggest list of blocked applications.</p>
+
+
+
+<p class="wp-block-paragraph">They&#8217;ll be the ones that understand:</p>
+
+
+
+<p class="wp-block-paragraph">What AI is being used.</p>
+
+
+
+<p class="wp-block-paragraph">Who is using it.</p>
+
+
+
+<p class="wp-block-paragraph">Why they&#8217;re using it.</p>
+
+
+
+<p class="wp-block-paragraph">What information is involved.</p>
+
+
+
+<p class="wp-block-paragraph">What risks exist.</p>
+
+
+
+<p class="wp-block-paragraph">And what controls are appropriate.</p>
+
+
+
+<p class="wp-block-paragraph">Because let&#8217;s face it&#8230;</p>
+
+
+
+<p class="wp-block-paragraph">Your employees are probably already using AI.</p>
+
+
+
+<p class="wp-block-paragraph">The real question is:</p>
+
+
+
+<p class="wp-block-paragraph">Do you know how?</p>
+
+
+
+<p class="wp-block-paragraph">And are you ready to govern what happens next?</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>You can&#8217;t govern what you can&#8217;t see.</strong></p>
+
+
+
+<p class="wp-block-paragraph">And as AI becomes an increasingly important part of everyday work, seeing, understanding and governing AI activity could become one of the defining challenges of modern Microsoft 365 governance.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t start your AI governance journey by asking, &#8220;What should we block?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">Start by asking, &#8220;What is actually happening?&#8221;</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Visibility first. Governance second. Control follows.</strong></p>
+
+
+
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">221</post-id>	</item>
+		<item>
+		<title>Taking inspiration from… Saw 5?</title>
+		<link>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/</link>
+					<comments>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Sat, 15 Aug 2026 11:45:50 +0000</pubDate>
+				<category><![CDATA[Motivational Speaking]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=199</guid>
+
+					<description><![CDATA[Yes, you read that right. Again, hear me out. I am a big believer in shared interests and finding things we can enjoy with others. When the chance came to watch a horror film with a loved one, I was sure it was something we could enjoy and discuss afterwards. The film came and went. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="205" data-permalink="https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/chatgpt-image-aug-15-2026-12_38_20-pm-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Aug 15, 2026, 12_38_20 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1024%2C683&amp;ssl=1" data-id="205" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-205" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">Yes, you read that right. Again, hear me out.</p>
+
+
+
+<p class="wp-block-paragraph">I am a big believer in shared interests and finding things we can enjoy with others. When the chance came to watch a horror film with a loved one, I was sure it was something we could enjoy and discuss afterwards.</p>
+
+
+
+<p class="wp-block-paragraph">The film came and went. However, something quite unexpected happened… I was inspired, and not in a “movie” type of way.</p>
+
+
+
+<p class="wp-block-paragraph">The film follows a group of people trapped in a situation where they must overcome challenges to survive. Then came an incredible revelation: the challenges were never designed for individuals to overcome alone. They were designed for the group to work together, allowing everyone to make it to the end.</p>
+
+
+
+<p class="wp-block-paragraph">Whilst taking some time to reflect on that, I found myself applying that principle to daily life. We all face problems every day, and we all could benefit from each other’s experiences.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>The problems I am experiencing today are the problems someone experienced yesterday, and someone else will experience tomorrow.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That is how we can look after each other. Knowledge sharing, reassurance, simply leaning on each other. &nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">None of us have to solve everything alone. Sometimes the answer we need is sitting with someone who has already faced the same challenge…</p>
+
+
+
+<p class="wp-block-paragraph">And that is the value of helping others: we don&#8217;t just solve problems for people; we make sure fewer people have to face them alone.</p>
+
+
+
+<p class="wp-block-paragraph">People are better when we stop seeing each other as obstacles and start seeing each other as support.</p>
+
+
+
+<p class="wp-block-paragraph">Who’d have thought that Saw 5 of all things would have given such a powerful message?</p>
+
+
+
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">199</post-id>	</item>
+		<item>
+		<title>🔍 Troubleshooting Microsoft Purview eDiscovery Just Got Easier</title>
+		<link>https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/</link>
+					<comments>https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Sat, 15 Aug 2026 10:54:39 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=177</guid>
+
+					<description><![CDATA[If you&#8217;ve ever spent far too long trying to work out why an eDiscovery case isn&#8217;t behaving as expected, a new Microsoft Purview update could make life considerably easier. Microsoft is introducing self-service diagnostics for eDiscovery, designed to help administrators identify and resolve some of the common configuration issues that can prevent eDiscovery from working [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">If you&#8217;ve ever spent far too long trying to work out <strong>why an eDiscovery case isn&#8217;t behaving as expected</strong>, a new Microsoft Purview update could make life considerably easier.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is introducing <strong>self-service diagnostics for eDiscovery</strong>, designed to help administrators identify and resolve some of the common configuration issues that can prevent eDiscovery from working as expected.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>So, what&#8217;s changing?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The new diagnostic experience will help administrators troubleshoot areas including:</p>
+
+
+
+<ul class="wp-block-list">
+<li><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Case permissions</strong> &#8211; identify potential permission-related issues.</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e1.png" alt="🛡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Security filters</strong> &#8211; highlight configuration problems that could affect search and discovery.</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2699.png" alt="⚙" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Policy status and configuration</strong> &#8211; identify potential issues with relevant policies and their configuration.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Rather than having to manually work through multiple settings and configurations, the new experience will highlight potential problems and provide <strong>guided recommendations</strong> to help resolve them.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why does this matter?</strong></p>
+
+
+
+<p class="wp-block-paragraph">As I am sure many of us know, eDiscovery can become complicated very quickly.</p>
+
+
+
+<p class="wp-block-paragraph">When a search doesn&#8217;t return the expected results, or a user can&#8217;t access the information they need, the underlying cause isn&#8217;t always immediately obvious. Is it a permissions issue? A security filter? A policy that hasn&#8217;t been configured correctly?</p>
+
+
+
+<p class="wp-block-paragraph">Previously, troubleshooting could involve working through multiple areas of the Microsoft Purview environment before finding the problem.</p>
+
+
+
+<p class="wp-block-paragraph">The introduction of self-service diagnostics brings some of that troubleshooting <strong>directly into the product</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">That means administrators should be able to identify common issues faster, understand what&#8217;s causing them and take appropriate corrective action without immediately resorting to lengthy investigations or support cases.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Another step towards a more manageable Purview experience</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is perhaps not the most headline-grabbing Microsoft 365 update, but for the people who actually administer eDiscovery, it&#8217;s the type of improvement that can make a significant difference.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview continues to become increasingly capable — but as functionality grows, <strong>configuration and troubleshooting can become increasingly complex</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Anything that helps administrators understand <em>&#8220;why isn&#8217;t this working?&#8221;</em> more quickly is therefore a welcome addition.</p>
+
+
+
+<p class="wp-block-paragraph">And there&#8217;s an interesting broader trend here: Microsoft is increasingly building <strong>guided diagnostics and recommendations directly into its compliance and governance tooling</strong>, helping administrators move from simply identifying problems to understanding how to resolve them.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> When is it coming?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Public Preview:</strong> October 2026<br><strong>General Availability:</strong> November 2026<br><strong>Microsoft 365 Roadmap:</strong> 565222</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>eDiscovery is powerful — but power brings complexity.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Self-service diagnostics won&#8217;t remove that complexity, but it should make some of the most common troubleshooting scenarios considerably easier to navigate.</p>
+
+
+
+<p class="wp-block-paragraph">For organisations relying heavily on Microsoft Purview for compliance, investigations and eDiscovery, this is a small but useful improvement worth keeping an eye on.</p>
+
+
+
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="180" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/ediscovery-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="eDiscovery picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1024%2C683&amp;ssl=1" data-id="180" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-180" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">177</post-id>	</item>
+		<item>
+		<title>🔐 Microsoft Purview DLP Gets Smarter with Automated Alert Management</title>
+		<link>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/</link>
+					<comments>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2026 19:28:30 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=168</guid>
+
+					<description><![CDATA[Security teams spend valuable time reviewing alerts that often follow predictable patterns. Microsoft is helping reduce that burden with a new Microsoft Purview Data Loss Prevention (DLP) capability: rule-based alert tagging and auto-resolution. With this enhancement, organisations can define rules that automatically handle DLP alerts based on business needs: ✅ Automatically resolve low-priority alerts that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Security teams spend valuable time reviewing alerts that often follow predictable patterns. Microsoft is helping reduce that burden with a new Microsoft Purview Data Loss Prevention (DLP) capability: <strong>rule-based alert tagging and auto-resolution</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">With this enhancement, organisations can define rules that automatically handle DLP alerts based on business needs:</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Automatically resolve low-priority alerts</strong> that don&#8217;t require investigation, helping reduce noise in security queues.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Automatically tag alerts</strong> to simplify filtering, routing, and reporting. For example, alerts generated by the Legal department can be categorised as a specific business process.</p>
+
+
+
+<p class="wp-block-paragraph">This new capability can help security and compliance teams focus on the alerts that matter most while improving operational efficiency across the organisation.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Preview:</strong> August 2026<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>General Availability:</strong> September 2026<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f30d.png" alt="🌍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Availability:</strong> Worldwide (Standard Multi-Tenant)<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f194.png" alt="🆔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Roadmap ID:</strong> 568371</p>
+
+
+
+<p class="wp-block-paragraph">A welcome enhancement for organisations looking to streamline DLP operations and reduce alert fatigue.</p>
+
+
+
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" data-attachment-id="171" data-permalink="https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/purview-alerts-pic-july-29th-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview alerts pic July 29th" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1024%2C1024&amp;ssl=1" data-id="171" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-171" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1200%2C1200&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=800%2C800&amp;ssl=1 800w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=600%2C600&amp;ssl=1 600w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">168</post-id>	</item>
+		<item>
+		<title>🔐 🔐 Microsoft Purview is finally bringing sensitivity labels to SharePoint data at rest</title>
+		<link>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/</link>
+					<comments>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2026 19:26:15 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=160</guid>
+
+					<description><![CDATA[I&#8217;m excited to see Microsoft Purview Information Protection introducing the ability to automatically apply a SharePoint document library&#8217;s default sensitivity label to existing files (data at rest). Today, default sensitivity labels help ensure that new and modified documents are classified correctly. However, many organisations still have thousands of legacy documents that remain unlabelled or inconsistently [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">I&#8217;m excited to see Microsoft Purview Information Protection introducing the ability to automatically apply a SharePoint document library&#8217;s default sensitivity label to existing files (data at rest).</p>
+
+
+
+<p class="wp-block-paragraph">Today, default sensitivity labels help ensure that <em>new and modified</em> documents are classified correctly. However, many organisations still have thousands of legacy documents that remain unlabelled or inconsistently classified.</p>
+
+
+
+<p class="wp-block-paragraph">With <strong>Microsoft 365 Roadmap ID 559105</strong>, Microsoft is closing that gap.</p>
+
+
+
+<p class="wp-block-paragraph">What this means</p>
+
+
+
+<p class="wp-block-paragraph">When enabled, SharePoint will be able to evaluate documents already stored within a library and automatically apply the library&#8217;s configured default sensitivity label to files that aren&#8217;t already appropriately classified.</p>
+
+
+
+<p class="wp-block-paragraph">This brings the same protection model used for new content to historical content as well.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why it matters</strong></p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Improved compliance – Legacy documents can be brought into alignment with organisational data protection policies.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Consistent classification – Reduces situations where files within the same library have different or missing labels.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Reduced administrative overhead – No more large-scale manual relabelling exercises for existing content.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Stronger Zero Trust posture – Helps ensure that sensitive information is consistently identified, classified and protected.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Better governance – Supports requirements where all content within a repository must carry the correct protection label.</p>
+
+
+
+<p class="wp-block-paragraph">Real-world examples</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c1.png" alt="📁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> HR libraries where historical employee records automatically receive a <em>Confidential – HR</em> label.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Finance repositories where years of financial reports inherit the correct confidentiality classification.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2696.png" alt="⚖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Legal document stores where legacy contracts become consistently protected without manual intervention.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f69a.png" alt="🚚" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Migration projects where content moved from file shares or third-party platforms can automatically receive the appropriate sensitivity label after migration.</p>
+
+
+
+<p class="wp-block-paragraph">For organisations investing in Microsoft Purview, this feels like a significant step forward. Sensitivity labels become far more valuable when they can help protect not only future content, but also the vast amount of information that&#8217;s already stored across SharePoint.</p>
+
+
+
+<p class="wp-block-paragraph">Sometimes the most impactful security improvements are the ones that quietly solve longstanding operational challenges.</p>
+
+
+
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="165" data-permalink="https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/sharepoint-data-at-rest-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="SharePoint data at rest" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?fit=1024%2C683&amp;ssl=1" data-id="165" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-165" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">160</post-id>	</item>
+		<item>
+		<title>The answer is… Rik Mayall?</title>
+		<link>https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/</link>
+					<comments>https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Fri, 14 Aug 2026 18:38:12 +0000</pubDate>
+				<category><![CDATA[Motivational Speaking]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=139</guid>
+
+					<description><![CDATA[Crazy headline right? I thought so too. However, just hear me out. I was once asked to do a large presentation on all things Microsoft 365. Scary stuff. In my research on how to cope with the nerves, I came across a video of English comedian Rik Mayall (pan-global phenomenon), &#160;giving a speech at Exeter [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="724" data-attachment-id="218" data-permalink="https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/comedy-5/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?fit=1600%2C1131&amp;ssl=1" data-orig-size="1600,1131" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Comedy&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Comedy" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?fit=1024%2C724&amp;ssl=1" data-id="218" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1024%2C724&#038;ssl=1" alt="" class="wp-image-218" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1024%2C724&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=300%2C212&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=768%2C543&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1536%2C1086&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1200%2C848&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?w=1600&amp;ssl=1 1600w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">Crazy headline right? I thought so too. However, just hear me out.</p>
+
+
+
+<p class="wp-block-paragraph">I was once asked to do a large presentation on all things Microsoft 365. Scary stuff. In my research on how to cope with the nerves, I came across a video of English comedian Rik Mayall (pan-global phenomenon), &nbsp;giving a speech at Exeter University.</p>
+
+
+
+<p class="wp-block-paragraph">Inspiring words I thought, until I heard Rik mention that everyone is equal, and therefore nobody is inherently more valuable than anyone else.</p>
+
+
+
+<p class="wp-block-paragraph">The instant I heard those words, the cloud disappeared. Life changing for me that was. Are we all equal? Yes, we are human beings and everyone has different jobs, different expertise, but nobody is worth more than anyone else. So I asked myself,</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why on earth would I be afraid of standing up and talking in front of other human beings?</strong></p>
+
+
+
+<p class="wp-block-paragraph">And from that moment on, something changed. The presentation went ok, it was early days for me on that front and there is always room for improvement. But the fear of standing up in front of people and talking was gone.</p>
+
+
+
+<p class="wp-block-paragraph">There are so many things I took away from Rik Mayall’s words that day. It’s never been lost on me how valuable other people are, and how we can choose to lift each other. Sometimes we should put a bit more trust in the people around us rather than shying away from something. And most of all, never be afraid to do something awesome because of another human being. The right people will applaud you for it.</p>
+
+
+
+<p class="wp-block-paragraph">I have lost count of the number of people I have spoken to over the years who expressed a desire to avoid something through fear – my response has always been the same, “the answer is Rik Mayall”. That’s a lesson I have always tried to pass on, and I will always be grateful to Rik Mayall (the man, the myth, the legend) for inspiring me to move past something that had previously held me back for more years that I can remember!</p>
+
+
+
+<p class="wp-block-paragraph">If there is one thing I’d love for you to take away from this post, its that once you realise you&#8217;re simply talking to other human beings, not judges, not superheroes, not people who matter more than you, the fear starts to lose its grip.</p>
+
+
+
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">139</post-id>	</item>
+		<item>
+		<title>🚨 Important Update: Microsoft 365 Cost Management Enhancements for Copilot Credits and Usage-Based Billing</title>
+		<link>https://jimtalks.co.uk/2026/08/12/%f0%9f%9a%a8-important-update-microsoft-365-cost-management-enhancements-for-copilot-credits-and-usage-based-billing/</link>
+					<comments>https://jimtalks.co.uk/2026/08/12/%f0%9f%9a%a8-important-update-microsoft-365-cost-management-enhancements-for-copilot-credits-and-usage-based-billing/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Wed, 12 Aug 2026 14:42:29 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=45</guid>
+
+					<description><![CDATA[Microsoft is rolling out a series of updates to Cost Management in the Microsoft 365 Admin Center, designed to improve reliability, predictability, and the overall administrator experience for usage-based AI services such as Cowork and Work IQ APIs. 📅 Rollout begins 22 July 2026 and is expected to complete by the end of July. Key [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Microsoft is rolling out a series of updates to Cost Management in the Microsoft 365 Admin Center, designed to improve reliability, predictability, and the overall administrator experience for usage-based AI services such as Cowork and Work IQ APIs.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Rollout begins 22 July 2026 and is expected to complete by the end of July.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Key improvements</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> More reliable spending alerts</p>
+
+
+
+<ul class="wp-block-list">
+<li>Fixes an issue where spending alert thresholds could fail to save or unexpectedly reset.</li>
+
+
+
+<li>Existing spending alert values will be cleared as part of the update.</li>
+
+
+
+<li>Administrators will need to recreate any spending alerts they wish to retain.</li>
+
+
+
+<li>Existing spending limits and policy settings remain unaffected.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Improved policy assignment logic</p>
+
+
+
+<p class="wp-block-paragraph">For users assigned to multiple spending policies for the same service, policy selection will now follow a consistent hierarchy:</p>
+
+
+
+<ol start="1" class="wp-block-list">
+<li>Highest per-user spending limit</li>
+
+
+
+<li>Largest overall policy limit (if tied)</li>
+
+
+
+<li>Most recently created policy (if still tied)</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">The selected policy&#8217;s billing and limits apply in full, and users won&#8217;t automatically move to another policy after reaching their limit.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Better handling of spending limit overages</p>
+
+
+
+<ul class="wp-block-list">
+<li>Tasks already in progress can now complete even if they exceed a user&#8217;s spending limit during execution.</li>
+
+
+
+<li>From 22 July 2026, per-user overages will no longer consume credits from the group&#8217;s shared pool.</li>
+
+
+
+<li>These overages will not be billed and won&#8217;t appear as credit consumption in Cost Management dashboards.</li>
+
+
+
+<li>Historical usage prior to 22 July remains unchanged.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Clearer visibility of Copilot Credits from capacity packs Several updates will make it easier to understand available Copilot Credits across Microsoft 365 Admin Center and Power Platform Admin Center:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Usage tiles will show credits consumed rather than total credits purchased.</li>
+
+
+
+<li>Available credits will reflect actual usable capacity after allocations made elsewhere.</li>
+
+
+
+<li>Additional guidance will help admins reconcile usage across both admin experiences.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Recommended actions for administrators</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Recreate any spending alerts after the rollout<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Review users assigned to multiple spending policies<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Validate per-user and group spending limits<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Reconcile Copilot Credit allocations across Microsoft 365 and Power Platform admin centres</p>
+
+
+
+<p class="wp-block-paragraph">These changes are a welcome step towards making AI consumption and cost governance more predictable as organisations continue to scale usage-based Copilot experiences.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/12/%f0%9f%9a%a8-important-update-microsoft-365-cost-management-enhancements-for-copilot-credits-and-usage-based-billing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">45</post-id>	</item>
+	</channel>
+</rss>
