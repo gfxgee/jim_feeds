@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=7.0.4</generator>
+	<generator>https://wordpress.org/?v=7.1</generator>
 	<itunes:category text="Technology" />
 	<itunes:author>Nikki Chapple and Ryan John Murphy</itunes:author>
 	<itunes:owner>
@@ -3620,7 +3620,7 @@ We can block, control and enable
 
 
 
-<p class="has-link-color has-medium-font-size wp-elements-712ac6339c914f26d3d3aa84fcf477eb wp-block-paragraph"><strong>If you only do one. The risk remains</strong>.</p>
+<p class="has-link-color has-medium-font-size wp-elements-2 wp-block-paragraph"><strong>If you only do one. The risk remains</strong>.</p>
 
 
 
@@ -7753,7 +7753,7 @@ DLP Action: Audit or r
 
 
 
-<figure class="wp-block-pullquote has-white-color has-black-background-color has-text-color has-background has-link-color has-small-font-size wp-elements-f56df6ff9f029ba21cb020507e375e19" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px"><blockquote><p><strong>Copilot doesn’t create your data risk. It reveals it.<br>Container sensitivity labels let you fix it at the source.</strong></p></blockquote></figure>
+<figure class="wp-block-pullquote has-white-color has-black-background-color has-text-color has-background has-link-color has-small-font-size wp-elements-4" style="border-style:none;border-width:0px;border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px"><blockquote><p><strong>Copilot doesn’t create your data risk. It reveals it.<br>Container sensitivity labels let you fix it at the source.</strong></p></blockquote></figure>
 
 
 
