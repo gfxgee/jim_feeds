@@ -1,0 +1,10 @@
+# One feed per line:  <url>|<label>|<options>
+#
+# label   becomes the directory under docs/, so keep it short and filesystem-safe.
+# options comma-separated key=value, both optional:
+#           repair=amp   escape bare "&" before validating (see README note)
+#           stale=<hrs>  freshness window for THIS feed (default 48)
+# Lines starting with # are ignored.
+
+https://jimtalks.co.uk/feed/|jimtalks|
+https://nikkichapple.com/feed/|nikkichapple|repair=amp,stale=2880

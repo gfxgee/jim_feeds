@@ -15,7 +15,8 @@ set -uo pipefail
 BASE_DIR="${FEED_BASE_DIR:-/var/feeds}"   # override with FEED_BASE_DIR
 KEEP_DAYS=30                              # how long to keep snapshots
 KEEP_SNAPSHOTS="${FEED_KEEP_SNAPSHOTS:-1}"  # 0 = only write latest.xml (use in CI)
-STALE_HOURS=48                            # warn if newest item is older than this
+STALE_HOURS="${FEED_STALE_HOURS:-48}"     # warn if newest item is older than this
+REPAIR="${FEED_REPAIR:-}"                   # comma-list of repairs, e.g. "amp". Empty = none.
 TIMEOUT=30
 # ----------------------------
 
@@ -32,11 +33,12 @@ SNAP_DIR="$OUT_DIR/snapshots"
 LOG_FILE="$OUT_DIR/fetch.log"
 LATEST="$OUT_DIR/latest.xml"
 STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
+REPAIR_NOTE=""
 TMP="$(mktemp)"
 
 mkdir -p "$OUT_DIR"
 [[ "$KEEP_SNAPSHOTS" != "0" ]] && mkdir -p "$SNAP_DIR"
-trap 'rm -f "$TMP"' EXIT
+trap 'rm -f "$TMP" "$TMP.rep"' EXIT
 
 log() {
   printf '%s [%s] %s\n' "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" "$LABEL" "$*" >> "$LOG_FILE"
@@ -61,6 +63,30 @@ HTTP_CODE=$(curl -sS --fail --location --max-time "$TIMEOUT" \
 if [[ ! -s "$TMP" ]]; then
   fail "empty response body (http=$HTTP_CODE)" 2
 fi
+
+# 2b. Optional repair, opt-in per feed via FEED_REPAIR. This runs BEFORE validation
+#     so a feed with a known upstream defect can still be mirrored as valid XML.
+#     It is deliberately narrow: it cannot rescue an HTML error page, because the
+#     root-element and item-count checks below still have to pass afterwards.
+case ",$REPAIR," in
+  *,amp,*)
+    # Escape bare "&" without touching valid entities. sed has no lookahead, so
+    # protect real entities with a sentinel byte, escape what is left, restore.
+    if sed -E 's/&(#[0-9]+;|#[xX][0-9a-fA-F]+;|[a-zA-Z][a-zA-Z0-9]*;)/\x01\1/g; s/&/\&amp;/g; s/\x01/\&/g' \
+         "$TMP" > "$TMP.rep" && [[ -s "$TMP.rep" ]]; then
+      if cmp -s "$TMP" "$TMP.rep"; then
+        REPAIR_NOTE=" repair=amp(no-op)"
+      else
+        # Still worth surfacing: upstream is serving invalid XML and hasn't fixed it.
+        REPAIR_NOTE=" repair=amp(applied)"
+      fi
+      mv "$TMP.rep" "$TMP"
+    else
+      rm -f "$TMP.rep"
+      fail "amp repair failed to produce output" 3
+    fi
+    ;;
+esac
 
 # 3. Is it actually XML? A 200 that returns an HTML error/maintenance page is the
 #    silent failure this whole script exists to catch — don't let it overwrite latest.xml.
@@ -119,7 +145,7 @@ if [[ -n "$NEWEST" ]]; then
   fi
 fi
 
-log "OK http=$HTTP_CODE items=$ITEM_COUNT $CHANGED bytes=$(stat -c%s "$LATEST")$STALE_NOTE"
+log "OK http=$HTTP_CODE items=$ITEM_COUNT $CHANGED bytes=$(stat -c%s "$LATEST")$REPAIR_NOTE$STALE_NOTE"
 
 # 9. Prune old snapshots.
 if [[ "$KEEP_SNAPSHOTS" != "0" ]]; then
