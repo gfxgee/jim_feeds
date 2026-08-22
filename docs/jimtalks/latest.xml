@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Fri, 21 Aug 2026 09:35:03 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 22 Aug 2026 10:06:17 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,730 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Purview is coming for the data you&#8217;ve already forgotten about</title>
+		<link>https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/</link>
+					<comments>https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Sat, 22 Aug 2026 10:06:17 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=273</guid>
+
+					<description><![CDATA[Your biggest data protection problem might already be sitting in SharePoint When organisations talk about information protection, the conversation often focuses on what happens from now on. New documents get created. New files are uploaded. Users apply sensitivity labels. Policies are configured. DLP is enabled. Everything looks nicely governed. But there is a problem. ❓ [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="274" data-permalink="https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/purview-data-at-rest-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview data at rest picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1024%2C683&amp;ssl=1" data-id="274" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-274" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Your biggest data protection problem might already be sitting in SharePoint</strong></p>
+
+
+
+<p class="wp-block-paragraph">When organisations talk about information protection, the conversation often focuses on what happens <strong>from now on</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">New documents get created.</p>
+
+
+
+<p class="wp-block-paragraph">New files are uploaded.</p>
+
+
+
+<p class="wp-block-paragraph">Users apply sensitivity labels.</p>
+
+
+
+<p class="wp-block-paragraph">Policies are configured.</p>
+
+
+
+<p class="wp-block-paragraph">DLP is enabled.</p>
+
+
+
+<p class="wp-block-paragraph">Everything looks nicely governed.</p>
+
+
+
+<p class="wp-block-paragraph">But there is a problem.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2753.png" alt="❓" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What about the millions of files that were created before all of those controls existed?</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s where Microsoft Purview Roadmap ID 499076 gets interesting.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is introducing a capability that will allow administrators to scan existing files at rest in SharePoint and OneDrive for Business for sensitive information. The roadmap currently lists the feature as In development, with General Availability targeted for December 2026.</p>
+
+
+
+<p class="wp-block-paragraph">And this could be a very useful addition to the Purview toolkit.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4be.png" alt="💾" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The forgotten data problem</strong></p>
+
+
+
+<p class="wp-block-paragraph">Think about a typical Microsoft 365 environment.</p>
+
+
+
+<p class="wp-block-paragraph">An organisation may have been using SharePoint and OneDrive for years.</p>
+
+
+
+<p class="wp-block-paragraph">During that time, users have created:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Contracts</li>
+
+
+
+<li>HR documents</li>
+
+
+
+<li>Financial spreadsheets</li>
+
+
+
+<li>Customer information</li>
+
+
+
+<li>Employee records</li>
+
+
+
+<li>Project documentation</li>
+
+
+
+<li>Commercial plans</li>
+
+
+
+<li>Legal documents</li>
+
+
+
+<li>Reports</li>
+
+
+
+<li>Presentations</li>
+
+
+
+<li>Old archives</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Some of these files may be labelled.</p>
+
+
+
+<p class="wp-block-paragraph">Some may be protected by DLP.</p>
+
+
+
+<p class="wp-block-paragraph">Some may have been automatically classified.</p>
+
+
+
+<p class="wp-block-paragraph">And some may have <strong>never been evaluated for sensitive information at all</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">This creates what I would call the <strong>&#8220;legacy data problem.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Your organisation may have excellent information protection controls today&#8230;</p>
+
+
+
+<p class="wp-block-paragraph">&#8230;but that doesn&#8217;t necessarily mean your historical data has been through those controls.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2755.png" alt="❕" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Why &#8220;at rest&#8221; is important</strong></p>
+
+
+
+<p class="wp-block-paragraph">The wording in Microsoft&#8217;s roadmap is particularly interesting:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;existing files at rest&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is important because Microsoft already has mechanisms that evaluate content when it is created, edited or otherwise processed.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s current guidance explains that files in SharePoint and OneDrive can remain unclassified if they haven&#8217;t been edited or touched, and that on-demand scanning can be used to evaluate historical content.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a huge distinction.</p>
+
+
+
+<p class="wp-block-paragraph">Imagine a document created in <strong>2019</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">It hasn&#8217;t been opened since.</p>
+
+
+
+<p class="wp-block-paragraph">Nobody has edited it.</p>
+
+
+
+<p class="wp-block-paragraph">It contains sensitive information.</p>
+
+
+
+<p class="wp-block-paragraph">Your organisation introduced a much better Purview classification strategy in 2025.</p>
+
+
+
+<p class="wp-block-paragraph">Does that automatically mean the 2019 document has been evaluated against your new classification approach?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Not necessarily.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s the gap this type of capability is designed to address.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c8.png" alt="📈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> This could change how organisations approach data discovery</strong></p>
+
+
+
+<p class="wp-block-paragraph">One of the biggest challenges with information governance is knowing what you actually have.</p>
+
+
+
+<p class="wp-block-paragraph">Organisations often have policies saying:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Sensitive information must be protected.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">But the more difficult question is:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Where is the sensitive information?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s much harder to answer when you&#8217;re dealing with millions of files.</p>
+
+
+
+<p class="wp-block-paragraph">This new capability moves the conversation from:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;We have policies.&#8221;</strong> to: <strong>&#8220;We&#8217;ve actually evaluated our existing data.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a significant difference.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f468-200d-1f52c.png" alt="👨‍🔬" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Imagine what you could discover</strong></p>
+
+
+
+<p class="wp-block-paragraph">An organisation could potentially uncover things like:</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c1.png" alt="📁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Old HR information</strong></p>
+
+
+
+<p class="wp-block-paragraph">A spreadsheet containing employee information from several years ago.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4b0.png" alt="💰" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Financial information</strong></p>
+
+
+
+<p class="wp-block-paragraph">Historical financial reports containing sensitive commercial data.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f465.png" alt="👥" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Customer information</strong></p>
+
+
+
+<p class="wp-block-paragraph">Legacy customer datasets sitting in an old SharePoint site.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c4.png" alt="📄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Contracts</strong></p>
+
+
+
+<p class="wp-block-paragraph">Commercial agreements containing confidential terms.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Credentials and secrets</strong></p>
+
+
+
+<p class="wp-block-paragraph">Sensitive authentication-related information accidentally stored in documents.</p>
+
+
+
+<p class="wp-block-paragraph">The important point isn&#8217;t simply finding the files, it&#8217;s understanding <strong>where your protection gaps actually exist</strong>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f441.png" alt="👁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> This isn&#8217;t just a scanning exercise</strong></p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d argue that organisations shouldn&#8217;t approach this feature as:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Let&#8217;s scan everything and see what happens.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s potentially a recipe for an enormous amount of data.</p>
+
+
+
+<p class="wp-block-paragraph">Instead, this should become part of a structured <strong>information governance exercise</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Think about the process as:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Discover → Classify → Assess → Protect → Remediate → Monitor</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Discover</strong></p>
+
+
+
+<p class="wp-block-paragraph">Find sensitive information that already exists.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Classify</strong></p>
+
+
+
+<p class="wp-block-paragraph">Understand what type of sensitive information you&#8217;ve found.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Assess</strong></p>
+
+
+
+<p class="wp-block-paragraph">Determine whether the information is appropriately protected.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Protect</strong></p>
+
+
+
+<p class="wp-block-paragraph">Apply appropriate sensitivity labels, DLP controls or other safeguards.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Remediate</strong></p>
+
+
+
+<p class="wp-block-paragraph">Move, restrict, delete or otherwise address information that shouldn&#8217;t exist where it currently does.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Monitor</strong></p>
+
+
+
+<p class="wp-block-paragraph">Continue looking for new gaps.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a much more mature approach than simply running a scan.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f5c2.png" alt="🗂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The relationship with sensitivity labels</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where things become particularly interesting for Purview administrators.</p>
+
+
+
+<p class="wp-block-paragraph">Finding sensitive information doesn&#8217;t automatically mean that the file has an appropriate <strong>sensitivity label</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s current Purview guidance highlights the importance of automatically applying sensitivity labels to existing SharePoint and OneDrive content and notes that service-side auto-labelling can apply to existing files.</p>
+
+
+
+<p class="wp-block-paragraph">So imagine discovering:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>10,000 files containing sensitive information</strong></p>
+
+
+
+<p class="wp-block-paragraph">The next question becomes:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>How many of those files are actually protected?</strong></p>
+
+
+
+<p class="wp-block-paragraph">And then:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>How many should be labelled?</strong></p>
+
+
+
+<p class="wp-block-paragraph">And:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Are the labels appropriate?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where scanning becomes the beginning of the governance process rather than the end.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f513.png" alt="🔓" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Don&#8217;t confuse discovery with protection</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is an important point.</p>
+
+
+
+<p class="wp-block-paragraph">Finding sensitive information isn&#8217;t the same as protecting it.</p>
+
+
+
+<p class="wp-block-paragraph">You could scan your entire SharePoint estate and discover thousands of sensitive documents.</p>
+
+
+
+<p class="wp-block-paragraph">But if you don&#8217;t have an appropriate response strategy, you&#8217;ve simply created a very large report.</p>
+
+
+
+<p class="wp-block-paragraph">The real value comes from connecting discovery to action.</p>
+
+
+
+<p class="wp-block-paragraph">For example:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Sensitive information detected</strong></p>
+
+
+
+<p class="wp-block-paragraph">↓</p>
+
+
+
+<p class="wp-block-paragraph"><strong>No sensitivity label</strong></p>
+
+
+
+<p class="wp-block-paragraph">↓</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Assess business context</strong></p>
+
+
+
+<p class="wp-block-paragraph">↓</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Apply appropriate label</strong></p>
+
+
+
+<p class="wp-block-paragraph">↓</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Apply DLP controls</strong></p>
+
+
+
+<p class="wp-block-paragraph">↓</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Monitor</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s where Purview becomes much more powerful.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> There&#8217;s also an AI governance angle</strong></p>
+
+
+
+<p class="wp-block-paragraph">And this is perhaps where I think this update becomes particularly relevant.</p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;re entering an era where AI tools such as <strong>Microsoft 365 Copilot and agents</strong> can make it easier to discover and work with organisational information.</p>
+
+
+
+<p class="wp-block-paragraph">That makes the quality of your underlying data governance increasingly important.</p>
+
+
+
+<p class="wp-block-paragraph">If your SharePoint environment contains years of poorly classified, overshared or sensitive content, simply deploying Copilot doesn&#8217;t make that problem disappear.</p>
+
+
+
+<p class="wp-block-paragraph">In fact, AI can make <strong>existing governance weaknesses more important</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">The better question isn&#8217;t:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Have we deployed Copilot?&#8221; It&#8217;s <strong>&#8220;Is the data that Copilot can potentially work with appropriately governed?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s why data discovery and information protection are becoming fundamental parts of AI governance.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What should organisations start thinking about?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Although Microsoft currently lists this as <strong>In development</strong>, with GA targeted for December 2026, I&#8217;d start thinking about the implications now.</p>
+
+
+
+<p class="wp-block-paragraph">Ask yourself:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. How much historical data do we have?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Do you know how many files exist across SharePoint and OneDrive?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. How much of that data has actually been classified?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Not how much <strong>could</strong> be classified.</p>
+
+
+
+<p class="wp-block-paragraph">How much has actually been evaluated?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Where are your high-risk locations?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Which SharePoint sites contain the most sensitive information?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>4. What happens when sensitive information is discovered?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Do you have a defined remediation process?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Are your labels appropriate?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Finding a sensitive document is only useful if you can determine what protection it actually requires.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>6. Are you ready for AI?</strong></p>
+
+
+
+<p class="wp-block-paragraph">If Copilot and agents are increasingly working with organisational information, your information protection strategy becomes even more important.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">For me, the most interesting thing about Roadmap 499076 isn&#8217;t the scanning capability itself.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s the principle behind it.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>You can&#8217;t govern data you haven&#8217;t discovered.</strong></p>
+
+
+
+<p class="wp-block-paragraph">And organisations have accumulated an enormous amount of data over the years.</p>
+
+
+
+<p class="wp-block-paragraph">Some of it is valuable.</p>
+
+
+
+<p class="wp-block-paragraph">Some of it is obsolete.</p>
+
+
+
+<p class="wp-block-paragraph">Some of it is sensitive.</p>
+
+
+
+<p class="wp-block-paragraph">Some of it is duplicated.</p>
+
+
+
+<p class="wp-block-paragraph">And some of it probably shouldn&#8217;t be there anymore.</p>
+
+
+
+<p class="wp-block-paragraph">The next phase of Microsoft Purview isn&#8217;t just about protecting <strong>new data</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s about finally shining a light on the data that&#8217;s been sitting quietly in the background for years.</p>
+
+
+
+<p class="wp-block-paragraph">And perhaps the most uncomfortable question of all is:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;What would we discover if we scanned everything we&#8217;ve been ignoring?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That could be where the really interesting findings begin.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f5fa.png" alt="🗺" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Microsoft Purview Roadmap ID: 499076</strong><br><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f3d7.png" alt="🏗" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Status: In development</strong><br><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Target GA: December 2026</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">273</post-id>	</item>
+		<item>
 		<title>🚨 Microsoft Purview gets another layer of protection for Copilot web searches</title>
 		<link>https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/</link>
 					<comments>https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/#respond</comments>
@@ -39,8 +763,8 @@
 
 					<description><![CDATA[&#160;What happens when Copilot needs to search the web? Microsoft 365 Copilot has become an increasingly powerful way for users to find information, summarise content and get answers without having to manually search across multiple sources. But there is an important question for organisations: &#160;What happens when the information being used by Copilot contains sensitive [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="266" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/purview-web-searches-2-3/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview web searches 2" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1024%2C683&amp;ssl=1" data-id="266" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-266" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="266" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/purview-web-searches-2-3/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview web searches 2" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1024%2C683&amp;ssl=1" data-id="266" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-266" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -57,7 +781,7 @@
 
 
 
-<p class="wp-block-paragraph"><img decoding="async" width="20" height="19" src="blob:https://jimtalks.co.uk/684d42e8-67b6-44d1-844d-a8d59cc40e04">&nbsp;<strong>What happens when the information being used by Copilot contains sensitive data?</strong></p>
+<p class="wp-block-paragraph"><img loading="lazy" decoding="async" width="20" height="19" src="blob:https://jimtalks.co.uk/684d42e8-67b6-44d1-844d-a8d59cc40e04">&nbsp;<strong>What happens when the information being used by Copilot contains sensitive data?</strong></p>
 
 
 
@@ -473,7 +1197,7 @@
 
 					<description><![CDATA[Microsoft 365 Message Center ID: MC1458282General Availability: 26 August 2026 If your organisation is using Power Platform, Copilot Studio or AI-powered workloads, keeping control of capacity and consumption is becoming increasingly important. Microsoft is introducing a new Cost controls – Draw from tenant credit pool rule in the Power Platform admin center, giving administrators more [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="255" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/power-platform-cost-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Power Platform cost image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1024%2C683&amp;ssl=1" data-id="255" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-255" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -913,7 +1637,7 @@
 
 					<description><![CDATA[As organisations accelerate their adoption of generative AI, governance teams face a familiar challenge: how do you maintain visibility, compliance and security when business users are interacting with AI platforms outside of Microsoft 365? Microsoft Purview&#8217;s Anthropic Claude Enterprise connector helps address this challenge by bringing Claude activity and conversation data into the Microsoft Purview [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="249" data-permalink="https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/claude-anthropic-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Claude Anthropic pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1024%2C683&amp;ssl=1" data-id="249" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-249" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1537,7 +2261,7 @@
 
 					<description><![CDATA[If you&#8217;ve ever had to deal with PST files, you&#8217;ll know they have a habit of appearing at exactly the wrong time. Old Outlook archives. Historical mailboxes. Former employees. Data sitting on file shares or someone&#8217;s laptop. And eventually someone asks the inevitable question: &#8220;Can we get all of this email back into Microsoft 365?&#8221; [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="241" data-permalink="https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/azure-pst-import-pic-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Azure PST import pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1024%2C683&amp;ssl=1" data-id="241" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-241" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2331,7 +3055,7 @@
 
 					<description><![CDATA[&#8220;Are our employees using AI?&#8221; If your immediate answer is &#8220;Not really&#8221; or &#8220;We don&#8217;t think so&#8221;, you might want to keep reading. Because here&#8217;s the uncomfortable truth: AI adoption is moving much faster than most organisations can govern it. Employees are already using AI to write emails, summarise meetings, analyse spreadsheets, create presentations, write [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="229" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/designer-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Designer" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1024%2C683&amp;ssl=1" data-id="229" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-229" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3833,7 +4557,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 
 
 
@@ -3857,7 +4581,7 @@
 
 					<description><![CDATA[Yes, you read that right. Again, hear me out. I am a big believer in shared interests and finding things we can enjoy with others. When the chance came to watch a horror film with a loved one, I was sure it was something we could enjoy and discuss afterwards. The film came and went. [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="205" data-permalink="https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/chatgpt-image-aug-15-2026-12_38_20-pm-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Aug 15, 2026, 12_38_20 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1024%2C683&amp;ssl=1" data-id="205" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-205" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3907,7 +4631,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/feed/</wfw:commentRss>
@@ -4029,7 +4753,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="180" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/ediscovery-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="eDiscovery picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1024%2C683&amp;ssl=1" data-id="180" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-180" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 ]]></content:encoded>
@@ -4079,7 +4803,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" data-attachment-id="171" data-permalink="https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/purview-alerts-pic-july-29th-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview alerts pic July 29th" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1024%2C1024&amp;ssl=1" data-id="171" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-171" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1200%2C1200&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=800%2C800&amp;ssl=1 800w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=600%2C600&amp;ssl=1 600w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 ]]></content:encoded>
@@ -4177,7 +4901,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-12 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="165" data-permalink="https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-%f0%9f%94%90-microsoft-purview-is-finally-bringing-sensitivity-labels-to-sharepoint-data-at-rest/sharepoint-data-at-rest-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="SharePoint data at rest" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?fit=1024%2C683&amp;ssl=1" data-id="165" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-165" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/SharePoint-data-at-rest-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 ]]></content:encoded>
@@ -4187,71 +4911,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">160</post-id>	</item>
-		<item>
-		<title>The answer is… Rik Mayall?</title>
-		<link>https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/</link>
-					<comments>https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Fri, 14 Aug 2026 18:38:12 +0000</pubDate>
-				<category><![CDATA[Motivational Speaking]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=139</guid>
-
-					<description><![CDATA[Crazy headline right? I thought so too. However, just hear me out. I was once asked to do a large presentation on all things Microsoft 365. Scary stuff. In my research on how to cope with the nerves, I came across a video of English comedian Rik Mayall (pan-global phenomenon), &#160;giving a speech at Exeter [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-12 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="724" data-attachment-id="218" data-permalink="https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/comedy-5/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?fit=1600%2C1131&amp;ssl=1" data-orig-size="1600,1131" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Comedy&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Comedy" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?fit=1024%2C724&amp;ssl=1" data-id="218" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1024%2C724&#038;ssl=1" alt="" class="wp-image-218" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1024%2C724&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=300%2C212&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=768%2C543&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1536%2C1086&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?resize=1200%2C848&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Rik-Mayall-4.jpg?w=1600&amp;ssl=1 1600w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph">Crazy headline right? I thought so too. However, just hear me out.</p>
-
-
-
-<p class="wp-block-paragraph">I was once asked to do a large presentation on all things Microsoft 365. Scary stuff. In my research on how to cope with the nerves, I came across a video of English comedian Rik Mayall (pan-global phenomenon), &nbsp;giving a speech at Exeter University.</p>
-
-
-
-<p class="wp-block-paragraph">Inspiring words I thought, until I heard Rik mention that everyone is equal, and therefore nobody is inherently more valuable than anyone else.</p>
-
-
-
-<p class="wp-block-paragraph">The instant I heard those words, the cloud disappeared. Life changing for me that was. Are we all equal? Yes, we are human beings and everyone has different jobs, different expertise, but nobody is worth more than anyone else. So I asked myself,</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Why on earth would I be afraid of standing up and talking in front of other human beings?</strong></p>
-
-
-
-<p class="wp-block-paragraph">And from that moment on, something changed. The presentation went ok, it was early days for me on that front and there is always room for improvement. But the fear of standing up in front of people and talking was gone.</p>
-
-
-
-<p class="wp-block-paragraph">There are so many things I took away from Rik Mayall’s words that day. It’s never been lost on me how valuable other people are, and how we can choose to lift each other. Sometimes we should put a bit more trust in the people around us rather than shying away from something. And most of all, never be afraid to do something awesome because of another human being. The right people will applaud you for it.</p>
-
-
-
-<p class="wp-block-paragraph">I have lost count of the number of people I have spoken to over the years who expressed a desire to avoid something through fear – my response has always been the same, “the answer is Rik Mayall”. That’s a lesson I have always tried to pass on, and I will always be grateful to Rik Mayall (the man, the myth, the legend) for inspiring me to move past something that had previously held me back for more years that I can remember!</p>
-
-
-
-<p class="wp-block-paragraph">If there is one thing I’d love for you to take away from this post, its that once you realise you&#8217;re simply talking to other human beings, not judges, not superheroes, not people who matter more than you, the fear starts to lose its grip.</p>
-
-
-
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-13 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/08/14/the-answer-is-rik-mayall/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">139</post-id>	</item>
 	</channel>
 </rss>
