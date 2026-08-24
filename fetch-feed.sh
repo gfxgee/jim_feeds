@@ -16,7 +16,8 @@ BASE_DIR="${FEED_BASE_DIR:-/var/feeds}"   # override with FEED_BASE_DIR
 KEEP_DAYS=30                              # how long to keep snapshots
 KEEP_SNAPSHOTS="${FEED_KEEP_SNAPSHOTS:-1}"  # 0 = only write latest.xml (use in CI)
 STALE_HOURS="${FEED_STALE_HOURS:-48}"     # warn if newest item is older than this
-REPAIR="${FEED_REPAIR:-}"                   # comma-list of repairs, e.g. "amp". Empty = none.
+REPAIR="${FEED_REPAIR:-}"
+ENRICH="${FEED_ENRICH:-}"                     # comma-list of enrichments, e.g. "og". Empty = none.                   # comma-list of repairs, e.g. "amp". Empty = none.
 TIMEOUT=30
 # ----------------------------
 
@@ -34,11 +35,13 @@ LOG_FILE="$OUT_DIR/fetch.log"
 LATEST="$OUT_DIR/latest.xml"
 STAMP="$(date -u +%Y%m%dT%H%M%SZ)"
 REPAIR_NOTE=""
+ENRICH_NOTE=""
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TMP="$(mktemp)"
 
 mkdir -p "$OUT_DIR"
 [[ "$KEEP_SNAPSHOTS" != "0" ]] && mkdir -p "$SNAP_DIR"
-trap 'rm -f "$TMP" "$TMP.rep"' EXIT
+trap 'rm -f "$TMP" "$TMP.rep" "$TMP.og"' EXIT
 
 log() {
   printf '%s [%s] %s\n' "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" "$LABEL" "$*" >> "$LOG_FILE"
@@ -110,6 +113,33 @@ if [[ "${ITEM_COUNT:-0}" -eq 0 ]]; then
   fail "valid XML but zero items — feed is rendering empty (http=$HTTP_CODE)" 4
 fi
 
+# 5b. Optional enrichment, opt-in per feed via FEED_ENRICH. Adds a per-item image
+#     pulled from each post page's og:image, for feeds that ship no image field of
+#     their own. Deliberately placed after validation: we only spend requests on
+#     the origin once we know this is a real feed, and we re-validate afterwards so
+#     a bad enrichment can never replace a good mirror.
+case ",$ENRICH," in
+  *,og,*)
+    if ! command -v python3 >/dev/null 2>&1; then
+      ENRICH_NOTE=" enrich=og(no-python3)"
+      log "WARN: enrich=og requested but python3 is not installed"
+    elif python3 "$SCRIPT_DIR/enrich-og.py" "$TMP" "$TMP.og" "$LATEST" 2>>"$LOG_FILE"; then
+      if xmllint --noout "$TMP.og" 2>/dev/null; then
+        mv "$TMP.og" "$TMP"
+        ENRICH_NOTE=" enrich=og"
+      else
+        rm -f "$TMP.og"
+        ENRICH_NOTE=" enrich=og(invalid-output,skipped)"
+        log "WARN: enrichment produced invalid XML — publishing the plain mirror instead"
+      fi
+    else
+      rm -f "$TMP.og"
+      ENRICH_NOTE=" enrich=og(failed)"
+      log "WARN: enrichment failed — publishing the plain mirror instead"
+    fi
+    ;;
+esac
+
 # 6. Save. Hash the old copy first — after this, latest.xml is gone.
 PREV_HASH=""
 [[ -f "$LATEST" ]] && PREV_HASH=$(sha256sum "$LATEST" | cut -d' ' -f1)
@@ -145,7 +175,7 @@ if [[ -n "$NEWEST" ]]; then
   fi
 fi
 
-log "OK http=$HTTP_CODE items=$ITEM_COUNT $CHANGED bytes=$(stat -c%s "$LATEST")$REPAIR_NOTE$STALE_NOTE"
+log "OK http=$HTTP_CODE items=$ITEM_COUNT $CHANGED bytes=$(stat -c%s "$LATEST")$REPAIR_NOTE$ENRICH_NOTE$STALE_NOTE"
 
 # 9. Prune old snapshots.
 if [[ "$KEEP_SNAPSHOTS" != "0" ]]; then

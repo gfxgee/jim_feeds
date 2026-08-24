@@ -39,15 +39,17 @@ jobs:
           # trailing newline still processes its last line instead of dropping a feed.
           while IFS='|' read -r url label opts || [ -n "$url" ]; do
             case "$url" in ''|\#*) continue ;; esac
-            repair=""; stale=""
+            repair=""; stale=""; enrich=""
             IFS=',' read -ra parts <<< "$opts"
             for p in "${parts[@]}"; do
               case "$p" in
                 repair=*) repair="${p#repair=}" ;;
                 stale=*)  stale="${p#stale=}"   ;;
+                enrich=*) enrich="${p#enrich=}" ;;
               esac
             done
             export FEED_REPAIR="$repair"
+            export FEED_ENRICH="$enrich"
             # Leave FEED_STALE_HOURS unset when no per-feed value, so the script's
             # own default stays the single source of truth for that number.
             if [ -n "$stale" ]; then export FEED_STALE_HOURS="$stale"; else unset FEED_STALE_HOURS; fi

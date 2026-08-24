@@ -4,7 +4,9 @@
 # options comma-separated key=value, both optional:
 #           repair=amp   escape bare "&" before validating (see README note)
 #           stale=<hrs>  freshness window for THIS feed (default 48)
+#           enrich=og    add each post's featured image from its og:image tag,
+#                        for feeds that carry no image field of their own
 # Lines starting with # are ignored.
 
 https://jimtalks.co.uk/feed/|jimtalks|
-https://nikkichapple.com/feed/|nikkichapple|repair=amp,stale=2880
+https://nikkichapple.com/feed/|nikkichapple|repair=amp,stale=2880,enrich=og
