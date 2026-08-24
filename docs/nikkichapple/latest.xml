@@ -584,6 +584,7 @@
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/05/What-35-Years-in-Tech-Taught-Me-About-Data-Security-and-AI-Governance.png" medium="image" />
 			</item>
 		<item>
 		<title>Workplace Ninjas Norway 2026: My Sessions on Shadow AI and Data Security</title>
@@ -1169,6 +1170,7 @@
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/05/workplace-ninjas-norway-nikichapple.jpg" medium="image" />
 			</item>
 		<item>
 		<title>Purview Lightning Talks – Microsoft Security Community</title>
@@ -1564,6 +1566,7 @@
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/05/Purview-Lightning-Talks-image.png" medium="image" />
 			</item>
 		<item>
 		<title>Shadow AI Governance: You Can’t Stop AI. But You Can Control the Risk</title>
@@ -2353,6 +2356,7 @@ We can block, control and enable
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/05/you-cant-stop-users-using-ai.png" medium="image" />
 			</item>
 		<item>
 		<title>How to Govern Shadow AI with Microsoft Purview, Defender and DSPM</title>
@@ -3932,6 +3936,7 @@ We can block, control and enable
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/05/Control-AI-Apps-Protect_your-data-edited-1.png" medium="image" />
 			</item>
 		<item>
 		<title>How To Apply Container Sensitivity Labels at Scale in Microsoft 365</title>
@@ -5079,6 +5084,7 @@ We can block, control and enable
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2023/04/Site-sensitivity-labels.png" medium="image" />
 			</item>
 		<item>
 		<title>How to Deploy Microsoft Purview DLP for Copilot and Generative AI</title>
@@ -6799,6 +6805,7 @@ DLP Action: Audit or r
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/05/The-four-AI-data-paths-explained-1.png" medium="image" />
 			</item>
 		<item>
 		<title>Container Sensitivity Labels: The Purview “Hack” That Fixes Copilot Oversharing Fast</title>
@@ -7872,6 +7879,7 @@ DLP Action: Audit or r
 			<media:thumbnail url="https://nikkichapple.com/wp-content/uploads/2022/10/microsoft-365-oversharing-risk-based-governance.png" />
 			<media:rating scheme="urn:simple">nonadult</media:rating>
 		</media:content>
+	<media:content url="https://nikkichapple.com/wp-content/uploads/2022/10/microsoft-365-oversharing-risk-based-governance.png" medium="image" />
 	</item>
 		<item>
 		<title>How to Configure Container Sensitivity Labels in Microsoft Purview (Step-by-Step)</title>
@@ -9736,6 +9744,7 @@ DLP Action: Audit or r
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/05/Configuring-Container-Sensitivity-Labels-in-Microsoft-365.png" medium="image" />
 			</item>
 		<item>
 		<title>Why Ex‑Employee OneDrive Data Never Dies in Microsoft 365 (and How to Fix It)</title>
@@ -10673,6 +10682,7 @@ End of retention - Enter deletion pipeline (subject to retention/holds)
 					
 		
 		
+			<media:content url="https://nikkichapple.com/wp-content/uploads/2026/02/image-4.png" medium="image" />
 			</item>
 	</channel>
 </rss>
