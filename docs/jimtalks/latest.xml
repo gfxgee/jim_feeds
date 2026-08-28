@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Mon, 24 Aug 2026 16:06:38 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 28 Aug 2026 16:00:20 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,646 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Purview Roadmap 549288: Making SharePoint DLP Smarter with Adaptive Scopes</title>
+		<link>https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/</link>
+					<comments>https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Fri, 28 Aug 2026 16:00:20 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=284</guid>
+
+					<description><![CDATA[Microsoft Purview continues to evolve from a collection of individual compliance controls into a much more dynamic governance platform. One particularly useful development is Roadmap ID 549288: Microsoft Purview Data Loss Prevention – Adaptive Scopes for DLP for SharePoint. And while the headline might sound like another technical DLP feature, the real benefit is much [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="285" data-permalink="https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/adaptive-scopes-sharepoint-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Adaptive Scopes SharePoint pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?fit=1024%2C683&amp;ssl=1" data-id="285" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-285" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview continues to evolve from a collection of individual compliance controls into a much more dynamic governance platform. One particularly useful development is <strong>Roadmap ID 549288: Microsoft Purview Data Loss Prevention – Adaptive Scopes for DLP for SharePoint</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">And while the headline might sound like another technical DLP feature, the real benefit is much more interesting:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Your DLP policies can become more responsive to how your SharePoint environment actually changes.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft describes Adaptive Scopes for SharePoint as a dynamic capability that allows administrators to target DLP policies based on attributes such as site URL, site name or custom site metadata, rather than relying solely on manually maintained lists of sites.</p>
+
+
+
+<p class="wp-block-paragraph">That has potentially significant implications for organisations trying to scale Microsoft Purview governance.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>The problem with static DLP</strong></p>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s imagine your organisation has 500 SharePoint sites.</p>
+
+
+
+<p class="wp-block-paragraph">You have a DLP policy designed to protect sensitive information on a particular group of sites &#8211; perhaps sites belonging to a particular business function, containing a particular type of information, or matching particular organisational criteria.</p>
+
+
+
+<p class="wp-block-paragraph">With a traditional static approach, administrators have to maintain the scope of those sites.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s where things become difficult.</p>
+
+
+
+<p class="wp-block-paragraph">SharePoint environments don&#8217;t stand still.</p>
+
+
+
+<p class="wp-block-paragraph">New sites are created.</p>
+
+
+
+<p class="wp-block-paragraph">Existing sites change.</p>
+
+
+
+<p class="wp-block-paragraph">Business units reorganise.</p>
+
+
+
+<p class="wp-block-paragraph">Projects start and finish.</p>
+
+
+
+<p class="wp-block-paragraph">Site properties change.</p>
+
+
+
+<p class="wp-block-paragraph">The result?</p>
+
+
+
+<p class="wp-block-paragraph">Your DLP policy can potentially become disconnected from the environment it was designed to protect.</p>
+
+
+
+<p class="wp-block-paragraph">You might have a perfectly designed policy — but an outdated scope.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s a governance problem.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>Enter Adaptive Scopes</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where Roadmap 549288 becomes interesting.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of thinking:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Which sites do I need to put into this DLP policy?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">you can start thinking:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Which sites meet the criteria that this DLP policy should apply to?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a significant change in mindset.</p>
+
+
+
+<p class="wp-block-paragraph">Adaptive Scopes can automatically evaluate SharePoint site attributes and dynamically determine which sites should be included or excluded from the policy. Microsoft specifically describes this as continuously evaluating site properties and automatically adjusting scope as the environment changes.</p>
+
+
+
+<p class="wp-block-paragraph">So rather than constantly maintaining a list of locations, you define the governance logic.</p>
+
+
+
+<p class="wp-block-paragraph">The environment can then help maintain the scope.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 1: Less administration</strong></p>
+
+
+
+<p class="wp-block-paragraph">Probably the most obvious benefit is reduced administrative overhead.</p>
+
+
+
+<p class="wp-block-paragraph">Consider an organisation with hundreds or thousands of SharePoint sites.</p>
+
+
+
+<p class="wp-block-paragraph">Maintaining static site lists can become a significant operational task.</p>
+
+
+
+<p class="wp-block-paragraph">Every time a site is created or changed, somebody potentially needs to consider:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Does this site need to be added to the DLP policy?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Adaptive Scopes can reduce that manual maintenance by allowing policy targeting to be based on attributes.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft highlights this reduction in manual list maintenance as one of the key benefits of the capability.</p>
+
+
+
+<p class="wp-block-paragraph">That means administrators can spend less time maintaining policy membership and more time thinking about whether the policy itself is appropriate.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f504.png" alt="🔄" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 2: Governance that keeps up with the business</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is, in my opinion, one of the biggest benefits.</p>
+
+
+
+<p class="wp-block-paragraph">Traditional governance often struggles because the organisation changes faster than the governance model.</p>
+
+
+
+<p class="wp-block-paragraph">A new SharePoint site appears.</p>
+
+
+
+<p class="wp-block-paragraph">The governance team doesn&#8217;t know about it.</p>
+
+
+
+<p class="wp-block-paragraph">The site contains sensitive information.</p>
+
+
+
+<p class="wp-block-paragraph">The DLP policy doesn&#8217;t cover it.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s not necessarily a failure of the DLP technology.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s a failure of static governance in a dynamic environment.</p>
+
+
+
+<p class="wp-block-paragraph">Adaptive Scopes provide an opportunity to make the policy more responsive.</p>
+
+
+
+<p class="wp-block-paragraph">If a newly created site meets the defined criteria, it can automatically fall within the appropriate scope. Microsoft specifically states that this helps ensure new or updated sites are protected without requiring manual list maintenance.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a much more scalable governance model.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c8.png" alt="📈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 3: Better scalability</strong></p>
+
+
+
+<p class="wp-block-paragraph">This becomes increasingly important as organisations expand their use of SharePoint.</p>
+
+
+
+<p class="wp-block-paragraph">You might start with:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>50 sites</strong></p>
+
+
+
+<p class="wp-block-paragraph">and manually manage them relatively easily.</p>
+
+
+
+<p class="wp-block-paragraph">Then you reach:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>500 sites.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Then:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5,000 sites.</strong></p>
+
+
+
+<p class="wp-block-paragraph">At some point, manually maintaining policy scopes becomes increasingly difficult.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s documentation notes that Adaptive Scopes can eliminate the 100-site static policy limit, while providing more granular and automated targeting.</p>
+
+
+
+<p class="wp-block-paragraph">That makes this particularly relevant for large organisations and organisations experiencing rapid SharePoint growth.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f3af.png" alt="🎯" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 4: More precise policy targeting</strong></p>
+
+
+
+<p class="wp-block-paragraph">More sites covered doesn&#8217;t necessarily mean better governance.</p>
+
+
+
+<p class="wp-block-paragraph">The goal isn&#8217;t:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Put every site into every DLP policy.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s likely to create unnecessary policy complexity and potentially overwhelm users with controls and notifications.</p>
+
+
+
+<p class="wp-block-paragraph">The real goal is:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Apply the right policy to the right information in the right locations.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Adaptive Scopes provide more granular targeting based on site characteristics.</p>
+
+
+
+<p class="wp-block-paragraph">That allows organisations to think more carefully about their policy architecture.</p>
+
+
+
+<p class="wp-block-paragraph">For example, you might have different governance requirements for:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Finance sites</li>
+
+
+
+<li>HR sites</li>
+
+
+
+<li>Legal sites</li>
+
+
+
+<li>Research sites</li>
+
+
+
+<li>Customer information</li>
+
+
+
+<li>Highly confidential projects</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Instead of relying purely on manually maintained site lists, you can use attributes to help determine where the relevant DLP controls should apply.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e1.png" alt="🛡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 5: Better protection against governance drift</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is perhaps the benefit that doesn&#8217;t immediately jump out from Microsoft&#8217;s technical description.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d call it governance drift.</p>
+
+
+
+<p class="wp-block-paragraph">Governance drift happens when your policies were correct when they were created &#8211; but the environment has changed.</p>
+
+
+
+<p class="wp-block-paragraph">Your DLP policy says:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Protect these 75 sites.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Six months later:</p>
+
+
+
+<ul class="wp-block-list">
+<li>20 new sites exist.</li>
+
+
+
+<li>10 sites have changed purpose.</li>
+
+
+
+<li>5 have been retired.</li>
+
+
+
+<li>15 new projects have been created.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The policy might still technically be working.</p>
+
+
+
+<p class="wp-block-paragraph">But its scope may no longer reflect the organisation.</p>
+
+
+
+<p class="wp-block-paragraph">Adaptive Scopes can help reduce that gap by dynamically evaluating site characteristics.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s important because governance isn&#8217;t simply about creating policies.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s about ensuring those policies remain relevant.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> And this matters even more in the age of Copilot</strong></p>
+
+
+
+<p class="wp-block-paragraph">There&#8217;s a bigger story here.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft 365 Copilot can work with information that users already have permission to access.</p>
+
+
+
+<p class="wp-block-paragraph">That makes SharePoint governance increasingly important in an AI-enabled organisation.</p>
+
+
+
+<p class="wp-block-paragraph">If your SharePoint environment contains:</p>
+
+
+
+<ul class="wp-block-list">
+<li>overshared information</li>
+
+
+
+<li>poorly governed sites</li>
+
+
+
+<li>sensitive information</li>
+
+
+
+<li>outdated permissions</li>
+
+
+
+<li>inappropriate content</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Then AI can make the consequences of poor governance more visible.</p>
+
+
+
+<p class="wp-block-paragraph">This is why improvements to Purview DLP shouldn&#8217;t be viewed simply as another compliance feature.</p>
+
+
+
+<p class="wp-block-paragraph">They&#8217;re part of a much bigger shift towards:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI-ready information governance.</strong></p>
+
+
+
+<p class="wp-block-paragraph">As one Microsoft-focused analysis of this roadmap points out, the real leadership question is increasingly about whether organisations have the governance discipline to let AI operate safely and at scale.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The bigger lesson: stop governing lists, start governing conditions</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is the part I find most interesting about Roadmap 549288.</p>
+
+
+
+<p class="wp-block-paragraph">Traditional governance often looks like this:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Here is a list of things we currently know about.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Modern governance increasingly needs to look like:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Here are the conditions under which this policy should apply.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a subtle but very important change.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of constantly asking:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Did we remember to add that site?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">you can start asking:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Does that site meet the conditions that require this protection?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a much more sustainable approach.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>What does this mean for organisations?</strong></p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;re responsible for Microsoft Purview, DLP or SharePoint governance, this is a good opportunity to revisit your existing approach.</p>
+
+
+
+<p class="wp-block-paragraph">Ask yourself:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. How much of our DLP scoping is manually maintained?</strong></p>
+
+
+
+<p class="wp-block-paragraph">If the answer is &#8220;a lot&#8221;, there may be an opportunity to simplify.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. How quickly does our governance respond to new SharePoint sites?</strong></p>
+
+
+
+<p class="wp-block-paragraph">If it relies on somebody remembering to update a policy, there&#8217;s a potential gap.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Are we using site attributes effectively?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Think about whether your existing SharePoint metadata and structure could support more intelligent governance.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Are our DLP policies aligned with business requirements?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t use Adaptive Scopes simply because they&#8217;re available.</p>
+
+
+
+<p class="wp-block-paragraph">First understand what you&#8217;re trying to protect and why.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Is our SharePoint governance ready for AI?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is increasingly important as Copilot and other AI capabilities make organisational information more accessible and actionable.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> When is it arriving?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft originally announced Adaptive Scopes for SharePoint for 2026. The roadmap currently identifies <strong>Roadmap ID 549288</strong> as a Microsoft Purview capability for the worldwide standard multi-tenant environment.</p>
+
+
+
+<p class="wp-block-paragraph">The timeline has changed during development, so organisations should treat Microsoft&#8217;s roadmap dates as estimates rather than fixed commitments. Microsoft itself notes that roadmap release dates are subject to change.</p>
+
+
+
+<p class="wp-block-paragraph">The associated Message Center announcement currently indicates <strong>General Availability beginning in late August 2026 and completing by late September 2026</strong>.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">284</post-id>	</item>
+		<item>
 		<title>🚨 What if we stopped retaining files simply because nobody has deleted them?</title>
 		<link>https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/</link>
 					<comments>https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/#respond</comments>
@@ -39,8 +679,8 @@
 
 					<description><![CDATA[Microsoft Purview is bringing &#8220;last accessed&#8221; retention to SharePoint and OneDrive One of the biggest challenges in Microsoft 365 isn&#8217;t necessarily creating information. It&#8217;s getting rid of information we no longer need. Over the years, organisations accumulate enormous amounts of content in SharePoint and OneDrive: And often, nobody knows whether any of it is still [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="278" data-permalink="https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/retention-based-on-last-access-for-files-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Retention based on last access for files picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1024%2C683&amp;ssl=1" data-id="278" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-278" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="278" data-permalink="https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/retention-based-on-last-access-for-files-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Retention based on last access for files picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1024%2C683&amp;ssl=1" data-id="278" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-278" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -729,7 +1369,7 @@
 
 					<description><![CDATA[Your biggest data protection problem might already be sitting in SharePoint When organisations talk about information protection, the conversation often focuses on what happens from now on. New documents get created. New files are uploaded. Users apply sensitivity labels. Policies are configured. DLP is enabled. Everything looks nicely governed. But there is a problem. ❓ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="274" data-permalink="https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/purview-data-at-rest-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview data at rest picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1024%2C683&amp;ssl=1" data-id="274" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-274" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1453,8 +2093,8 @@
 
 					<description><![CDATA[&#160;What happens when Copilot needs to search the web? Microsoft 365 Copilot has become an increasingly powerful way for users to find information, summarise content and get answers without having to manually search across multiple sources. But there is an important question for organisations: &#160;What happens when the information being used by Copilot contains sensitive [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="266" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/purview-web-searches-2-3/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview web searches 2" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1024%2C683&amp;ssl=1" data-id="266" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-266" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="266" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/purview-web-searches-2-3/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview web searches 2" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1024%2C683&amp;ssl=1" data-id="266" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-266" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1887,7 +2527,7 @@
 
 					<description><![CDATA[Microsoft 365 Message Center ID: MC1458282General Availability: 26 August 2026 If your organisation is using Power Platform, Copilot Studio or AI-powered workloads, keeping control of capacity and consumption is becoming increasingly important. Microsoft is introducing a new Cost controls – Draw from tenant credit pool rule in the Power Platform admin center, giving administrators more [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="255" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/power-platform-cost-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Power Platform cost image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1024%2C683&amp;ssl=1" data-id="255" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-255" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2327,7 +2967,7 @@
 
 					<description><![CDATA[As organisations accelerate their adoption of generative AI, governance teams face a familiar challenge: how do you maintain visibility, compliance and security when business users are interacting with AI platforms outside of Microsoft 365? Microsoft Purview&#8217;s Anthropic Claude Enterprise connector helps address this challenge by bringing Claude activity and conversation data into the Microsoft Purview [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="249" data-permalink="https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/claude-anthropic-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Claude Anthropic pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1024%2C683&amp;ssl=1" data-id="249" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-249" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2951,7 +3591,7 @@
 
 					<description><![CDATA[If you&#8217;ve ever had to deal with PST files, you&#8217;ll know they have a habit of appearing at exactly the wrong time. Old Outlook archives. Historical mailboxes. Former employees. Data sitting on file shares or someone&#8217;s laptop. And eventually someone asks the inevitable question: &#8220;Can we get all of this email back into Microsoft 365?&#8221; [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="241" data-permalink="https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/azure-pst-import-pic-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Azure PST import pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1024%2C683&amp;ssl=1" data-id="241" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-241" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3745,7 +4385,7 @@
 
 					<description><![CDATA[&#8220;Are our employees using AI?&#8221; If your immediate answer is &#8220;Not really&#8221; or &#8220;We don&#8217;t think so&#8221;, you might want to keep reading. Because here&#8217;s the uncomfortable truth: AI adoption is moving much faster than most organisations can govern it. Employees are already using AI to write emails, summarise meetings, analyse spreadsheets, create presentations, write [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="229" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/designer-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Designer" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1024%2C683&amp;ssl=1" data-id="229" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-229" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5247,7 +5887,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 
 
 
@@ -5271,7 +5911,7 @@
 
 					<description><![CDATA[Yes, you read that right. Again, hear me out. I am a big believer in shared interests and finding things we can enjoy with others. When the chance came to watch a horror film with a loved one, I was sure it was something we could enjoy and discuss afterwards. The film came and went. [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="205" data-permalink="https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/chatgpt-image-aug-15-2026-12_38_20-pm-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Aug 15, 2026, 12_38_20 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1024%2C683&amp;ssl=1" data-id="205" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-205" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5321,7 +5961,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/feed/</wfw:commentRss>
@@ -5443,7 +6083,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-12 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="180" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%94%8d-troubleshooting-microsoft-purview-ediscovery-just-got-easier/ediscovery-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="eDiscovery picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?fit=1024%2C683&amp;ssl=1" data-id="180" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-180" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/eDiscovery-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 ]]></content:encoded>
@@ -5453,55 +6093,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">177</post-id>	</item>
-		<item>
-		<title>🔐 Microsoft Purview DLP Gets Smarter with Automated Alert Management</title>
-		<link>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/</link>
-					<comments>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Fri, 14 Aug 2026 19:28:30 +0000</pubDate>
-				<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=168</guid>
-
-					<description><![CDATA[Security teams spend valuable time reviewing alerts that often follow predictable patterns. Microsoft is helping reduce that burden with a new Microsoft Purview Data Loss Prevention (DLP) capability: rule-based alert tagging and auto-resolution. With this enhancement, organisations can define rules that automatically handle DLP alerts based on business needs: ✅ Automatically resolve low-priority alerts that [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Security teams spend valuable time reviewing alerts that often follow predictable patterns. Microsoft is helping reduce that burden with a new Microsoft Purview Data Loss Prevention (DLP) capability: <strong>rule-based alert tagging and auto-resolution</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">With this enhancement, organisations can define rules that automatically handle DLP alerts based on business needs:</p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Automatically resolve low-priority alerts</strong> that don&#8217;t require investigation, helping reduce noise in security queues.</p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Automatically tag alerts</strong> to simplify filtering, routing, and reporting. For example, alerts generated by the Legal department can be categorised as a specific business process.</p>
-
-
-
-<p class="wp-block-paragraph">This new capability can help security and compliance teams focus on the alerts that matter most while improving operational efficiency across the organisation.</p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Preview:</strong> August 2026<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>General Availability:</strong> September 2026<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f30d.png" alt="🌍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Availability:</strong> Worldwide (Standard Multi-Tenant)<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f194.png" alt="🆔" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Roadmap ID:</strong> 568371</p>
-
-
-
-<p class="wp-block-paragraph">A welcome enhancement for organisations looking to streamline DLP operations and reduce alert fatigue.</p>
-
-
-
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-12 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" data-attachment-id="171" data-permalink="https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/purview-alerts-pic-july-29th-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview alerts pic July 29th" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?fit=1024%2C1024&amp;ssl=1" data-id="171" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-171" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=1200%2C1200&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=800%2C800&amp;ssl=1 800w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=600%2C600&amp;ssl=1 600w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=400%2C400&amp;ssl=1 400w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?resize=200%2C200&amp;ssl=1 200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-alerts-pic-July-29th-1.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/08/14/%f0%9f%94%90-microsoft-purview-dlp-gets-smarter-with-automated-alert-management/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">168</post-id>	</item>
 	</channel>
 </rss>
