@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Sat, 29 Aug 2026 11:15:14 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 01 Sep 2026 14:51:51 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,722 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Power Platform is getting an interesting new security capability</title>
+		<link>https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/</link>
+					<comments>https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2026 14:51:51 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=293</guid>
+
+					<description><![CDATA[🚨 Microsoft Power Platform gets smarter record-level security with column-based filtering There are plenty of organisations where record ownership simply doesn&#8217;t reflect how the business actually works. Think about a large dataset containing thousands of records. Perhaps each record has a Region, Department, Business Unit or another attribute that determines who should be able to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="294" data-permalink="https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/column-based-filtering-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Column based filtering pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1024%2C683&amp;ssl=1" data-id="294" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-294" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png" alt="🚨" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Microsoft Power Platform gets smarter record-level security with column-based filtering</strong></p>
+
+
+
+<p class="wp-block-paragraph">There are plenty of organisations where record ownership simply doesn&#8217;t reflect how the business actually works.</p>
+
+
+
+<p class="wp-block-paragraph">Think about a large dataset containing thousands of records.</p>
+
+
+
+<p class="wp-block-paragraph">Perhaps each record has a Region, Department, Business Unit or another attribute that determines who should be able to access it.</p>
+
+
+
+<p class="wp-block-paragraph">Traditionally, organisations may have had to build ownership structures or complicated sharing models to achieve the required level of security.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is now introducing an interesting alternative.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Introducing column-based security filtering</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft 365 Message Center announcement <strong>MC1465569</strong> introduces the ability for administrators to use filtered views to select and manage record-level access based on specific values within a field in Microsoft Power Platform governance and administration.</p>
+
+
+
+<p class="wp-block-paragraph">The capability is scheduled to reach <strong>Public Preview on 16 October 2026</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">And while that might initially sound like a relatively technical security enhancement, I think there is a much bigger story here.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s about making security reflect the data itself.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>From &#8220;Who owns it?&#8221; to &#8220;What does the record say?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Traditional record-level security often revolves around ownership.</p>
+
+
+
+<p class="wp-block-paragraph">A user owns a record.</p>
+
+
+
+<p class="wp-block-paragraph">A team owns a record.</p>
+
+
+
+<p class="wp-block-paragraph">Someone is given access through sharing.</p>
+
+
+
+<p class="wp-block-paragraph">That model works well when ownership represents responsibility.</p>
+
+
+
+<p class="wp-block-paragraph">But what happens when it doesn&#8217;t?</p>
+
+
+
+<p class="wp-block-paragraph">Imagine you have a dataset containing customer information across five regions:</p>
+
+
+
+<ul class="wp-block-list">
+<li>UK</li>
+
+
+
+<li>Europe</li>
+
+
+
+<li>North America</li>
+
+
+
+<li>Asia-Pacific</li>
+
+
+
+<li>Middle East</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">You don&#8217;t necessarily want to create artificial ownership structures simply to control access.</p>
+
+
+
+<p class="wp-block-paragraph">Instead, the Region field already tells you something important:</p>
+
+
+
+<p class="wp-block-paragraph">This record belongs to the UK.</p>
+
+
+
+<p class="wp-block-paragraph">Why not use that information as part of the security model?</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s the concept Microsoft is bringing forward.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f30d.png" alt="🌍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Security based on business dimensions</strong></p>
+
+
+
+<p class="wp-block-paragraph">The new capability allows administrators to define access using attribute values.</p>
+
+
+
+<p class="wp-block-paragraph">That could mean security based on things such as:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Region</strong></p>
+
+
+
+<p class="wp-block-paragraph">Region = UK</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Department</strong></p>
+
+
+
+<p class="wp-block-paragraph">Department = Finance</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Business Unit</strong></p>
+
+
+
+<p class="wp-block-paragraph">Business Unit = Operations</p>
+
+
+
+<p class="wp-block-paragraph">The important point is that the security model can be aligned with business dimensions already contained within the data.</p>
+
+
+
+<p class="wp-block-paragraph">This can be particularly useful where there isn&#8217;t a meaningful concept of individual record ownership.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Where could this be useful?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft specifically highlights scenarios involving reporting and aggregated datasets.</p>
+
+
+
+<p class="wp-block-paragraph">And this is where I think the capability becomes particularly interesting.</p>
+
+
+
+<p class="wp-block-paragraph">Consider an organisation with a large reporting dataset.</p>
+
+
+
+<p class="wp-block-paragraph">It might contain information covering multiple departments and regions.</p>
+
+
+
+<p class="wp-block-paragraph">There may not be an individual person who &#8220;owns&#8221; each record.</p>
+
+
+
+<p class="wp-block-paragraph">Creating artificial ownership simply to satisfy a security requirement can introduce unnecessary complexity.</p>
+
+
+
+<p class="wp-block-paragraph">Instead, the organisation could potentially use the characteristics of the data itself to help determine access.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a much more natural relationship between:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Data → Business context → Security</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 1: Less complexity</strong></p>
+
+
+
+<p class="wp-block-paragraph">One of the biggest potential benefits is simplification.</p>
+
+
+
+<p class="wp-block-paragraph">Organisations often end up creating increasingly complicated security models to solve what is fundamentally a straightforward business requirement.</p>
+
+
+
+<p class="wp-block-paragraph">For example:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;People in this region should only see records relating to their region.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">You could potentially end up with ownership structures, teams, sharing rules and other mechanisms to achieve this.</p>
+
+
+
+<p class="wp-block-paragraph">Column-based filtering provides another approach:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Use the value that already exists in the data.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That could significantly simplify administration in suitable scenarios.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c8.png" alt="📈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 2: Better scalability</strong></p>
+
+
+
+<p class="wp-block-paragraph">Complex sharing models can become increasingly difficult to manage as an organisation grows.</p>
+
+
+
+<p class="wp-block-paragraph">More users.</p>
+
+
+
+<p class="wp-block-paragraph">More teams.</p>
+
+
+
+<p class="wp-block-paragraph">More records.</p>
+
+
+
+<p class="wp-block-paragraph">More regions.</p>
+
+
+
+<p class="wp-block-paragraph">More business units.</p>
+
+
+
+<p class="wp-block-paragraph">More exceptions.</p>
+
+
+
+<p class="wp-block-paragraph">The security model can quickly become difficult to understand and maintain.</p>
+
+
+
+<p class="wp-block-paragraph">Using attributes within the data provides the potential for a more scalable approach.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of maintaining thousands of individual access relationships, administrators can define security around business rules and attributes.</p>
+
+
+
+<p class="wp-block-paragraph">That is a much more appealing model for large-scale enterprise data.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e9.png" alt="🧩" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 3: Security that reflects the business</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is probably my favourite aspect of this update.</p>
+
+
+
+<p class="wp-block-paragraph">Good governance should reflect how an organisation actually operates.</p>
+
+
+
+<p class="wp-block-paragraph">If the business thinks about information in terms of:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Geography</li>
+
+
+
+<li>Department</li>
+
+
+
+<li>Business unit</li>
+
+
+
+<li>Customer segment</li>
+
+
+
+<li>Product</li>
+
+
+
+<li>Function</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">then it makes sense for security controls to be capable of understanding those same dimensions.</p>
+
+
+
+<p class="wp-block-paragraph">You&#8217;re effectively moving from:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Who owns this information?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">towards:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;What does this information represent?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That is a subtle but important shift.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e1.png" alt="🛡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 4: Reducing artificial ownership</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft specifically highlights the ability to avoid artificial ownership.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s important.</p>
+
+
+
+<p class="wp-block-paragraph">Creating ownership simply because a security model requires it can result in a structure that doesn&#8217;t accurately represent the organisation.</p>
+
+
+
+<p class="wp-block-paragraph">You end up with:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;This team owns the record because we need someone to own the record.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">rather than:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;This record belongs to this business area, and access should reflect that.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">The latter is much closer to how organisations often think about their information.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f50e.png" alt="🔎" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 5: A better fit for enterprise data governance</strong></p>
+
+
+
+<p class="wp-block-paragraph">There is also a wider governance story here.</p>
+
+
+
+<p class="wp-block-paragraph">Data governance isn&#8217;t simply about knowing where information is.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s about understanding:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>What is it?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Who should access it?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why should they access it?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>How should access be controlled?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Column-based security filtering potentially brings those concepts closer together.</p>
+
+
+
+<p class="wp-block-paragraph">The data already contains contextual information.</p>
+
+
+
+<p class="wp-block-paragraph">The security model can make use of that context.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a very interesting direction for enterprise governance.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Why this matters in an AI world</strong></p>
+
+
+
+<p class="wp-block-paragraph">There is another reason I think developments like this are becoming increasingly important.</p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;re moving towards an environment where applications, analytics and AI increasingly interact with organisational data.</p>
+
+
+
+<p class="wp-block-paragraph">That means access control becomes even more important.</p>
+
+
+
+<p class="wp-block-paragraph">As organisations expose more data through applications, reporting and AI-powered experiences, we need security models that can operate at scale.</p>
+
+
+
+<p class="wp-block-paragraph">And that means moving beyond manually maintained access structures wherever possible.</p>
+
+
+
+<p class="wp-block-paragraph">The more intelligently we can define:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Who can access what, and why?</strong></p>
+
+
+
+<p class="wp-block-paragraph">the stronger the foundation becomes for everything built on top of that data.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/26a0.png" alt="⚠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> But don&#8217;t confuse this with &#8220;security is now automatic&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is still an administrative security capability.</p>
+
+
+
+<p class="wp-block-paragraph">Organisations will need to carefully consider:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Which fields should influence access?</li>
+
+
+
+<li>Are those fields accurate?</li>
+
+
+
+<li>Can users modify them?</li>
+
+
+
+<li>What happens when the value changes?</li>
+
+
+
+<li>What happens when a record doesn&#8217;t contain the expected value?</li>
+
+
+
+<li>Are there exceptions?</li>
+
+
+
+<li>How will the model be tested?</li>
+
+
+
+<li>How will access be reviewed over time?</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The fact that a field contains a value doesn&#8217;t automatically make it a good security boundary.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Your data quality becomes increasingly important.</strong></p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;re going to use:</p>
+
+
+
+<p class="wp-block-paragraph">Region = UK</p>
+
+
+
+<p class="wp-block-paragraph">as part of your access model, you need confidence that &#8220;Region&#8221; is accurate, consistently populated and appropriately governed.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The bigger picture</strong></p>
+
+
+
+<p class="wp-block-paragraph">For me, this update represents something bigger than another Power Platform security feature.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s part of a broader movement towards attribute-based and context-aware governance.</p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;re gradually moving away from security models that simply ask:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Who owns this?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">and towards models that can ask:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;What is this, what does it represent, and who should be able to access it?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That is a much more sophisticated way of thinking about information security.</p>
+
+
+
+<p class="wp-block-paragraph">And as organisations continue to build larger Dataverse environments, reporting platforms and AI-powered solutions, that flexibility could become increasingly valuable.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> When is it coming?</strong></p>
+
+
+
+<p class="wp-block-paragraph">According to <strong>MC1465569</strong>, the feature is scheduled to reach <strong>Public Preview on 16 October 2026</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft describes the announcement as an updated message, meaning the release information has been changed since the original announcement.</p>
+
+
+
+<p class="wp-block-paragraph">The Message Center announcement identifies this as a Power Platform capability.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">I think this is one of those updates that could easily be overlooked because the technical description doesn&#8217;t immediately convey the potential impact.</p>
+
+
+
+<p class="wp-block-paragraph">But the underlying idea is powerful:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why create complicated ownership structures when the data itself already tells us how access should work?</strong></p>
+
+
+
+<p class="wp-block-paragraph">For organisations with large datasets, reporting environments and complex business structures, the ability to define record-level access around meaningful business attributes could provide:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Less administration.</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Greater scalability.</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Simpler security models.</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Better alignment between data and governance.</strong></p>
+
+
+
+<p class="wp-block-paragraph">And perhaps most importantly:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Security that reflects the way the organisation actually thinks about its information.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a direction I&#8217;m very interested to see develop as Microsoft continues to evolve the Power Platform.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">293</post-id>	</item>
+		<item>
 		<title>The Story of Sir Nicholas Winton</title>
 		<link>https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/</link>
 					<comments>https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/#respond</comments>
@@ -39,8 +755,8 @@
 
 					<description><![CDATA[One of the most remarkable and inspiring stories I have ever heard is that of Sir Nicholas Winton. The year was 1938, and I am sure we are all aware of what was happening in the world at that time. Sir Nicholas Winton was a young London stockbroker preparing for a skiing holiday when he [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="675" height="725" data-attachment-id="290" data-permalink="https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/sir-nicholas-winton/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-orig-size="675,725" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Sir Nicholas Winton" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-id="290" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=675%2C725&#038;ssl=1" alt="" class="wp-image-290" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?w=675&amp;ssl=1 675w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=279%2C300&amp;ssl=1 279w" sizes="(max-width: 675px) 100vw, 675px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="675" height="725" data-attachment-id="290" data-permalink="https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/sir-nicholas-winton/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-orig-size="675,725" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Sir Nicholas Winton" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-id="290" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=675%2C725&#038;ssl=1" alt="" class="wp-image-290" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?w=675&amp;ssl=1 675w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=279%2C300&amp;ssl=1 279w" sizes="(max-width: 675px) 100vw, 675px" /></figure>
 </figure>
 
 
@@ -185,7 +901,7 @@
 
 					<description><![CDATA[Microsoft Purview continues to evolve from a collection of individual compliance controls into a much more dynamic governance platform. One particularly useful development is Roadmap ID 549288: Microsoft Purview Data Loss Prevention – Adaptive Scopes for DLP for SharePoint. And while the headline might sound like another technical DLP feature, the real benefit is much [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="285" data-permalink="https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/adaptive-scopes-sharepoint-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Adaptive Scopes SharePoint pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?fit=1024%2C683&amp;ssl=1" data-id="285" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-285" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -825,8 +1541,8 @@
 
 					<description><![CDATA[Microsoft Purview is bringing &#8220;last accessed&#8221; retention to SharePoint and OneDrive One of the biggest challenges in Microsoft 365 isn&#8217;t necessarily creating information. It&#8217;s getting rid of information we no longer need. Over the years, organisations accumulate enormous amounts of content in SharePoint and OneDrive: And often, nobody knows whether any of it is still [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="278" data-permalink="https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/retention-based-on-last-access-for-files-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Retention based on last access for files picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1024%2C683&amp;ssl=1" data-id="278" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-278" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="278" data-permalink="https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/retention-based-on-last-access-for-files-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Retention based on last access for files picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1024%2C683&amp;ssl=1" data-id="278" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-278" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1515,7 +2231,7 @@
 
 					<description><![CDATA[Your biggest data protection problem might already be sitting in SharePoint When organisations talk about information protection, the conversation often focuses on what happens from now on. New documents get created. New files are uploaded. Users apply sensitivity labels. Policies are configured. DLP is enabled. Everything looks nicely governed. But there is a problem. ❓ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="274" data-permalink="https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/purview-data-at-rest-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview data at rest picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1024%2C683&amp;ssl=1" data-id="274" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-274" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2239,7 +2955,7 @@
 
 					<description><![CDATA[&#160;What happens when Copilot needs to search the web? Microsoft 365 Copilot has become an increasingly powerful way for users to find information, summarise content and get answers without having to manually search across multiple sources. But there is an important question for organisations: &#160;What happens when the information being used by Copilot contains sensitive [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="266" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/purview-web-searches-2-3/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview web searches 2" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1024%2C683&amp;ssl=1" data-id="266" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-266" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2673,7 +3389,7 @@
 
 					<description><![CDATA[Microsoft 365 Message Center ID: MC1458282General Availability: 26 August 2026 If your organisation is using Power Platform, Copilot Studio or AI-powered workloads, keeping control of capacity and consumption is becoming increasingly important. Microsoft is introducing a new Cost controls – Draw from tenant credit pool rule in the Power Platform admin center, giving administrators more [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="255" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/power-platform-cost-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Power Platform cost image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1024%2C683&amp;ssl=1" data-id="255" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-255" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3113,7 +3829,7 @@
 
 					<description><![CDATA[As organisations accelerate their adoption of generative AI, governance teams face a familiar challenge: how do you maintain visibility, compliance and security when business users are interacting with AI platforms outside of Microsoft 365? Microsoft Purview&#8217;s Anthropic Claude Enterprise connector helps address this challenge by bringing Claude activity and conversation data into the Microsoft Purview [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="249" data-permalink="https://jimtalks.co.uk/2026/08/18/%f0%9f%9a%a8-bringing-anthropic-claude-enterprise-into-microsoft-purview-a-practical-deployment-guide/claude-anthropic-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Claude Anthropic pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?fit=1024%2C683&amp;ssl=1" data-id="249" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-249" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Claude-Anthropic-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3737,7 +4453,7 @@
 
 					<description><![CDATA[If you&#8217;ve ever had to deal with PST files, you&#8217;ll know they have a habit of appearing at exactly the wrong time. Old Outlook archives. Historical mailboxes. Former employees. Data sitting on file shares or someone&#8217;s laptop. And eventually someone asks the inevitable question: &#8220;Can we get all of this email back into Microsoft 365?&#8221; [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="241" data-permalink="https://jimtalks.co.uk/2026/08/17/%f0%9f%93%a6-azure-roadmap-update-azure-pst-import-is-coming-to-exchange-online-and-it-changes-how-administrators-handle-archived-email/azure-pst-import-pic-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Azure PST import pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?fit=1024%2C683&amp;ssl=1" data-id="241" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-241" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Azure-PST-import-pic-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4531,7 +5247,7 @@
 
 					<description><![CDATA[&#8220;Are our employees using AI?&#8221; If your immediate answer is &#8220;Not really&#8221; or &#8220;We don&#8217;t think so&#8221;, you might want to keep reading. Because here&#8217;s the uncomfortable truth: AI adoption is moving much faster than most organisations can govern it. Employees are already using AI to write emails, summarise meetings, analyse spreadsheets, create presentations, write [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="229" data-permalink="https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/designer-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Designer" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?fit=1024%2C683&amp;ssl=1" data-id="229" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-229" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Designer-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -6033,7 +6749,7 @@
 
 
 
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/%f0%9f%9a%a8-shadow-ai-the-ai-your-organisation-doesnt-know-its-using/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
 
 
 
@@ -6045,75 +6761,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">221</post-id>	</item>
-		<item>
-		<title>Taking inspiration from… Saw 5?</title>
-		<link>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/</link>
-					<comments>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Sat, 15 Aug 2026 11:45:50 +0000</pubDate>
-				<category><![CDATA[Motivational Speaking]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=199</guid>
-
-					<description><![CDATA[Yes, you read that right. Again, hear me out. I am a big believer in shared interests and finding things we can enjoy with others. When the chance came to watch a horror film with a loved one, I was sure it was something we could enjoy and discuss afterwards. The film came and went. [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-11 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="205" data-permalink="https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/chatgpt-image-aug-15-2026-12_38_20-pm-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Aug 15, 2026, 12_38_20 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?fit=1024%2C683&amp;ssl=1" data-id="205" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-205" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/ChatGPT-Image-Aug-15-2026-12_38_20-PM-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph">Yes, you read that right. Again, hear me out.</p>
-
-
-
-<p class="wp-block-paragraph">I am a big believer in shared interests and finding things we can enjoy with others. When the chance came to watch a horror film with a loved one, I was sure it was something we could enjoy and discuss afterwards.</p>
-
-
-
-<p class="wp-block-paragraph">The film came and went. However, something quite unexpected happened… I was inspired, and not in a “movie” type of way.</p>
-
-
-
-<p class="wp-block-paragraph">The film follows a group of people trapped in a situation where they must overcome challenges to survive. Then came an incredible revelation: the challenges were never designed for individuals to overcome alone. They were designed for the group to work together, allowing everyone to make it to the end.</p>
-
-
-
-<p class="wp-block-paragraph">Whilst taking some time to reflect on that, I found myself applying that principle to daily life. We all face problems every day, and we all could benefit from each other’s experiences.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>The problems I am experiencing today are the problems someone experienced yesterday, and someone else will experience tomorrow.</strong></p>
-
-
-
-<p class="wp-block-paragraph">That is how we can look after each other. Knowledge sharing, reassurance, simply leaning on each other. &nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">None of us have to solve everything alone. Sometimes the answer we need is sitting with someone who has already faced the same challenge…</p>
-
-
-
-<p class="wp-block-paragraph">And that is the value of helping others: we don&#8217;t just solve problems for people; we make sure fewer people have to face them alone.</p>
-
-
-
-<p class="wp-block-paragraph">People are better when we stop seeing each other as obstacles and start seeing each other as support.</p>
-
-
-
-<p class="wp-block-paragraph">Who’d have thought that Saw 5 of all things would have given such a powerful message?</p>
-
-
-
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-12 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/08/15/taking-inspiration-from-saw-5/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">199</post-id>	</item>
 	</channel>
 </rss>
