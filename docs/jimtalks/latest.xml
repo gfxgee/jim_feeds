@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Wed, 09 Sep 2026 13:00:34 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 10 Sep 2026 10:31:30 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,522 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Purview: Helping You Make Better Retention Decisions</title>
+		<link>https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/</link>
+					<comments>https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Thu, 10 Sep 2026 10:31:30 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=317</guid>
+
+					<description><![CDATA[Microsoft 365 Roadmap ID: 562343 Data retention sounds simple. Keep what you need.Delete what you don&#8217;t.Retain information for as long as regulations, policies and the business require. In reality, it&#8217;s rarely that straightforward. Most organisations have enormous amounts of information sitting across SharePoint and OneDrive. Some of it is sensitive. Some of it is business-critical. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="576" data-attachment-id="318" data-permalink="https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/data-lifecycle-management-insights-and-policy-recommendations/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Data Lifecycle Management &amp;#8211; Insights and Policy recommendations" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1024%2C576&amp;ssl=1" data-id="318" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-318" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft 365 Roadmap ID: 562343</strong></p>
+
+
+
+<p class="wp-block-paragraph">Data retention sounds simple.</p>
+
+
+
+<p class="wp-block-paragraph">Keep what you need.<br>Delete what you don&#8217;t.<br>Retain information for as long as regulations, policies and the business require.</p>
+
+
+
+<p class="wp-block-paragraph">In reality, it&#8217;s rarely that straightforward.</p>
+
+
+
+<p class="wp-block-paragraph">Most organisations have enormous amounts of information sitting across SharePoint and OneDrive. Some of it is sensitive. Some of it is business-critical. Some of it is old, duplicated or no longer required.</p>
+
+
+
+<p class="wp-block-paragraph">The challenge isn&#8217;t simply how to retain data.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>It&#8217;s knowing what you should retain, why you should retain it, and for how long.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s where Microsoft Purview is heading with <strong>Roadmap ID 562343</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is introducing new insights into sensitive Microsoft 365 data, together with recommendations for retention policies, helping organisations make more informed Data Lifecycle Management decisions.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Retention shouldn&#8217;t be guesswork</strong></p>
+
+
+
+<p class="wp-block-paragraph">One of the biggest problems with information governance is that retention policies can sometimes be created from assumptions.</p>
+
+
+
+<p class="wp-block-paragraph">For example:</p>
+
+
+
+<p class="wp-block-paragraph">&#8220;Let&#8217;s keep everything for seven years.&#8221;</p>
+
+
+
+<p class="wp-block-paragraph">It sounds safe.</p>
+
+
+
+<p class="wp-block-paragraph">But is it actually good governance?</p>
+
+
+
+<p class="wp-block-paragraph">Keeping everything indefinitely creates its own problems.</p>
+
+
+
+<p class="wp-block-paragraph">More data means:</p>
+
+
+
+<ul class="wp-block-list">
+<li>More storage</li>
+
+
+
+<li>More information to manage</li>
+
+
+
+<li>More information to discover</li>
+
+
+
+<li>More information that could be exposed</li>
+
+
+
+<li>More compliance complexity</li>
+
+
+
+<li>More unnecessary personal or sensitive data</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The goal shouldn&#8217;t be maximum retention.</p>
+
+
+
+<p class="wp-block-paragraph">It should be appropriate retention.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Turning sensitive data into an actionable insight</strong></p>
+
+
+
+<p class="wp-block-paragraph">The interesting part of <strong>RM562343</strong> is the focus on insights.</p>
+
+
+
+<p class="wp-block-paragraph">Rather than simply giving administrators another place to configure a retention policy, Microsoft is looking at the information already held within Microsoft 365 and helping organisations understand their sensitive data.</p>
+
+
+
+<p class="wp-block-paragraph">The roadmap specifically focuses on SharePoint and OneDrive.</p>
+
+
+
+<p class="wp-block-paragraph">That could help answer questions such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Where is sensitive information being stored?</li>
+
+
+
+<li>How much sensitive information do we have?</li>
+
+
+
+<li>What information might require a retention policy?</li>
+
+
+
+<li>Where are our potential governance gaps?</li>
+
+
+
+<li>Are our current retention policies aligned with the data we actually hold?</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">That changes the conversation.</p>
+
+
+
+<p class="wp-block-paragraph">Instead of:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;What retention policy should we create?&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">we can start with:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;What does our data tell us we need to protect and retain?&#8221;</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>From data discovery to lifecycle management</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is where I think this capability becomes particularly interesting.</p>
+
+
+
+<p class="wp-block-paragraph">Organisations often have separate processes for:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Discovering sensitive information</strong></p>
+
+
+
+<p class="wp-block-paragraph">and</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Managing its lifecycle.</strong></p>
+
+
+
+<p class="wp-block-paragraph">But those two activities should be connected.</p>
+
+
+
+<p class="wp-block-paragraph">If Purview identifies sensitive information, that insight can potentially help inform the next governance decision:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Should this information have a retention policy?</strong></p>
+
+
+
+<p class="wp-block-paragraph">That creates a much more intelligent lifecycle:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Discover → Understand → Decide → Retain → Review → Dispose</strong></p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s exactly the direction I&#8217;d like to see information governance moving towards.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>It&#8217;s not about retaining everything</strong></p>
+
+
+
+<p class="wp-block-paragraph">There is an important governance principle here.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Retention is not the same as preservation.</strong></p>
+
+
+
+<p class="wp-block-paragraph">A good retention strategy should balance competing requirements.</p>
+
+
+
+<p class="wp-block-paragraph">For example:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Keep it</strong></p>
+
+
+
+<p class="wp-block-paragraph">Because there&#8217;s a legal, regulatory or business requirement.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Keep it for a defined period</strong></p>
+
+
+
+<p class="wp-block-paragraph">Because the information has a useful business or compliance lifecycle.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Review it</strong></p>
+
+
+
+<p class="wp-block-paragraph">Because its value or risk may change over time.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Dispose of it</strong></p>
+
+
+
+<p class="wp-block-paragraph">Because there is no longer a legitimate reason to retain it.</p>
+
+
+
+<p class="wp-block-paragraph">This is why better data insight matters.</p>
+
+
+
+<p class="wp-block-paragraph">You can&#8217;t make good lifecycle decisions if you don&#8217;t understand the information you&#8217;re managing.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why SharePoint and OneDrive matter</strong></p>
+
+
+
+<p class="wp-block-paragraph">For many organisations, SharePoint and OneDrive have become the default locations for business information.</p>
+
+
+
+<p class="wp-block-paragraph">Documents are created, shared, collaborated on and increasingly consumed by AI.</p>
+
+
+
+<p class="wp-block-paragraph">That makes information governance even more important.</p>
+
+
+
+<p class="wp-block-paragraph">Sensitive information sitting in an old SharePoint site isn&#8217;t necessarily harmless simply because nobody has looked at it for several years.</p>
+
+
+
+<p class="wp-block-paragraph">It can still represent:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Compliance risk</li>
+
+
+
+<li>Privacy risk</li>
+
+
+
+<li>Security risk</li>
+
+
+
+<li>Discovery risk</li>
+
+
+
+<li>AI exposure risk</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Understanding where that information exists — and how long it should exist — is therefore becoming increasingly important.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>This could also help with AI governance</strong></p>
+
+
+
+<p class="wp-block-paragraph">There&#8217;s another angle here that I think organisations should consider.</p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;re now entering a world where AI can find and use organisational information at incredible speed.</p>
+
+
+
+<p class="wp-block-paragraph">That makes data lifecycle management part of AI governance.</p>
+
+
+
+<p class="wp-block-paragraph">If your organisation has thousands of old documents containing sensitive information, those documents may become increasingly relevant as AI capabilities expand.</p>
+
+
+
+<p class="wp-block-paragraph">So the question becomes:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Do we really want AI to be able to discover information simply because we&#8217;ve never deleted it?</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a very different way of thinking about retention.</p>
+
+
+
+<p class="wp-block-paragraph">Good lifecycle management isn&#8217;t just about satisfying regulatory requirements.</p>
+
+
+
+<p class="wp-block-paragraph">It can also help create a cleaner, safer and more governable data estate for AI.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What should organisations do now?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Although RM562343 is still in development, I&#8217;d use this opportunity to review your current information lifecycle strategy.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Understand your sensitive data</strong></p>
+
+
+
+<p class="wp-block-paragraph">Do you know where your sensitive information actually lives?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Review your retention policies</strong></p>
+
+
+
+<p class="wp-block-paragraph">Are your policies based on business requirements and regulatory obligations — or simply historical decisions?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Identify old data</strong></p>
+
+
+
+<p class="wp-block-paragraph">Look for information that may no longer have a legitimate reason to exist.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Connect classification and retention</strong></p>
+
+
+
+<p class="wp-block-paragraph">Your classification strategy should help inform your lifecycle strategy.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Think about AI</strong></p>
+
+
+
+<p class="wp-block-paragraph">Consider whether unnecessary historical information could create additional risk as AI adoption increases.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">For me, RM562343 isn&#8217;t simply another Purview feature.</p>
+
+
+
+<p class="wp-block-paragraph">It represents a move towards more intelligence in information lifecycle management.</p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;re moving away from:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Create a retention policy and hope it covers the right information.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">Towards:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>&#8220;Understand our information first, then make better lifecycle decisions.&#8221;</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s a much stronger governance model.</p>
+
+
+
+<p class="wp-block-paragraph">Because ultimately, good information governance isn&#8217;t about keeping everything.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s about keeping the right information, for the right reason, for the right amount of time &#8211; and confidently disposing of the rest.</p>
+
+
+
+<p class="wp-block-paragraph">Better insight should lead to better retention decisions.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s why <strong>Roadmap ID 562343</strong> is one worth watching.</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">317</post-id>	</item>
+		<item>
 		<title>🚨 Microsoft Purview DLP Comes to Microsoft Cowork: One Policy, More Protection</title>
 		<link>https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/</link>
 					<comments>https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/#respond</comments>
@@ -39,8 +555,8 @@
 
 					<description><![CDATA[Microsoft Roadmap ID: 570845 AI is rapidly becoming part of the way people work — but as organisations introduce more AI experiences, the security challenge becomes increasingly important: How do you protect sensitive information consistently across all of them? Microsoft is addressing part of that challenge with Roadmap ID 570845, which brings Microsoft Purview Data [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="314" data-permalink="https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/data-loss-prevention-for-microsoft-cowork/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Data Loss Prevention for Microsoft Cowork" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1024%2C683&amp;ssl=1" data-id="314" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-314" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="314" data-permalink="https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/data-loss-prevention-for-microsoft-cowork/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Data Loss Prevention for Microsoft Cowork" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1024%2C683&amp;ssl=1" data-id="314" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-314" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -561,7 +1077,7 @@
 
 					<description><![CDATA[There is a question that doesn&#8217;t get asked often enough when organisations deploy Data Loss Prevention: &#8220;We&#8217;ve created the DLP policy. But do we know whether our devices are actually ready to enforce it?&#8221; It&#8217;s an important distinction. Creating a Microsoft Purview Endpoint DLP policy is relatively straightforward. Making sure that the devices across your [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="307" data-permalink="https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/deployed-endpoint-dlp/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Deployed Endpoint DLP" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1024%2C683&amp;ssl=1" data-id="307" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-307" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1071,8 +1587,8 @@
 
 					<description><![CDATA[Microsoft 365 Message Center: MC1465771Last modified: 1 September 2026 Microsoft is making an interesting change to the way Microsoft Purview Data Loss Prevention (DLP) signals are handled inside Microsoft Defender XDR. From 12 October 2026, Microsoft Defender XDR will, by default, treat Microsoft Purview DLP alerts as behaviours rather than standard alerts. At first glance, [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="302" data-permalink="https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/dlp-defender-alerts-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="DLP defender alerts pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1024%2C683&amp;ssl=1" data-id="302" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-302" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="302" data-permalink="https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/dlp-defender-alerts-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="DLP defender alerts pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1024%2C683&amp;ssl=1" data-id="302" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-302" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1903,7 +2419,7 @@
 
 					<description><![CDATA[🚨 Microsoft Power Platform gets smarter record-level security with column-based filtering There are plenty of organisations where record ownership simply doesn&#8217;t reflect how the business actually works. Think about a large dataset containing thousands of records. Perhaps each record has a Region, Department, Business Unit or another attribute that determines who should be able to [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="294" data-permalink="https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/column-based-filtering-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Column based filtering pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1024%2C683&amp;ssl=1" data-id="294" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-294" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2619,7 +3135,7 @@
 
 					<description><![CDATA[One of the most remarkable and inspiring stories I have ever heard is that of Sir Nicholas Winton. The year was 1938, and I am sure we are all aware of what was happening in the world at that time. Sir Nicholas Winton was a young London stockbroker preparing for a skiing holiday when he [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="675" height="725" data-attachment-id="290" data-permalink="https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/sir-nicholas-winton/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-orig-size="675,725" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Sir Nicholas Winton" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-id="290" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=675%2C725&#038;ssl=1" alt="" class="wp-image-290" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?w=675&amp;ssl=1 675w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=279%2C300&amp;ssl=1 279w" sizes="(max-width: 675px) 100vw, 675px" /></figure>
 </figure>
 
@@ -2765,7 +3281,7 @@
 
 					<description><![CDATA[Microsoft Purview continues to evolve from a collection of individual compliance controls into a much more dynamic governance platform. One particularly useful development is Roadmap ID 549288: Microsoft Purview Data Loss Prevention – Adaptive Scopes for DLP for SharePoint. And while the headline might sound like another technical DLP feature, the real benefit is much [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="285" data-permalink="https://jimtalks.co.uk/2026/08/28/%f0%9f%9a%a8-microsoft-purview-roadmap-549288-making-sharepoint-dlp-smarter-with-adaptive-scopes/adaptive-scopes-sharepoint-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Adaptive Scopes SharePoint pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?fit=1024%2C683&amp;ssl=1" data-id="285" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-285" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Adaptive-Scopes-SharePoint-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3405,7 +3921,7 @@
 
 					<description><![CDATA[Microsoft Purview is bringing &#8220;last accessed&#8221; retention to SharePoint and OneDrive One of the biggest challenges in Microsoft 365 isn&#8217;t necessarily creating information. It&#8217;s getting rid of information we no longer need. Over the years, organisations accumulate enormous amounts of content in SharePoint and OneDrive: And often, nobody knows whether any of it is still [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="278" data-permalink="https://jimtalks.co.uk/2026/08/24/%f0%9f%9a%a8-what-if-we-stopped-retaining-files-simply-because-nobody-has-deleted-them/retention-based-on-last-access-for-files-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Retention based on last access for files picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?fit=1024%2C683&amp;ssl=1" data-id="278" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-278" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Retention-based-on-last-access-for-files-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4095,7 +4611,7 @@
 
 					<description><![CDATA[Your biggest data protection problem might already be sitting in SharePoint When organisations talk about information protection, the conversation often focuses on what happens from now on. New documents get created. New files are uploaded. Users apply sensitivity labels. Policies are configured. DLP is enabled. Everything looks nicely governed. But there is a problem. ❓ [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="274" data-permalink="https://jimtalks.co.uk/2026/08/22/%f0%9f%9a%a8-microsoft-purview-is-coming-for-the-data-youve-already-forgotten-about/purview-data-at-rest-picture/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview data at rest picture" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?fit=1024%2C683&amp;ssl=1" data-id="274" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-274" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-data-at-rest-picture.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4819,7 +5335,7 @@
 
 					<description><![CDATA[&#160;What happens when Copilot needs to search the web? Microsoft 365 Copilot has become an increasingly powerful way for users to find information, summarise content and get answers without having to manually search across multiple sources. But there is an important question for organisations: &#160;What happens when the information being used by Copilot contains sensitive [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="266" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-microsoft-purview-gets-another-layer-of-protection-for-copilot-web-searches/purview-web-searches-2-3/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Purview web searches 2" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?fit=1024%2C683&amp;ssl=1" data-id="266" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-266" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Purview-web-searches-2-2.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5241,445 +5757,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">265</post-id>	</item>
-		<item>
-		<title>🚨 Power Platform Cost Controls: Microsoft Introduces Tenant Credit Pool Governance</title>
-		<link>https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/</link>
-					<comments>https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Fri, 21 Aug 2026 08:49:51 +0000</pubDate>
-				<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=253</guid>
-
-					<description><![CDATA[Microsoft 365 Message Center ID: MC1458282General Availability: 26 August 2026 If your organisation is using Power Platform, Copilot Studio or AI-powered workloads, keeping control of capacity and consumption is becoming increasingly important. Microsoft is introducing a new Cost controls – Draw from tenant credit pool rule in the Power Platform admin center, giving administrators more [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="255" data-permalink="https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/power-platform-cost-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Power Platform cost image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?fit=1024%2C683&amp;ssl=1" data-id="255" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-255" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?resize=1200%2C800&amp;ssl=1 1200w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Power-Platform-cost-image.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph"><strong>Microsoft 365 Message Center ID: MC1458282</strong><br><strong>General Availability: 26 August 2026</strong></p>
-
-
-
-<p class="wp-block-paragraph">If your organisation is using Power Platform, Copilot Studio or AI-powered workloads, keeping control of capacity and consumption is becoming increasingly important.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft is introducing a new Cost controls – Draw from tenant credit pool rule in the Power Platform admin center, giving administrators more control over how environments consume available tenant capacity.</p>
-
-
-
-<p class="wp-block-paragraph">And while Microsoft has classified this update as awareness only, it is worth understanding before it reaches general availability.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What is changing?</strong></p>
-
-
-
-<p class="wp-block-paragraph">The new Draw from tenant credit pool capability allows administrators to decide whether an environment can use capacity from the organisation&#8217;s wider tenant credit pool when:</p>
-
-
-
-<ul class="wp-block-list">
-<li>The environment reaches its allocated credit limit, or</li>
-
-
-
-<li>The environment doesn&#8217;t have a specific credit allocation.</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">By default, the setting:</p>
-
-
-
-<p class="wp-block-paragraph">Draw from the available capacity in my tenant</p>
-
-
-
-<p class="wp-block-paragraph">will be enabled at the environment level.</p>
-
-
-
-<p class="wp-block-paragraph">This means an environment can potentially consume available capacity from the wider tenant pool once its own allocation has been exhausted.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft is now giving administrators the ability to change that behaviour.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /><strong>Why does this matter?</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is fundamentally about cost and capacity governance.</p>
-
-
-
-<p class="wp-block-paragraph">As organisations increasingly deploy Copilot Studio agents, Power Platform automation and other AI capabilities, consumption can become harder to predict.</p>
-
-
-
-<p class="wp-block-paragraph">Without appropriate controls, an individual environment could potentially consume additional capacity from the tenant pool once its allocated credits have been used.</p>
-
-
-
-<p class="wp-block-paragraph">The new control gives organisations a choice:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Allow the environment to draw from the tenant pool</strong></p>
-
-
-
-<p class="wp-block-paragraph">This provides greater flexibility and helps workloads continue operating when their allocated capacity is exhausted.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Prevent the environment from drawing from the tenant pool</strong></p>
-
-
-
-<p class="wp-block-paragraph">This provides tighter cost control by limiting the credits that the environment can consume each month.</p>
-
-
-
-<p class="wp-block-paragraph">Neither option is universally &#8220;right&#8221;.</p>
-
-
-
-<p class="wp-block-paragraph">The important thing is that the decision becomes part of your Power Platform governance model.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /><strong>Environment-level control</strong></p>
-
-
-
-<p class="wp-block-paragraph">Administrators will be able to manage the capability for individual environments through the <strong>Power Platform admin center</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">This provides a useful level of granularity where different environments have different requirements.</p>
-
-
-
-<p class="wp-block-paragraph">For example, you might decide:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Development environments</strong></p>
-
-
-
-<p class="wp-block-paragraph">Don&#8217;t draw from the tenant pool.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Test environments</strong></p>
-
-
-
-<p class="wp-block-paragraph">Don&#8217;t draw from the tenant pool unless specifically approved.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Critical production environments</strong></p>
-
-
-
-<p class="wp-block-paragraph">Allow access to the tenant pool to reduce the risk of service disruption.</p>
-
-
-
-<p class="wp-block-paragraph">This is where the feature becomes particularly interesting from a governance perspective.</p>
-
-
-
-<p class="wp-block-paragraph">Rather than treating every environment identically, organisations can make decisions based on business criticality, consumption and risk.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /><strong>But there is an important catch with Environment Groups</strong></p>
-
-
-
-<p class="wp-block-paragraph">If you&#8217;re using Environment Groups, pay particular attention to this part.</p>
-
-
-
-<p class="wp-block-paragraph">When the rule is published for an Environment Group, the setting will apply across all environments within that group.</p>
-
-
-
-<p class="wp-block-paragraph">The individual environments will then no longer be able to change the setting themselves.</p>
-
-
-
-<p class="wp-block-paragraph">That means you need to think carefully about your group structure.</p>
-
-
-
-<p class="wp-block-paragraph">For example:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Production Environment Group</strong><br>↓<br>Cost control rule enabled<br>↓<br>All environments inherit the setting</p>
-
-
-
-<p class="wp-block-paragraph">If you need individual environment-level control, Microsoft states that you should not apply the rule to that Environment Group, or alternatively move the environment outside the group.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f539.png" alt="🔹" class="wp-smiley" style="height: 1em; max-height: 1em;" /><strong>This is more than a cost-control setting</strong></p>
-
-
-
-<p class="wp-block-paragraph">For me, the interesting part of this announcement isn&#8217;t simply the new toggle.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s another example of Microsoft giving organisations increasingly granular controls over the AI and Power Platform estate.</p>
-
-
-
-<p class="wp-block-paragraph">As organisations move from experimenting with Copilot and agents to running them as production services, governance needs to evolve.</p>
-
-
-
-<p class="wp-block-paragraph">You need to start asking questions such as:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Which environments are allowed to consume tenant capacity?</li>
-
-
-
-<li>Which environments should have hard consumption boundaries?</li>
-
-
-
-<li>Who owns the consumption?</li>
-
-
-
-<li>Which environments are business critical?</li>
-
-
-
-<li>How much capacity should each environment receive?</li>
-
-
-
-<li>What happens when an environment reaches its allocation?</li>
-
-
-
-<li>Are Environment Groups being used appropriately?</li>
-
-
-
-<li>Are we monitoring consumption closely enough to identify unexpected growth?</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">These are no longer simply Power Platform administration questions.</p>
-
-
-
-<p class="wp-block-paragraph">They&#8217;re becoming part of AI governance, financial governance and operational governance.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e0.png" alt="🛠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> What should administrators do?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft says no action is required for this update.</p>
-
-
-
-<p class="wp-block-paragraph">However, I&#8217;d recommend using the announcement as an opportunity to review your current capacity governance.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>1. Review your environments</strong></p>
-
-
-
-<p class="wp-block-paragraph">Understand which environments are:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Development</li>
-
-
-
-<li>Test</li>
-
-
-
-<li>Production</li>
-
-
-
-<li>Business critical</li>
-
-
-
-<li>Experimental</li>
-
-
-
-<li>No longer required</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>2. Review your Environment Groups</strong></p>
-
-
-
-<p class="wp-block-paragraph">If you&#8217;re using Environment Groups, understand which environments inherit configuration from group-level rules.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>3. Review your consumption model</strong></p>
-
-
-
-<p class="wp-block-paragraph">Consider whether environments should be able to draw from the wider tenant pool when their allocation is exhausted.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>4. Consider your governance policy</strong></p>
-
-
-
-<p class="wp-block-paragraph">Don&#8217;t make the decision purely from a technical perspective.</p>
-
-
-
-<p class="wp-block-paragraph">Consider <strong>business criticality, cost, risk and user impact</strong>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e0.png" alt="🛠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> How do you configure it?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft states that administrators can configure the rule from:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Power Platform admin center → Manage → Environment Group</strong></p>
-
-
-
-<p class="wp-block-paragraph">Select the relevant Environment Group and add:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Cost controls &#8211; Draw from tenant credit pool</strong></p>
-
-
-
-<p class="wp-block-paragraph">You can then configure whether the setting is enabled or disabled and apply the changes.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft also states that Power Platform API methods can be used to manage the capability at scale.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
-
-
-
-<p class="wp-block-paragraph">The Power Platform is increasingly becoming an enterprise AI platform, not simply a collection of low-code tools.</p>
-
-
-
-<p class="wp-block-paragraph">As Copilot Studio agents and AI-powered workloads become embedded into everyday business processes, capacity management becomes governance.</p>
-
-
-
-<p class="wp-block-paragraph">The question is no longer simply:</p>
-
-
-
-<p class="wp-block-paragraph"><em>&#8220;Can we build this agent?&#8221;</em></p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s increasingly:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Can we govern what happens when thousands of people start using it?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">This new control is a small but important piece of that puzzle.</p>
-
-
-
-<p class="wp-block-paragraph"><br><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> General Availability:</strong> 26 August 2026</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Microsoft 365 Message Center:</strong> MC1458282</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/08/21/%f0%9f%9a%a8-power-platform-cost-controls-microsoft-introduces-tenant-credit-pool-governance/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">253</post-id>	</item>
 	</channel>
 </rss>
