@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Wed, 16 Sep 2026 15:38:27 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 29 Sep 2026 17:00:55 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,778 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Purview Is Retiring DSPM Classic &#8211; Here’s What You Need to Do</title>
+		<link>https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/</link>
+					<comments>https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Tue, 29 Sep 2026 17:00:55 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=384</guid>
+
+					<description><![CDATA[If your organisation is still using the classic Microsoft Purview Data Security Posture Management experiences, there is a change coming that you should put on the radar now. Microsoft Message Center update MC1481315 confirms that Microsoft is retiring: The retirement begins 30 November 2026, with the classic experiences expected to be fully retired by 31 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">If your organisation is still using the classic Microsoft Purview Data Security Posture Management experiences, there is a change coming that you should put on the radar now.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Message Center update <strong>MC1481315</strong> confirms that Microsoft is retiring:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Microsoft Purview Data Security Posture Management (DSPM) classic</strong></li>
+
+
+
+<li><strong>Microsoft Purview DSPM for AI classic</strong></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The retirement begins <strong>30 November 2026</strong>, with the classic experiences expected to be fully retired by <strong>31 December 2026</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">This isn&#8217;t simply a navigation change.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is moving customers towards a <strong>single, unified DSPM experience</strong> that brings together data security posture management across traditional data sources, AI applications and AI agents and in my view, that tells us something quite important about where Microsoft sees data security heading.</p>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>DSPM for AI is becoming part of DSPM</strong></p>
+
+
+
+<p class="wp-block-paragraph">The original DSPM experiences had a fairly obvious separation. You had traditional DSPM looking at your broader data security posture, then you had <strong>DSPM for AI</strong>, focused specifically on AI applications, Copilot experiences, agents and the risks associated with AI interactions.</p>
+
+
+
+<p class="wp-block-paragraph">That separation is now going away.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft has converged DSPM and DSPM for AI into a single experience.</p>
+
+
+
+<p class="wp-block-paragraph">The current Microsoft Learn documentation describes the new DSPM as a unified solution designed to help organisations <strong>discover, protect and investigate data risks</strong>, while bringing AI applications and agents into the same experience.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s an important change in mindset. AI isn&#8217;t being treated as a completely separate data security problem anymore.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s becoming part of the overall data security posture, and I think that&#8217;s the right direction.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>So what actually changes?</strong></p>
+
+
+
+<p class="wp-block-paragraph">From <strong>30 November 2026</strong>, Microsoft will begin retiring the classic experiences.</p>
+
+
+
+<p class="wp-block-paragraph">By <strong>31 December 2026</strong>, they will no longer be available.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s current guidance is that organisations should use the new:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Purview portal → Solutions → DSPM</strong></p>
+
+
+
+<p class="wp-block-paragraph">instead.</p>
+
+
+
+<p class="wp-block-paragraph">The new experience brings together capabilities including:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Posture</li>
+
+
+
+<li>Reports</li>
+
+
+
+<li>Remediation actions</li>
+
+
+
+<li>Data security objectives</li>
+
+
+
+<li>Activity Explorer</li>
+
+
+
+<li>Data risk assessments</li>
+
+
+
+<li>Apps and agents</li>
+
+
+
+<li>AI activity visibility</li>
+
+
+
+<li>Investigation workflows</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Microsoft has also published a task-mapping guide showing where familiar DSPM and DSPM for AI activities have moved in the new experience.</p>
+
+
+
+<p class="wp-block-paragraph">So this isn&#8217;t a case of Microsoft simply turning off an old portal page. The functionality has been reorganised around the new DSPM model.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What happens to the things you already use?</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is probably the most important question for administrators.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s task mapping gives us a useful indication of how the transition works.</p>
+
+
+
+<p class="wp-block-paragraph">For example:</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>What you used in classic DSPM</strong></td><td><strong>Where to find it now</strong></td></tr><tr><td>Recommendations</td><td>DSPM → Actions → Remediation actions</td></tr><tr><td>Reports and trends</td><td>DSPM → Reports</td></tr><tr><td>AI app recommendations</td><td>DSPM → Actions → Remediation actions</td></tr><tr><td>Microsoft 365 Copilot overview</td><td>DSPM → Reports → Microsoft 365 Copilot</td></tr><tr><td>Apps and agents</td><td>DSPM → Discover → Apps and agents</td></tr><tr><td>AI Activity Explorer</td><td>DSPM → Discover → Activity Explorer → AI activities</td></tr><tr><td>Data risk assessments</td><td>DSPM → Discover → Data risk assessments</td></tr><tr><td>Security Copilot promptbooks</td><td>DSPM → Posture</td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph">Microsoft describes many of these activities as now being embedded into <strong>data security objectives</strong>, which are designed to connect a desired business outcome with the Purview capabilities and actions needed to achieve it.</p>
+
+
+
+<p class="wp-block-paragraph">That is an interesting evolution.</p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;re moving from:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Here are lots of security capabilities.”</strong> towards <strong>“What security outcome are you trying to achieve?”</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why I think this change matters</strong></p>
+
+
+
+<p class="wp-block-paragraph">For me, the really interesting part isn&#8217;t the retirement date. It&#8217;s the <strong>convergence</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">We&#8217;ve spent a lot of time talking about AI governance as though it were a completely separate discipline.</p>
+
+
+
+<p class="wp-block-paragraph">AI governance.</p>
+
+
+
+<p class="wp-block-paragraph">Data governance.</p>
+
+
+
+<p class="wp-block-paragraph">Information protection.</p>
+
+
+
+<p class="wp-block-paragraph">DLP.</p>
+
+
+
+<p class="wp-block-paragraph">Insider Risk.</p>
+
+
+
+<p class="wp-block-paragraph">Compliance.</p>
+
+
+
+<p class="wp-block-paragraph">Security.</p>
+
+
+
+<p class="wp-block-paragraph">But increasingly, those things overlap. Consider a simple example. An employee uses Copilot or an AI agent.</p>
+
+
+
+<p class="wp-block-paragraph">The AI can access information that the employee already has permission to access.</p>
+
+
+
+<p class="wp-block-paragraph">Some of that information might be:</p>
+
+
+
+<ul class="wp-block-list">
+<li>sensitive</li>
+
+
+
+<li>poorly governed</li>
+
+
+
+<li>overshared</li>
+
+
+
+<li>stale</li>
+
+
+
+<li>incorrectly labelled</li>
+
+
+
+<li>sitting in an old SharePoint site</li>
+
+
+
+<li>subject to inappropriate permissions</li>
+
+
+
+<li>no longer required by the organisation</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The AI hasn&#8217;t necessarily broken a rule, it may simply be operating within the permissions and controls it has been given. That means the question isn&#8217;t only:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Is our AI secure?”</strong></p>
+
+
+
+<p class="wp-block-paragraph">We also need to ask:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>“Is the data that our AI can reach secure?”</strong></p>
+
+
+
+<p class="wp-block-paragraph">That is where the convergence of DSPM and DSPM for AI becomes particularly interesting.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>AI governance is becoming data governance</strong></p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;ve written about this quite a bit recently, but I think this Microsoft change reinforces the point. AI governance increasingly starts with the data underneath the AI.</p>
+
+
+
+<p class="wp-block-paragraph">You need to understand:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>DATA → IDENTITY → AI → AGENT → ACTION → OUTCOME</strong></p>
+
+
+
+<p class="wp-block-paragraph">What data can be accessed?</p>
+
+
+
+<p class="wp-block-paragraph">Who can access it?</p>
+
+
+
+<p class="wp-block-paragraph">What AI application or agent can process it?</p>
+
+
+
+<p class="wp-block-paragraph">What can that agent do?</p>
+
+
+
+<p class="wp-block-paragraph">What actions can it take?</p>
+
+
+
+<p class="wp-block-paragraph">And ultimately, what happens as a result?</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s not just an AI governance problem.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s data governance.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s information governance.</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s security governance.</p>
+
+
+
+<p class="wp-block-paragraph">And that&#8217;s exactly why I think bringing these capabilities together makes sense.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Don&#8217;t wait until December</strong></p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;re currently using DSPM classic or DSPM for AI classic, I wouldn&#8217;t wait for the retirement window to start thinking about this.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s message is clear: organisations using the classic experiences need to transition their remaining workflows to the current DSPM experience.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d approach this as a small governance exercise rather than simply a UI migration.</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Find out who is using the classic experiences</strong></li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Identify your:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Purview administrators</li>
+
+
+
+<li>Security administrators</li>
+
+
+
+<li>Compliance administrators</li>
+
+
+
+<li>AI governance teams</li>
+
+
+
+<li>Data governance teams</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Then establish whether anyone still relies on the classic experiences. Don&#8217;t assume nobody is using them just because the new DSPM experience is already available.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>2. Document the existing workflows</strong></p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t just document “we use DSPM”. Document what people actually do.</p>
+
+
+
+<p class="wp-block-paragraph">For example:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Review AI activity</li>
+
+
+
+<li>Investigate data risk assessments</li>
+
+
+
+<li>Review recommendations</li>
+
+
+
+<li>Monitor Copilot activity</li>
+
+
+
+<li>Investigate sensitive information</li>
+
+
+
+<li>Review AI applications</li>
+
+
+
+<li>Monitor policies</li>
+
+
+
+<li>Produce management reports</li>
+
+
+
+<li>Review posture</li>
+
+
+
+<li>Use Security Copilot promptbooks</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Then map those activities to the new DSPM experience. Microsoft has already provided a task-mapping guide specifically for this purpose.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>3. Check permissions</strong></p>
+
+
+
+<p class="wp-block-paragraph">Make sure your administrators can actually access the new experience.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft currently documents access through roles including the Microsoft Entra Compliance Administrator role, Global Administrator, and Microsoft Purview Compliance Administrator role group, with some activities requiring additional permissions.</p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t discover a permissions problem on the day the old experience disappears.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>4. Update your operational procedures</strong></p>
+
+
+
+<p class="wp-block-paragraph">If your SOC, compliance team or data governance team has procedures that say:</p>
+
+
+
+<p class="wp-block-paragraph">Purview → DSPM for AI → Reports</p>
+
+
+
+<p class="wp-block-paragraph">those procedures are going to need updating.</p>
+
+
+
+<p class="wp-block-paragraph">The same applies to:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Runbooks</li>
+
+
+
+<li>Training material</li>
+
+
+
+<li>Internal documentation</li>
+
+
+
+<li>Help desk guidance</li>
+
+
+
+<li>Screenshots</li>
+
+
+
+<li>Governance procedures</li>
+
+
+
+<li>Operational checklists</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Small change? Yes. But these are exactly the things that get forgotten during platform transitions.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>And here&#8217;s the bigger governance opportunity</strong></p>
+
+
+
+<p class="wp-block-paragraph">I wouldn&#8217;t treat this purely as a retirement exercise.</p>
+
+
+
+<p class="wp-block-paragraph">Use it as an opportunity to ask:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>What does our data security posture actually look like today?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The new DSPM experience gives organisations a more unified place to look at posture, investigations, reports, recommendations and objectives.</p>
+
+
+
+<p class="wp-block-paragraph">So rather than simply moving an existing process from:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Classic DSPM → New DSPM</strong></p>
+
+
+
+<p class="wp-block-paragraph">ask whether the process itself needs improving.</p>
+
+
+
+<p class="wp-block-paragraph">For example:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>DISCOVER</strong></p>
+
+
+
+<p class="wp-block-paragraph">What sensitive data do we have?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>UNDERSTAND</strong></p>
+
+
+
+<p class="wp-block-paragraph">Who can access it and where is it exposed?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>ASSESS</strong></p>
+
+
+
+<p class="wp-block-paragraph">What risks does that create for Copilot, AI applications and agents?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>PROTECT</strong></p>
+
+
+
+<p class="wp-block-paragraph">Which controls do we need?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>REMEDIATE</strong></p>
+
+
+
+<p class="wp-block-paragraph">What needs fixing?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>MONITOR</strong></p>
+
+
+
+<p class="wp-block-paragraph">Has our posture actually improved?</p>
+
+
+
+<p class="wp-block-paragraph">That is a much more useful governance lifecycle than simply checking whether a dashboard is available.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>One more thing: don&#8217;t confuse retirement with loss of capability</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is worth making clear.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft isn&#8217;t saying:</p>
+
+
+
+<p class="wp-block-paragraph">“DSPM is going away.”</p>
+
+
+
+<p class="wp-block-paragraph">Quite the opposite.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is retiring the <strong>classic experiences</strong> and directing customers towards the newer unified DSPM experience.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s current documentation explicitly says the classic versions have been replaced by the new version, which has broader reach, AI application and agent support, and simplified management.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft also stated when the new DSPM experience became generally available that it was designed to unify DSPM across scenarios from discovery through protection and remediation, with expanded reporting and third-party visibility.</p>
+
+
+
+<p class="wp-block-paragraph">So the direction of travel is pretty clear.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Less separation. More convergence.</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">If you&#8217;re still using DSPM classic or DSPM for AI classic, I&#8217;d put a small migration task on your roadmap now, not because December is particularly scary.</p>
+
+
+
+<p class="wp-block-paragraph">Because this is an opportunity to move your organisation towards a more joined-up approach to data security.</p>
+
+
+
+<p class="wp-block-paragraph">Review the classic workflows.</p>
+
+
+
+<p class="wp-block-paragraph">Map them to the new DSPM experience.</p>
+
+
+
+<p class="wp-block-paragraph">Check permissions.</p>
+
+
+
+<p class="wp-block-paragraph">Test the new workflows.</p>
+
+
+
+<p class="wp-block-paragraph">Update your documentation.</p>
+
+
+
+<p class="wp-block-paragraph">Then use the move as an opportunity to reassess your wider data security posture, because ultimately, this isn&#8217;t really about a retiring Purview experience. It&#8217;s about Microsoft bringing data security, AI security and governance closer together.</p>
+
+
+
+<p class="wp-block-paragraph">And that makes sense.</p>
+
+
+
+<p class="wp-block-paragraph">The more AI applications and agents we deploy, the less useful it becomes to treat AI governance as something that sits beside data governance.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI governance is becoming data governance.</strong></p>
+
+
+
+<p class="wp-block-paragraph">And Microsoft Purview&#8217;s new DSPM experience is starting to reflect that.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Learn</strong></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://learn.microsoft.com/en-us/purview/data-security-posture-management-learn-about?utm_source=chatgpt.com">Learn about Microsoft Purview Data Security Posture Management (DSPM)</a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://learn.microsoft.com/en-us/purview/dspm-task-mapping?utm_source=chatgpt.com">Map tasks from DSPM classic and DSPM for AI classic to the new DSPM</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">384</post-id>	</item>
+		<item>
 		<title>🚨 Microsoft Purview Roadmap 571157: Copilot Readiness Is About to Get a Lot More Interesting</title>
 		<link>https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/</link>
 					<comments>https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/#respond</comments>
@@ -39,8 +811,8 @@
 
 					<description><![CDATA[Microsoft is bringing new Copilot readiness and Data Explorer experiences into Purview DSPM, and this could change how we think about AI readiness. If you&#8217;ve been following Microsoft Purview over the last couple of years, you&#8217;ll probably have noticed something. The conversation has changed. We used to ask: &#8220;Have we classified our data?&#8221; Then: &#8220;Have [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="576" data-attachment-id="342" data-permalink="https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/chatgpt-image-sep-16-2026-04_32_40-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1672%2C940&amp;ssl=1" data-orig-size="1672,940" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Sep 16, 2026, 04_32_40 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1024%2C576&amp;ssl=1" data-id="342" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-342" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="342" data-permalink="https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/chatgpt-image-sep-16-2026-04_32_40-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1672%2C940&amp;ssl=1" data-orig-size="1672,940" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Sep 16, 2026, 04_32_40 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1024%2C576&amp;ssl=1" data-id="342" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-342" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -869,7 +1641,7 @@
 
 					<description><![CDATA[👉 Why AI governance is becoming less about what an agent can access &#8211; and more about what it can do with what it&#8217;s allowed to access Here&#8217;s an uncomfortable thought. Your AI agent might not be doing anything wrong. It might be following every permission you&#8217;ve given it, it might be operating exactly as [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="335" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/chatgpt-image-sep-15-2026-05_31_17-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Sep 15, 2026, 05_31_17 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1024%2C683&amp;ssl=1" data-id="335" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-335" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2113,8 +2885,8 @@
 
 					<description><![CDATA[There is a relatively small Microsoft Purview change coming that could have a bigger operational impact than its roadmap description suggests. Microsoft Purview Endpoint Data Loss Prevention is gaining the ability to scope Just-in-Time Audit by user or group. The change is associated with Microsoft 365 Roadmap ID 562991 and Message Center announcement MC1387575. Microsoft [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="331" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/chatgpt-image-sep-15-2026-12_34_43-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Sep 15, 2026, 12_34_43 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1024%2C683&amp;ssl=1" data-id="331" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-331" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="331" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/chatgpt-image-sep-15-2026-12_34_43-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Sep 15, 2026, 12_34_43 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1024%2C683&amp;ssl=1" data-id="331" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-331" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -2779,7 +3551,7 @@
 
 					<description><![CDATA[We often talk about accessibility as though it is something we need to add for a particular group of people. I think we should look at it differently. Accessibility is about removing unnecessary barriers so people can participate independently. That distinction matters. An estimated 1.3 billion people &#8211; around 1 in 6 globally &#8211; experience [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="325" data-permalink="https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/chatgpt-image-sep-14-2026-04_17_45-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="ChatGPT Image Sep 14, 2026, 04_17_45 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1024%2C683&amp;ssl=1" data-id="325" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-325" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3527,7 +4299,7 @@
 
 					<description><![CDATA[Microsoft 365 Roadmap ID: 562343 Data retention sounds simple. Keep what you need.Delete what you don&#8217;t.Retain information for as long as regulations, policies and the business require. In reality, it&#8217;s rarely that straightforward. Most organisations have enormous amounts of information sitting across SharePoint and OneDrive. Some of it is sensitive. Some of it is business-critical. [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="318" data-permalink="https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/data-lifecycle-management-insights-and-policy-recommendations/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Data Lifecycle Management &amp;#8211; Insights and Policy recommendations" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1024%2C576&amp;ssl=1" data-id="318" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-318" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4043,7 +4815,7 @@
 
 					<description><![CDATA[Microsoft Roadmap ID: 570845 AI is rapidly becoming part of the way people work — but as organisations introduce more AI experiences, the security challenge becomes increasingly important: How do you protect sensitive information consistently across all of them? Microsoft is addressing part of that challenge with Roadmap ID 570845, which brings Microsoft Purview Data [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="314" data-permalink="https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/data-loss-prevention-for-microsoft-cowork/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Data Loss Prevention for Microsoft Cowork" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1024%2C683&amp;ssl=1" data-id="314" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-314" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4565,7 +5337,7 @@
 
 					<description><![CDATA[There is a question that doesn&#8217;t get asked often enough when organisations deploy Data Loss Prevention: &#8220;We&#8217;ve created the DLP policy. But do we know whether our devices are actually ready to enforce it?&#8221; It&#8217;s an important distinction. Creating a Microsoft Purview Endpoint DLP policy is relatively straightforward. Making sure that the devices across your [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="307" data-permalink="https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/deployed-endpoint-dlp/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Deployed Endpoint DLP" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1024%2C683&amp;ssl=1" data-id="307" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-307" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5075,7 +5847,7 @@
 
 					<description><![CDATA[Microsoft 365 Message Center: MC1465771Last modified: 1 September 2026 Microsoft is making an interesting change to the way Microsoft Purview Data Loss Prevention (DLP) signals are handled inside Microsoft Defender XDR. From 12 October 2026, Microsoft Defender XDR will, by default, treat Microsoft Purview DLP alerts as behaviours rather than standard alerts. At first glance, [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="302" data-permalink="https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/dlp-defender-alerts-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="DLP defender alerts pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1024%2C683&amp;ssl=1" data-id="302" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-302" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5907,7 +6679,7 @@
 
 					<description><![CDATA[🚨 Microsoft Power Platform gets smarter record-level security with column-based filtering There are plenty of organisations where record ownership simply doesn&#8217;t reflect how the business actually works. Think about a large dataset containing thousands of records. Perhaps each record has a Region, Department, Business Unit or another attribute that determines who should be able to [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="294" data-permalink="https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/column-based-filtering-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Column based filtering pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1024%2C683&amp;ssl=1" data-id="294" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-294" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -6611,151 +7383,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">293</post-id>	</item>
-		<item>
-		<title>The Story of Sir Nicholas Winton</title>
-		<link>https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/</link>
-					<comments>https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Sat, 29 Aug 2026 11:15:14 +0000</pubDate>
-				<category><![CDATA[Motivational Speaking]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=289</guid>
-
-					<description><![CDATA[One of the most remarkable and inspiring stories I have ever heard is that of Sir Nicholas Winton. The year was 1938, and I am sure we are all aware of what was happening in the world at that time. Sir Nicholas Winton was a young London stockbroker preparing for a skiing holiday when he [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="675" height="725" data-attachment-id="290" data-permalink="https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/sir-nicholas-winton/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-orig-size="675,725" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Sir Nicholas Winton" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?fit=675%2C725&amp;ssl=1" data-id="290" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=675%2C725&#038;ssl=1" alt="" class="wp-image-290" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?w=675&amp;ssl=1 675w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/08/Sir-Nicholas-Winton.jpeg?resize=279%2C300&amp;ssl=1 279w" sizes="(max-width: 675px) 100vw, 675px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph">One of the most remarkable and inspiring stories I have ever heard is that of Sir Nicholas Winton.</p>
-
-
-
-<p class="wp-block-paragraph">The year was 1938, and I am sure we are all aware of what was happening in the world at that time. Sir Nicholas Winton was a young London stockbroker preparing for a skiing holiday when he received a message from a friend asking him to come to Prague. What he found there was a rapidly developing humanitarian crisis, with thousands of people, including children, facing an increasingly uncertain and dangerous future.</p>
-
-
-
-<p class="wp-block-paragraph">A year later, in 1939, Sir Nicholas helped organise the rescue of hundreds of children from German-occupied Czechoslovakia, bringing them to safety in the United Kingdom. He worked tirelessly to raise money, find foster homes and arrange the complex logistics required to get these children out of danger.</p>
-
-
-
-<p class="wp-block-paragraph">In total, <strong>669 children were rescued.</strong> But perhaps the most remarkable part of the story is what happened afterwards.</p>
-
-
-
-<p class="wp-block-paragraph">Sir Nicholas Winton never sought recognition for what he had done. In fact, he rarely spoke about it at all.</p>
-
-
-
-<p class="wp-block-paragraph">His incredible story only came to wider attention in 1988, when his wife discovered documents relating to the children he had helped save.</p>
-
-
-
-<p class="wp-block-paragraph">Think about that for a moment.</p>
-
-
-
-<p class="wp-block-paragraph">He didn&#8217;t spend decades telling people what he had done. He didn&#8217;t seek awards. He didn&#8217;t seek recognition.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>He simply did what he believed was right.</strong></p>
-
-
-
-<p class="wp-block-paragraph">The world is full of superheroes, many of whom are never recognised. Sir Nicholas could have stayed in London. He could have carried on with his life and tried to see out the war as best he could.</p>
-
-
-
-<p class="wp-block-paragraph">But he didn&#8217;t. <strong>He acted.</strong></p>
-
-
-
-<p class="wp-block-paragraph">He didn&#8217;t have to. <strong>He chose to help.</strong></p>
-
-
-
-<p class="wp-block-paragraph">And because of that choice, 669 children were given the opportunity to escape horrific circumstances and build new lives. It is estimated that thousands of people around the world are descendants of those children.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Just think about the scale of that legacy.</strong></p>
-
-
-
-<p class="wp-block-paragraph">One person made a decision to help, and those people went on to have families.</p>
-
-
-
-<p class="wp-block-paragraph">Those families had children. And those children had children. A single decision made by one person created a legacy that continued across generations.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>How incredible is that?</strong></p>
-
-
-
-<p class="wp-block-paragraph">A man simply acted because he believed it was the right thing to do.</p>
-
-
-
-<p class="wp-block-paragraph">No recognition. No expectation of reward. No desire for applause.</p>
-
-
-
-<p class="wp-block-paragraph">Just the knowledge that he had given children a chance. And perhaps that is something we can all learn from.</p>
-
-
-
-<p class="wp-block-paragraph">In a world where many prioritise recognition for doing a good deed, helping someone should never be secondary.</p>
-
-
-
-<p class="wp-block-paragraph">Sometimes I find that we have to look backwards in order to find some guidance for the way forward. The story of Sir Nicholas Winton is an incredible reminder that even the simplest decision to help someone can have a far greater impact than we could ever imagine.</p>
-
-
-
-<p class="wp-block-paragraph">You may never know the full impact of something kind that you do for someone else. Sir Nicholas Winton probably couldn&#8217;t have imagined the generations of people who would come to exist because of the children he helped rescue.</p>
-
-
-
-<p class="wp-block-paragraph">He wasn&#8217;t trying to create a legacy. He was simply trying to help, and perhaps that&#8217;s the greatest lesson of all.</p>
-
-
-
-<p class="wp-block-paragraph">Sometimes, <strong>doing the right thing is enough.</strong> </p>
-
-
-
-<p class="wp-block-paragraph"></p>
-
-
-
-<p class="wp-block-paragraph"></p>
-
-
-
-<p class="wp-block-paragraph">The Czech president, Milos Zeman, wrote to Sir Nicholas: “Your life is an example of humanity, selflessness, personal courage and modesty.” </p>
-
-
-
-<p class="wp-block-paragraph">“If there was something that needed doing and nobody was doing it, Nicholas would step in,” says John Fieldsend, a child who was rescued by Sir Nicholas.</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/08/29/the-story-of-sir-nicholas-winton/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">289</post-id>	</item>
 	</channel>
 </rss>
