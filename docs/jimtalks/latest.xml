@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Tue, 29 Sep 2026 17:00:55 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 09 Oct 2026 08:57:51 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,292 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Purview Roadmap 568217: Sensitivity Labels Are Coming to Entra Security Groups</title>
+		<link>https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/</link>
+					<comments>https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2026 08:57:51 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=398</guid>
+
+					<description><![CDATA[Microsoft Purview is extending sensitivity labels to Microsoft Entra cloud security groups. Here&#8217;s why that matters for identity, access management and information governance. Sensitivity labels are an important part of Microsoft Purview Information Protection. They help organisations classify information and, when configured for supported workloads, apply protection and governance settings. But what happens when we [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="399" data-permalink="https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/image-sensitivity-labels-to-security-groups/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Image &amp;#8211; Sensitivity labels to Security Groups" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1024%2C683&amp;ssl=1" data-id="399" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-399" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Purview is extending sensitivity labels to Microsoft Entra cloud security groups. Here&#8217;s why that matters for identity, access management and information governance.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Sensitivity labels are an important part of Microsoft Purview Information Protection. They help organisations classify information and, when configured for supported workloads, apply protection and governance settings.</p>
+
+
+
+<p class="wp-block-paragraph">But what happens when we look beyond documents, emails, sites and Microsoft 365 groups to the security groups that help control access across our wider Microsoft environment?</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s where <strong>Microsoft Roadmap ID 568217</strong> comes in.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What&#8217;s changing?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The roadmap item, <strong><em>Microsoft Purview: Information Protection – Sensitivity Labels for Microsoft Entra Security Groups</em>,</strong> introduces support for applying sensitivity labels to Microsoft Entra cloud security groups.</p>
+
+
+
+<p class="wp-block-paragraph">According to the current roadmap listing:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Roadmap ID:</strong> 568217</li>
+
+
+
+<li><strong>Status:</strong> In development</li>
+
+
+
+<li><strong>Planned release:</strong> General Availability</li>
+
+
+
+<li><strong>Expected rollout:</strong> November 2026</li>
+
+
+
+<li><strong>Cloud:</strong> Worldwide (Standard Multi-Tenant)</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The published description says that the same labels published in the Microsoft Purview portal and configured for groups and sites will apply to cloud security groups, without requiring separate label configuration.</p>
+
+
+
+<p class="wp-block-paragraph">These dates are Microsoft&#8217;s current estimates and may change. <a href="https://mc.merill.net/message/RM568217">View the roadmap item details</a>.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why should governance teams care?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s consider a typical enterprise environment.</p>
+
+
+
+<p class="wp-block-paragraph">You might already use sensitivity labels to classify Microsoft 365 groups and control aspects of the collaboration experience. You might also use Microsoft Entra security groups to manage access to applications, resources and services.</p>
+
+
+
+<p class="wp-block-paragraph">These groups serve different purposes, but both are part of your organisation&#8217;s wider identity and governance landscape.</p>
+
+
+
+<p class="wp-block-paragraph">Extending sensitivity labels to Entra cloud security groups offers an opportunity to bring classification more consistently into that landscape.</p>
+
+
+
+<p class="wp-block-paragraph">The important point isn&#8217;t simply that another object type can be labelled. It&#8217;s how this capability could fit into a wider approach to governance.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Bring classification closer to identity</strong></p>
+
+
+
+<p class="wp-block-paragraph">Information governance and identity governance are often managed by different teams, using different tools and processes.</p>
+
+
+
+<p class="wp-block-paragraph">But access to information depends on identity, group membership and permissions. Classification can help provide additional context about the sensitivity or intended use of the groups involved.</p>
+
+
+
+<p class="wp-block-paragraph">As this capability becomes available, organisations should assess how labels for security groups fit with their existing identity and information protection standards.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Reduce unnecessary configuration duplication</strong></p>
+
+
+
+<p class="wp-block-paragraph">The roadmap description says that existing labels published through Purview can apply to cloud security groups without separate label configuration.</p>
+
+
+
+<p class="wp-block-paragraph">That could simplify administration by helping organisations reuse their established classification approach rather than create a separate labelling model for another group type.</p>
+
+
+
+<p class="wp-block-paragraph">However, reusing labels doesn&#8217;t remove the need to understand what each label means, where it applies and which settings are configured for it.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Strengthen the connection between data and access</strong></p>
+
+
+
+<p class="wp-block-paragraph">A sensitivity label is not a replacement for access controls, group ownership reviews or identity lifecycle management.</p>
+
+
+
+<p class="wp-block-paragraph">Instead, it can form one part of a layered governance model.</p>
+
+
+
+<p class="wp-block-paragraph">Organisations should continue to ask:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Who owns this group?</li>
+
+
+
+<li>What resources does it provide access to?</li>
+
+
+
+<li>Who can join, manage or modify it?</li>
+
+
+
+<li>Is the group&#8217;s purpose still valid?</li>
+
+
+
+<li>Does its classification align with the information or resources it supports?</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The value comes from combining classification with sound identity and access management practices.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What should organisations do now?</strong></p>
+
+
+
+<p class="wp-block-paragraph">You don&#8217;t need to wait until November to review your current approach.</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d suggest five practical steps.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Review your existing sensitivity labels</strong></p>
+
+
+
+<p class="wp-block-paragraph">Understand your label taxonomy, naming conventions, publishing policies and intended use. Make sure labels have clear, documented meanings.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Inventory your Entra security groups</strong></p>
+
+
+
+<p class="wp-block-paragraph">Identify business-critical groups, privileged access groups, groups with broad membership and groups that lack clear ownership or purpose.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Review ownership and membership</strong></p>
+
+
+
+<p class="wp-block-paragraph">Look for stale groups, excessive membership, orphaned ownership and access that no longer matches business requirements.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Coordinate Purview and Entra governance</strong></p>
+
+
+
+<p class="wp-block-paragraph">Bring information protection, identity, security and compliance teams together to agree how classification should support the wider governance model.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Validate the capability when it becomes available</strong></p>
+
+
+
+<p class="wp-block-paragraph">Confirm supported group types, licensing, prerequisites and the exact behaviour of your published labels. Test with a controlled pilot before expanding deployment.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>The bigger picture: governance cannot live in silos</strong></p>
+
+
+
+<p class="wp-block-paragraph">Organisations often treat data classification, identity management and access control as separate workstreams. In practice, they are connected.</p>
+
+
+
+<p class="wp-block-paragraph">A label can provide classification context, identity controls determine who can access resources, group ownership and lifecycle processes help ensure those controls remain appropriate over time.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Roadmap 568217</strong> is a useful reminder that information protection is not just about the files people create, it is also about the wider environment in which information is accessed and governed.</p>
+
+
+
+<p class="wp-block-paragraph">As Microsoft continues to connect Purview and Entra capabilities, governance teams should look for opportunities to make their policies more consistent without assuming that labelling alone solves access risk.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">A label is only as useful as the governance process behind it. Extend classification, review access, establish ownership and keep the controls aligned with the organisation&#8217;s real requirements.</p>
+
+
+
+<p class="wp-block-paragraph">Good governance isn&#8217;t about applying more labels, it&#8217;s about making sure the right controls are in place, for the right reasons, and remain effective over time.</p>
+
+
+
+<p class="wp-block-paragraph"><em>Source:</em> <a href="https://mc.merill.net/message/RM568217"><em>Microsoft Purview Roadmap 568217 – Sensitivity Labels for Microsoft Entra Security Groups</em></a><em>. Status and dates checked 9 October 2026; rollout estimates may change.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">398</post-id>	</item>
+		<item>
 		<title>🚨 Microsoft Purview Is Retiring DSPM Classic &#8211; Here’s What You Need to Do</title>
 		<link>https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/</link>
 					<comments>https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/#respond</comments>
@@ -39,8 +325,8 @@
 
 					<description><![CDATA[If your organisation is still using the classic Microsoft Purview Data Security Posture Management experiences, there is a change coming that you should put on the radar now. Microsoft Message Center update MC1481315 confirms that Microsoft is retiring: The retirement begins 30 November 2026, with the classic experiences expected to be fully retired by 31 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -811,7 +1097,7 @@
 
 					<description><![CDATA[Microsoft is bringing new Copilot readiness and Data Explorer experiences into Purview DSPM, and this could change how we think about AI readiness. If you&#8217;ve been following Microsoft Purview over the last couple of years, you&#8217;ll probably have noticed something. The conversation has changed. We used to ask: &#8220;Have we classified our data?&#8221; Then: &#8220;Have [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="342" data-permalink="https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/chatgpt-image-sep-16-2026-04_32_40-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1672%2C940&amp;ssl=1" data-orig-size="1672,940" data-comments-opened="1" data-image-title="ChatGPT Image Sep 16, 2026, 04_32_40 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1024%2C576&amp;ssl=1" data-id="342" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-342" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1641,8 +1927,8 @@
 
 					<description><![CDATA[👉 Why AI governance is becoming less about what an agent can access &#8211; and more about what it can do with what it&#8217;s allowed to access Here&#8217;s an uncomfortable thought. Your AI agent might not be doing anything wrong. It might be following every permission you&#8217;ve given it, it might be operating exactly as [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="335" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/chatgpt-image-sep-15-2026-05_31_17-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 05_31_17 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1024%2C683&amp;ssl=1" data-id="335" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-335" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="335" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/chatgpt-image-sep-15-2026-05_31_17-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 05_31_17 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1024%2C683&amp;ssl=1" data-id="335" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-335" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -2885,7 +3171,7 @@
 
 					<description><![CDATA[There is a relatively small Microsoft Purview change coming that could have a bigger operational impact than its roadmap description suggests. Microsoft Purview Endpoint Data Loss Prevention is gaining the ability to scope Just-in-Time Audit by user or group. The change is associated with Microsoft 365 Roadmap ID 562991 and Message Center announcement MC1387575. Microsoft [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="331" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/chatgpt-image-sep-15-2026-12_34_43-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 12_34_43 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1024%2C683&amp;ssl=1" data-id="331" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-331" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3551,7 +3837,7 @@
 
 					<description><![CDATA[We often talk about accessibility as though it is something we need to add for a particular group of people. I think we should look at it differently. Accessibility is about removing unnecessary barriers so people can participate independently. That distinction matters. An estimated 1.3 billion people &#8211; around 1 in 6 globally &#8211; experience [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="325" data-permalink="https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/chatgpt-image-sep-14-2026-04_17_45-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 14, 2026, 04_17_45 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1024%2C683&amp;ssl=1" data-id="325" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-325" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4299,7 +4585,7 @@
 
 					<description><![CDATA[Microsoft 365 Roadmap ID: 562343 Data retention sounds simple. Keep what you need.Delete what you don&#8217;t.Retain information for as long as regulations, policies and the business require. In reality, it&#8217;s rarely that straightforward. Most organisations have enormous amounts of information sitting across SharePoint and OneDrive. Some of it is sensitive. Some of it is business-critical. [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="318" data-permalink="https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/data-lifecycle-management-insights-and-policy-recommendations/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Data Lifecycle Management &amp;#8211; Insights and Policy recommendations" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1024%2C576&amp;ssl=1" data-id="318" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-318" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4815,7 +5101,7 @@
 
 					<description><![CDATA[Microsoft Roadmap ID: 570845 AI is rapidly becoming part of the way people work — but as organisations introduce more AI experiences, the security challenge becomes increasingly important: How do you protect sensitive information consistently across all of them? Microsoft is addressing part of that challenge with Roadmap ID 570845, which brings Microsoft Purview Data [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="314" data-permalink="https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/data-loss-prevention-for-microsoft-cowork/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Data Loss Prevention for Microsoft Cowork" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1024%2C683&amp;ssl=1" data-id="314" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-314" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5337,7 +5623,7 @@
 
 					<description><![CDATA[There is a question that doesn&#8217;t get asked often enough when organisations deploy Data Loss Prevention: &#8220;We&#8217;ve created the DLP policy. But do we know whether our devices are actually ready to enforce it?&#8221; It&#8217;s an important distinction. Creating a Microsoft Purview Endpoint DLP policy is relatively straightforward. Making sure that the devices across your [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="307" data-permalink="https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/deployed-endpoint-dlp/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Deployed Endpoint DLP" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1024%2C683&amp;ssl=1" data-id="307" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-307" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5847,7 +6133,7 @@
 
 					<description><![CDATA[Microsoft 365 Message Center: MC1465771Last modified: 1 September 2026 Microsoft is making an interesting change to the way Microsoft Purview Data Loss Prevention (DLP) signals are handled inside Microsoft Defender XDR. From 12 October 2026, Microsoft Defender XDR will, by default, treat Microsoft Purview DLP alerts as behaviours rather than standard alerts. At first glance, [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="302" data-permalink="https://jimtalks.co.uk/2026/09/02/%f0%9f%9a%a8-microsoft-defender-xdr-dlp-alerts-are-becoming-behaviours-by-default/dlp-defender-alerts-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="DLP defender alerts pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?fit=1024%2C683&amp;ssl=1" data-id="302" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-302" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/DLP-defender-alerts-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -6667,721 +6953,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">301</post-id>	</item>
-		<item>
-		<title>🚨 Microsoft Power Platform is getting an interesting new security capability</title>
-		<link>https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/</link>
-					<comments>https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Tue, 01 Sep 2026 14:51:51 +0000</pubDate>
-				<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=293</guid>
-
-					<description><![CDATA[🚨 Microsoft Power Platform gets smarter record-level security with column-based filtering There are plenty of organisations where record ownership simply doesn&#8217;t reflect how the business actually works. Think about a large dataset containing thousands of records. Perhaps each record has a Region, Department, Business Unit or another attribute that determines who should be able to [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="294" data-permalink="https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/column-based-filtering-pic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Column based filtering pic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?fit=1024%2C683&amp;ssl=1" data-id="294" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-294" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Column-based-filtering-pic.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6a8.png" alt="🚨" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Microsoft Power Platform gets smarter record-level security with column-based filtering</strong></p>
-
-
-
-<p class="wp-block-paragraph">There are plenty of organisations where record ownership simply doesn&#8217;t reflect how the business actually works.</p>
-
-
-
-<p class="wp-block-paragraph">Think about a large dataset containing thousands of records.</p>
-
-
-
-<p class="wp-block-paragraph">Perhaps each record has a Region, Department, Business Unit or another attribute that determines who should be able to access it.</p>
-
-
-
-<p class="wp-block-paragraph">Traditionally, organisations may have had to build ownership structures or complicated sharing models to achieve the required level of security.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft is now introducing an interesting alternative.</p>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f510.png" alt="🔐" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Introducing column-based security filtering</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft 365 Message Center announcement <strong>MC1465569</strong> introduces the ability for administrators to use filtered views to select and manage record-level access based on specific values within a field in Microsoft Power Platform governance and administration.</p>
-
-
-
-<p class="wp-block-paragraph">The capability is scheduled to reach <strong>Public Preview on 16 October 2026</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">And while that might initially sound like a relatively technical security enhancement, I think there is a much bigger story here.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s about making security reflect the data itself.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>From &#8220;Who owns it?&#8221; to &#8220;What does the record say?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Traditional record-level security often revolves around ownership.</p>
-
-
-
-<p class="wp-block-paragraph">A user owns a record.</p>
-
-
-
-<p class="wp-block-paragraph">A team owns a record.</p>
-
-
-
-<p class="wp-block-paragraph">Someone is given access through sharing.</p>
-
-
-
-<p class="wp-block-paragraph">That model works well when ownership represents responsibility.</p>
-
-
-
-<p class="wp-block-paragraph">But what happens when it doesn&#8217;t?</p>
-
-
-
-<p class="wp-block-paragraph">Imagine you have a dataset containing customer information across five regions:</p>
-
-
-
-<ul class="wp-block-list">
-<li>UK</li>
-
-
-
-<li>Europe</li>
-
-
-
-<li>North America</li>
-
-
-
-<li>Asia-Pacific</li>
-
-
-
-<li>Middle East</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">You don&#8217;t necessarily want to create artificial ownership structures simply to control access.</p>
-
-
-
-<p class="wp-block-paragraph">Instead, the Region field already tells you something important:</p>
-
-
-
-<p class="wp-block-paragraph">This record belongs to the UK.</p>
-
-
-
-<p class="wp-block-paragraph">Why not use that information as part of the security model?</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s the concept Microsoft is bringing forward.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f30d.png" alt="🌍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Security based on business dimensions</strong></p>
-
-
-
-<p class="wp-block-paragraph">The new capability allows administrators to define access using attribute values.</p>
-
-
-
-<p class="wp-block-paragraph">That could mean security based on things such as:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Region</strong></p>
-
-
-
-<p class="wp-block-paragraph">Region = UK</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Department</strong></p>
-
-
-
-<p class="wp-block-paragraph">Department = Finance</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Business Unit</strong></p>
-
-
-
-<p class="wp-block-paragraph">Business Unit = Operations</p>
-
-
-
-<p class="wp-block-paragraph">The important point is that the security model can be aligned with business dimensions already contained within the data.</p>
-
-
-
-<p class="wp-block-paragraph">This can be particularly useful where there isn&#8217;t a meaningful concept of individual record ownership.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Where could this be useful?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft specifically highlights scenarios involving reporting and aggregated datasets.</p>
-
-
-
-<p class="wp-block-paragraph">And this is where I think the capability becomes particularly interesting.</p>
-
-
-
-<p class="wp-block-paragraph">Consider an organisation with a large reporting dataset.</p>
-
-
-
-<p class="wp-block-paragraph">It might contain information covering multiple departments and regions.</p>
-
-
-
-<p class="wp-block-paragraph">There may not be an individual person who &#8220;owns&#8221; each record.</p>
-
-
-
-<p class="wp-block-paragraph">Creating artificial ownership simply to satisfy a security requirement can introduce unnecessary complexity.</p>
-
-
-
-<p class="wp-block-paragraph">Instead, the organisation could potentially use the characteristics of the data itself to help determine access.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a much more natural relationship between:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Data → Business context → Security</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f680.png" alt="🚀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 1: Less complexity</strong></p>
-
-
-
-<p class="wp-block-paragraph">One of the biggest potential benefits is simplification.</p>
-
-
-
-<p class="wp-block-paragraph">Organisations often end up creating increasingly complicated security models to solve what is fundamentally a straightforward business requirement.</p>
-
-
-
-<p class="wp-block-paragraph">For example:</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;People in this region should only see records relating to their region.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">You could potentially end up with ownership structures, teams, sharing rules and other mechanisms to achieve this.</p>
-
-
-
-<p class="wp-block-paragraph">Column-based filtering provides another approach:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Use the value that already exists in the data.</strong></p>
-
-
-
-<p class="wp-block-paragraph">That could significantly simplify administration in suitable scenarios.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c8.png" alt="📈" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 2: Better scalability</strong></p>
-
-
-
-<p class="wp-block-paragraph">Complex sharing models can become increasingly difficult to manage as an organisation grows.</p>
-
-
-
-<p class="wp-block-paragraph">More users.</p>
-
-
-
-<p class="wp-block-paragraph">More teams.</p>
-
-
-
-<p class="wp-block-paragraph">More records.</p>
-
-
-
-<p class="wp-block-paragraph">More regions.</p>
-
-
-
-<p class="wp-block-paragraph">More business units.</p>
-
-
-
-<p class="wp-block-paragraph">More exceptions.</p>
-
-
-
-<p class="wp-block-paragraph">The security model can quickly become difficult to understand and maintain.</p>
-
-
-
-<p class="wp-block-paragraph">Using attributes within the data provides the potential for a more scalable approach.</p>
-
-
-
-<p class="wp-block-paragraph">Instead of maintaining thousands of individual access relationships, administrators can define security around business rules and attributes.</p>
-
-
-
-<p class="wp-block-paragraph">That is a much more appealing model for large-scale enterprise data.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e9.png" alt="🧩" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 3: Security that reflects the business</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is probably my favourite aspect of this update.</p>
-
-
-
-<p class="wp-block-paragraph">Good governance should reflect how an organisation actually operates.</p>
-
-
-
-<p class="wp-block-paragraph">If the business thinks about information in terms of:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Geography</li>
-
-
-
-<li>Department</li>
-
-
-
-<li>Business unit</li>
-
-
-
-<li>Customer segment</li>
-
-
-
-<li>Product</li>
-
-
-
-<li>Function</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">then it makes sense for security controls to be capable of understanding those same dimensions.</p>
-
-
-
-<p class="wp-block-paragraph">You&#8217;re effectively moving from:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Who owns this information?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">towards:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What does this information represent?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That is a subtle but important shift.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e1.png" alt="🛡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 4: Reducing artificial ownership</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft specifically highlights the ability to avoid artificial ownership.</p>
-
-
-
-<p class="wp-block-paragraph">And that&#8217;s important.</p>
-
-
-
-<p class="wp-block-paragraph">Creating ownership simply because a security model requires it can result in a structure that doesn&#8217;t accurately represent the organisation.</p>
-
-
-
-<p class="wp-block-paragraph">You end up with:</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;This team owns the record because we need someone to own the record.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">rather than:</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;This record belongs to this business area, and access should reflect that.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">The latter is much closer to how organisations often think about their information.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f50e.png" alt="🔎" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Benefit 5: A better fit for enterprise data governance</strong></p>
-
-
-
-<p class="wp-block-paragraph">There is also a wider governance story here.</p>
-
-
-
-<p class="wp-block-paragraph">Data governance isn&#8217;t simply about knowing where information is.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s about understanding:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What is it?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Who should access it?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Why should they access it?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>How should access be controlled?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Column-based security filtering potentially brings those concepts closer together.</p>
-
-
-
-<p class="wp-block-paragraph">The data already contains contextual information.</p>
-
-
-
-<p class="wp-block-paragraph">The security model can make use of that context.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a very interesting direction for enterprise governance.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Why this matters in an AI world</strong></p>
-
-
-
-<p class="wp-block-paragraph">There is another reason I think developments like this are becoming increasingly important.</p>
-
-
-
-<p class="wp-block-paragraph">We&#8217;re moving towards an environment where applications, analytics and AI increasingly interact with organisational data.</p>
-
-
-
-<p class="wp-block-paragraph">That means access control becomes even more important.</p>
-
-
-
-<p class="wp-block-paragraph">As organisations expose more data through applications, reporting and AI-powered experiences, we need security models that can operate at scale.</p>
-
-
-
-<p class="wp-block-paragraph">And that means moving beyond manually maintained access structures wherever possible.</p>
-
-
-
-<p class="wp-block-paragraph">The more intelligently we can define:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Who can access what, and why?</strong></p>
-
-
-
-<p class="wp-block-paragraph">the stronger the foundation becomes for everything built on top of that data.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/26a0.png" alt="⚠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> But don&#8217;t confuse this with &#8220;security is now automatic&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is still an administrative security capability.</p>
-
-
-
-<p class="wp-block-paragraph">Organisations will need to carefully consider:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Which fields should influence access?</li>
-
-
-
-<li>Are those fields accurate?</li>
-
-
-
-<li>Can users modify them?</li>
-
-
-
-<li>What happens when the value changes?</li>
-
-
-
-<li>What happens when a record doesn&#8217;t contain the expected value?</li>
-
-
-
-<li>Are there exceptions?</li>
-
-
-
-<li>How will the model be tested?</li>
-
-
-
-<li>How will access be reviewed over time?</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">The fact that a field contains a value doesn&#8217;t automatically make it a good security boundary.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Your data quality becomes increasingly important.</strong></p>
-
-
-
-<p class="wp-block-paragraph">If you&#8217;re going to use:</p>
-
-
-
-<p class="wp-block-paragraph">Region = UK</p>
-
-
-
-<p class="wp-block-paragraph">as part of your access model, you need confidence that &#8220;Region&#8221; is accurate, consistently populated and appropriately governed.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f9e0.png" alt="🧠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The bigger picture</strong></p>
-
-
-
-<p class="wp-block-paragraph">For me, this update represents something bigger than another Power Platform security feature.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s part of a broader movement towards attribute-based and context-aware governance.</p>
-
-
-
-<p class="wp-block-paragraph">We&#8217;re gradually moving away from security models that simply ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Who owns this?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">and towards models that can ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What is this, what does it represent, and who should be able to access it?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That is a much more sophisticated way of thinking about information security.</p>
-
-
-
-<p class="wp-block-paragraph">And as organisations continue to build larger Dataverse environments, reporting platforms and AI-powered solutions, that flexibility could become increasingly valuable.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c5.png" alt="📅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> When is it coming?</strong></p>
-
-
-
-<p class="wp-block-paragraph">According to <strong>MC1465569</strong>, the feature is scheduled to reach <strong>Public Preview on 16 October 2026</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft describes the announcement as an updated message, meaning the release information has been changed since the original announcement.</p>
-
-
-
-<p class="wp-block-paragraph">The Message Center announcement identifies this as a Power Platform capability.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
-
-
-
-<p class="wp-block-paragraph">I think this is one of those updates that could easily be overlooked because the technical description doesn&#8217;t immediately convey the potential impact.</p>
-
-
-
-<p class="wp-block-paragraph">But the underlying idea is powerful:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Why create complicated ownership structures when the data itself already tells us how access should work?</strong></p>
-
-
-
-<p class="wp-block-paragraph">For organisations with large datasets, reporting environments and complex business structures, the ability to define record-level access around meaningful business attributes could provide:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Less administration.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Greater scalability.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Simpler security models.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Better alignment between data and governance.</strong></p>
-
-
-
-<p class="wp-block-paragraph">And perhaps most importantly:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Security that reflects the way the organisation actually thinks about its information.</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a direction I&#8217;m very interested to see develop as Microsoft continues to evolve the Power Platform.</p>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/09/01/%f0%9f%9a%a8-microsoft-power-platform-is-getting-an-interesting-new-security-capability/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">293</post-id>	</item>
 	</channel>
 </rss>
