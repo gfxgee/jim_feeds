@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Tue, 13 Oct 2026 11:33:23 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 19 Oct 2026 09:28:20 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,210 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Purview Roadmap 575287: Delegating Copilot DLP Without Giving Away the Keys</title>
+		<link>https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/</link>
+					<comments>https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Mon, 19 Oct 2026 09:28:20 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=414</guid>
+
+					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Administrative Units &#124; AI Governance As organisations introduce Microsoft 365 Copilot, Copilot Chat and Copilot Cowork, protecting sensitive information is only part of the challenge. Another question quickly follows: How do you let regional or departmental teams manage their own DLP policies without giving them control over the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="415" data-permalink="https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/delegating-copilot/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Delegating Copilot" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1024%2C683&amp;ssl=1" data-id="415" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-415" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Purview | Data Loss Prevention | Administrative Units | AI Governance</strong></p>
+
+
+
+<p class="wp-block-paragraph">As organisations introduce Microsoft 365 Copilot, Copilot Chat and Copilot Cowork, protecting sensitive information is only part of the challenge. Another question quickly follows:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>How do you let regional or departmental teams manage their own DLP policies without giving them control over the entire tenant?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview Roadmap <strong>575287</strong> aims to address this by extending Administrative Units support to Data Loss Prevention (DLP) for Microsoft 365 Copilot, Copilot Chat and Cowork.</p>
+
+
+
+<p class="wp-block-paragraph">The roadmap currently lists a preview date of <strong>October 2026</strong> and General Availability in <strong>November 2026</strong>. The feature is in development, and release dates may change.</p>
+
+
+
+<p class="wp-block-paragraph">Roadmap details: <a href="https://www.microsoft.com/microsoft-365/roadmap?id=575287">https://www.microsoft.com/microsoft-365/roadmap?id=575287</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What is changing?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Administrative Units (AUs) allow organisations to define administrative boundaries, often aligned to departments, business units or geographical regions.</p>
+
+
+
+<p class="wp-block-paragraph">This roadmap item extends AU support to the management of supported Copilot DLP policies. The intention is to let administrators manage policies within their assigned administrative boundaries without requiring tenant-wide policy-management permissions.</p>
+
+
+
+<p class="wp-block-paragraph">Existing tenant-wide policies continue to apply, and organisations can choose whether to use AU-scoped management.</p>
+
+
+
+<p class="wp-block-paragraph">That distinction matters: this is primarily about delegated administration and policy scope, not a replacement for DLP itself.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why does this matter?</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Delegation without tenant-wide control</strong></p>
+
+
+
+<p class="wp-block-paragraph">Imagine a multinational organisation with separate teams responsible for the UK, Europe and North America.</p>
+
+
+
+<p class="wp-block-paragraph">Each team may need to manage DLP policies relevant to its users and regulatory obligations. Giving every regional administrator unrestricted control over all Copilot DLP policies creates unnecessary risk.</p>
+
+
+
+<p class="wp-block-paragraph">Administrative Units offer a way to delegate supported policy-management responsibilities while maintaining clearer boundaries.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. More practical AI governance</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview DLP can help organisations control how Copilot experiences process sensitive prompts, files and emails, depending on the configured policy and supported scenario.</p>
+
+
+
+<p class="wp-block-paragraph">As Copilot usage expands, governance teams need to consider both the protection controls and who is authorised to manage them.</p>
+
+
+
+<p class="wp-block-paragraph">A regional team might understand its local regulatory requirements better than a central team. Delegation can help bring that expertise into policy management without automatically granting access to the whole tenant.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Separation of duties</strong></p>
+
+
+
+<p class="wp-block-paragraph">Good governance is not just about what a policy does. It is also about who can create, change and oversee it.</p>
+
+
+
+<p class="wp-block-paragraph">Scoping administrative responsibilities can reduce the number of people who need broad permissions, support clearer accountability and make ownership easier to define.</p>
+
+
+
+<p class="wp-block-paragraph">However, Administrative Units do not remove the need for role assignments, change control, monitoring or central oversight.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What should organisations do now?</strong></p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d prepare in five areas:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Map your administrative boundaries.</strong> Identify the departments, regions or business units that need delegated responsibility. Check that your Entra Administrative Units reflect your intended operating model.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Review existing Copilot DLP policies.</strong> Document the policies already in place, their scope, conditions, actions and owners. Identify which responsibilities genuinely need to be delegated.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Define roles and responsibilities.</strong> Agree who can create, edit and review policies, who handles incidents, and which changes require central approval.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Plan a controlled pilot.</strong> When the capability is available in your tenant, test the experience with a small group of restricted administrators. Validate policy scope, permissions, visibility of alerts and activity, and the interaction with existing tenant-wide policies.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Keep central governance in place.</strong> Establish standards for naming, documentation, testing, exceptions and periodic reviews. Delegated administration should operate within a common governance framework.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
+
+
+
+<p class="wp-block-paragraph">AI governance at scale cannot depend on giving every administrator unrestricted control-or forcing every decision through one central team.</p>
+
+
+
+<p class="wp-block-paragraph">The goal is to find the right balance between local accountability and organisation-wide consistency.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Roadmap 575287</strong> is worth watching because it could help organisations delegate Copilot DLP policy management more deliberately, while retaining existing tenant-wide controls.</p>
+
+
+
+<p class="wp-block-paragraph">Give teams the scope they need, keep permissions proportionate, and make sure every delegated policy operates within a clear governance framework.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>References</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Microsoft 365 Roadmap 575287</strong>: <a href="https://www.microsoft.com/microsoft-365/roadmap?id=575287">https://www.microsoft.com/microsoft-365/roadmap?id=575287</a></li>
+
+
+
+<li><strong>Microsoft Learn</strong> &#8211; DLP for Microsoft 365 Copilot, Copilot Chat and Cowork: <a href="https://learn.microsoft.com/en-us/purview/dlp-microsoft365-copilot-location-learn-about">https://learn.microsoft.com/en-us/purview/dlp-microsoft365-copilot-location-learn-about</a></li>
+
+
+
+<li><strong>Microsoft Learn</strong> &#8211; Administrative Units in Microsoft Purview: <a href="https://learn.microsoft.com/en-us/purview/purview-admin-units">https://learn.microsoft.com/en-us/purview/purview-admin-units</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">#MicrosoftPurview #Microsoft365Copilot #CopilotCowork #DataLossPrevention #IdentityGovernance #AIGovernance #GovernanceJim</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">414</post-id>	</item>
+		<item>
 		<title>🚨 Microsoft Purview Roadmap 575285: Extending Network DLP Beyond Known Cloud Apps</title>
 		<link>https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/</link>
 					<comments>https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/#respond</comments>
@@ -39,8 +243,8 @@
 
 					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Microsoft Entra Global Secure Access How do you protect sensitive information when users upload it to a website your organisation hasn&#8217;t explicitly identified or sanctioned? It&#8217;s a challenge for information security teams. Organisations can build detailed Data Loss Prevention (DLP) policies for known cloud applications, but users can [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="407" data-permalink="https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/designer-1-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Designer (1)" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1024%2C683&amp;ssl=1" data-id="407" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-407" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="407" data-permalink="https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/designer-1-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Designer (1)" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1024%2C683&amp;ssl=1" data-id="407" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-407" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -259,7 +463,7 @@
 
 					<description><![CDATA[Microsoft Purview is extending sensitivity labels to Microsoft Entra cloud security groups. Here&#8217;s why that matters for identity, access management and information governance. Sensitivity labels are an important part of Microsoft Purview Information Protection. They help organisations classify information and, when configured for supported workloads, apply protection and governance settings. But what happens when we [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="399" data-permalink="https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/image-sensitivity-labels-to-security-groups/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Image &amp;#8211; Sensitivity labels to Security Groups" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1024%2C683&amp;ssl=1" data-id="399" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-399" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -545,8 +749,8 @@
 
 					<description><![CDATA[If your organisation is still using the classic Microsoft Purview Data Security Posture Management experiences, there is a change coming that you should put on the radar now. Microsoft Message Center update MC1481315 confirms that Microsoft is retiring: The retirement begins 30 November 2026, with the classic experiences expected to be fully retired by 31 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1317,7 +1521,7 @@
 
 					<description><![CDATA[Microsoft is bringing new Copilot readiness and Data Explorer experiences into Purview DSPM, and this could change how we think about AI readiness. If you&#8217;ve been following Microsoft Purview over the last couple of years, you&#8217;ll probably have noticed something. The conversation has changed. We used to ask: &#8220;Have we classified our data?&#8221; Then: &#8220;Have [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="342" data-permalink="https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/chatgpt-image-sep-16-2026-04_32_40-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1672%2C940&amp;ssl=1" data-orig-size="1672,940" data-comments-opened="1" data-image-title="ChatGPT Image Sep 16, 2026, 04_32_40 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1024%2C576&amp;ssl=1" data-id="342" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-342" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2147,7 +2351,7 @@
 
 					<description><![CDATA[👉 Why AI governance is becoming less about what an agent can access &#8211; and more about what it can do with what it&#8217;s allowed to access Here&#8217;s an uncomfortable thought. Your AI agent might not be doing anything wrong. It might be following every permission you&#8217;ve given it, it might be operating exactly as [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="335" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/chatgpt-image-sep-15-2026-05_31_17-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 05_31_17 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1024%2C683&amp;ssl=1" data-id="335" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-335" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3391,7 +3595,7 @@
 
 					<description><![CDATA[There is a relatively small Microsoft Purview change coming that could have a bigger operational impact than its roadmap description suggests. Microsoft Purview Endpoint Data Loss Prevention is gaining the ability to scope Just-in-Time Audit by user or group. The change is associated with Microsoft 365 Roadmap ID 562991 and Message Center announcement MC1387575. Microsoft [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="331" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/chatgpt-image-sep-15-2026-12_34_43-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 12_34_43 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1024%2C683&amp;ssl=1" data-id="331" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-331" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4057,7 +4261,7 @@
 
 					<description><![CDATA[We often talk about accessibility as though it is something we need to add for a particular group of people. I think we should look at it differently. Accessibility is about removing unnecessary barriers so people can participate independently. That distinction matters. An estimated 1.3 billion people &#8211; around 1 in 6 globally &#8211; experience [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="325" data-permalink="https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/chatgpt-image-sep-14-2026-04_17_45-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 14, 2026, 04_17_45 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1024%2C683&amp;ssl=1" data-id="325" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-325" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4805,7 +5009,7 @@
 
 					<description><![CDATA[Microsoft 365 Roadmap ID: 562343 Data retention sounds simple. Keep what you need.Delete what you don&#8217;t.Retain information for as long as regulations, policies and the business require. In reality, it&#8217;s rarely that straightforward. Most organisations have enormous amounts of information sitting across SharePoint and OneDrive. Some of it is sensitive. Some of it is business-critical. [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="318" data-permalink="https://jimtalks.co.uk/2026/09/10/%f0%9f%9a%a8-microsoft-purview-helping-you-make-better-retention-decisions/data-lifecycle-management-insights-and-policy-recommendations/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Data Lifecycle Management &amp;#8211; Insights and Policy recommendations" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?fit=1024%2C576&amp;ssl=1" data-id="318" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-318" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Lifecycle-Management-Insights-and-Policy-recommendations.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5321,7 +5525,7 @@
 
 					<description><![CDATA[Microsoft Roadmap ID: 570845 AI is rapidly becoming part of the way people work — but as organisations introduce more AI experiences, the security challenge becomes increasingly important: How do you protect sensitive information consistently across all of them? Microsoft is addressing part of that challenge with Roadmap ID 570845, which brings Microsoft Purview Data [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="314" data-permalink="https://jimtalks.co.uk/2026/09/09/%f0%9f%9a%a8-microsoft-purview-dlp-comes-to-microsoft-cowork-one-policy-more-protection/data-loss-prevention-for-microsoft-cowork/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Data Loss Prevention for Microsoft Cowork" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?fit=1024%2C683&amp;ssl=1" data-id="314" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-314" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Data-Loss-Prevention-for-Microsoft-Cowork.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5831,515 +6035,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">313</post-id>	</item>
-		<item>
-		<title>🚨 You’ve Deployed Endpoint DLP &#8211; But Is It Actually Ready to Protect Your Devices?</title>
-		<link>https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/</link>
-					<comments>https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Mon, 07 Sep 2026 15:02:29 +0000</pubDate>
-				<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=306</guid>
-
-					<description><![CDATA[There is a question that doesn&#8217;t get asked often enough when organisations deploy Data Loss Prevention: &#8220;We&#8217;ve created the DLP policy. But do we know whether our devices are actually ready to enforce it?&#8221; It&#8217;s an important distinction. Creating a Microsoft Purview Endpoint DLP policy is relatively straightforward. Making sure that the devices across your [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="307" data-permalink="https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/deployed-endpoint-dlp/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Deployed Endpoint DLP" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?fit=1024%2C683&amp;ssl=1" data-id="307" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-307" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/Deployed-Endpoint-DLP.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph">There is a question that doesn&#8217;t get asked often enough when organisations deploy Data Loss Prevention:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;We&#8217;ve created the DLP policy. But do we know whether our devices are actually ready to enforce it?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s an important distinction.</p>
-
-
-
-<p class="wp-block-paragraph">Creating a Microsoft Purview Endpoint DLP policy is relatively straightforward. Making sure that the devices across your organisation are correctly configured, reporting, receiving policies and ready to enforce those controls is a different challenge altogether.</p>
-
-
-
-<p class="wp-block-paragraph">And this is where the Microsoft Purview Endpoint DLP Device Health Reporting Dashboard becomes interesting.</p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Originally introduced under <strong>Roadmap ID 561033</strong>, the dashboard provides administrators with a centralised view of Endpoint DLP device readiness. Microsoft describes it as a way to monitor device onboarding status, policy update readiness and feature readiness, while identifying devices that may not be ready to receive or enforce Endpoint DLP policies.</p>
-
-
-
-<p class="wp-block-paragraph">But for me, the real story isn&#8217;t the dashboard. It&#8217;s the question the dashboard allows organisations to answer.</p>
-
-
-
-<p class="wp-block-paragraph">Having a DLP policy doesn&#8217;t necessarily mean you have DLP protection.</p>
-
-
-
-<p class="wp-block-paragraph">Imagine you&#8217;ve spent weeks designing your Endpoint DLP strategy.</p>
-
-
-
-<p class="wp-block-paragraph">You&#8217;ve identified your sensitive information, you&#8217;ve created your policies.</p>
-
-
-
-<p class="wp-block-paragraph">You&#8217;ve defined your conditions. You&#8217;ve configured what users can and cannot do.</p>
-
-
-
-<p class="wp-block-paragraph">Everything looks great.</p>
-
-
-
-<p class="wp-block-paragraph">But what happens if some of your devices:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>aren&#8217;t reporting correctly;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>have configuration issues;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>aren&#8217;t receiving the latest policy;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>are offline;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>have outdated Defender components;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>or aren&#8217;t ready for a particular Endpoint DLP capability?</strong></p>
-
-
-
-<p class="wp-block-paragraph">You could potentially have a beautifully designed DLP policy sitting on top of an imperfect endpoint estate.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s the gap this dashboard helps expose.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s documentation specifically highlights issues such as configuration, connectivity and version problems that can affect a device&#8217;s readiness to receive or enforce Endpoint DLP policies.</p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>From policy configuration to operational assurance</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is where I think the feature becomes particularly valuable from a governance perspective.</p>
-
-
-
-<p class="wp-block-paragraph">Traditionally, conversations around DLP tend to focus on:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Have we configured the policy?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">But mature governance needs to ask a different question:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Can we demonstrate that our controls are operational?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Those are two very different things.</p>
-
-
-
-<p class="wp-block-paragraph">A policy existing in the Purview portal doesn&#8217;t automatically prove that every relevant endpoint is healthy and ready to apply it.</p>
-
-
-
-<p class="wp-block-paragraph">The Device Health Reporting Dashboard helps bridge that gap. It gives administrators a centralised view of device readiness and allows them to investigate problem areas rather than manually working through individual devices.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What can you actually see?</strong></p>
-
-
-
-<p class="wp-block-paragraph">The dashboard provides visibility into areas including:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Device onboarding</strong></p>
-
-
-
-<p class="wp-block-paragraph">You can understand the overall state of devices onboarded for Endpoint DLP and identify devices with configuration issues.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Policy update readiness</strong></p>
-
-
-
-<p class="wp-block-paragraph">You can identify devices that may not be ready to receive future Endpoint DLP policy updates.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Feature readiness</strong></p>
-
-
-
-<p class="wp-block-paragraph">The dashboard can show readiness for supported Endpoint DLP features, helping administrators determine whether devices meet the necessary requirements before deploying or enabling functionality.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Device activity</strong></p>
-
-
-
-<p class="wp-block-paragraph">You can also use device activity information to identify devices that haven&#8217;t reported recently and may therefore require investigation. And importantly, the dashboard isn&#8217;t just a collection of numbers.</p>
-
-
-
-<p class="wp-block-paragraph">The visualisations can be used to drill down into the affected devices so administrators can move from:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Something isn&#8217;t right&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">to:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;These are the devices that need attention.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why device health matters to DLP</strong></p>
-
-
-
-<p class="wp-block-paragraph">Consider a simple example.</p>
-
-
-
-<p class="wp-block-paragraph">Your organisation has 5,000 devices covered by an Endpoint DLP policy, your policy is configured correctly. Your sensitive information is correctly identified. Your DLP rules are working.</p>
-
-
-
-<p class="wp-block-paragraph">But 200 devices have configuration or readiness issues.</p>
-
-
-
-<p class="wp-block-paragraph">Your policy coverage might look fantastic on paper.</p>
-
-
-
-<p class="wp-block-paragraph">Your effective protection could be very different.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s why I think it&#8217;s useful to distinguish between:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Policy coverage</strong></p>
-
-
-
-<p class="wp-block-paragraph">&#8220;How many devices are targeted by my DLP policy?&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">and:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Operational coverage</strong></p>
-
-
-
-<p class="wp-block-paragraph">&#8220;How many devices are actually healthy and ready to enforce my DLP policy?&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">The second question is much more meaningful.</p>
-
-
-
-<p class="wp-block-paragraph">It also helps with troubleshooting</p>
-
-
-
-<p class="wp-block-paragraph">Another useful aspect is that the dashboard can help administrators identify where problems exist rather than relying on manual investigation.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s troubleshooting guidance provides separate configuration and policy synchronisation statuses and explains how administrators can investigate devices that aren&#8217;t updated or aren&#8217;t reporting correctly.</p>
-
-
-
-<p class="wp-block-paragraph">For example, configuration health can indicate whether a device is correctly configured and reporting a heartbeat to Purview.</p>
-
-
-
-<p class="wp-block-paragraph">Policy synchronisation status indicates whether the device has received the current policy version.</p>
-
-
-
-<p class="wp-block-paragraph">That distinction is important.</p>
-
-
-
-<p class="wp-block-paragraph">A device can be onboarded without necessarily being in the state you want it to be in from a DLP enforcement perspective.</p>
-
-
-
-<p class="wp-block-paragraph">This isn&#8217;t just a security problem</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s tempting to view device health purely as a technical issue for the endpoint team.</p>
-
-
-
-<p class="wp-block-paragraph">I think that&#8217;s too narrow.</p>
-
-
-
-<p class="wp-block-paragraph">It has implications for:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Security</strong></p>
-
-
-
-<p class="wp-block-paragraph">Are our controls actually operating?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Compliance</strong></p>
-
-
-
-<p class="wp-block-paragraph">Can we demonstrate that our protection mechanisms are being monitored?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Data governance</strong></p>
-
-
-
-<p class="wp-block-paragraph">Are sensitive information controls consistently applied?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Risk management</strong></p>
-
-
-
-<p class="wp-block-paragraph">Where are our protection gaps?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Operations</strong></p>
-
-
-
-<p class="wp-block-paragraph">Which devices require remediation?</p>
-
-
-
-<p class="wp-block-paragraph">This makes the dashboard useful not just to endpoint administrators, but to the wider governance and security function.</p>
-
-
-
-<p class="wp-block-paragraph">What should organisations do?</p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> If you&#8217;re using Endpoint DLP, I wouldn&#8217;t treat this as a dashboard you look at once and forget about.</p>
-
-
-
-<p class="wp-block-paragraph">Make it part of your operational governance.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>1. Establish your baseline</strong></p>
-
-
-
-<p class="wp-block-paragraph">Understand how many devices you have and how many are onboarded.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>2. Identify exceptions</strong></p>
-
-
-
-<p class="wp-block-paragraph">Look for devices with configuration, connectivity or policy-readiness issues.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>3. Prioritise</strong></p>
-
-
-
-<p class="wp-block-paragraph">Not every device represents the same level of risk.</p>
-
-
-
-<p class="wp-block-paragraph">Consider the users, data and business functions associated with devices requiring remediation.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>4. Remediate</strong></p>
-
-
-
-<p class="wp-block-paragraph">Work with your endpoint and security teams to address the underlying problems.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>5. Monitor continuously</strong></p>
-
-
-
-<p class="wp-block-paragraph">Device health isn&#8217;t static.</p>
-
-
-
-<p class="wp-block-paragraph">A device that is healthy today may not be healthy tomorrow.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft recommends regularly reviewing the dashboard, investigating devices that haven&#8217;t reported recently and validating readiness before deploying new policies or features.</p>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The bigger picture</strong></p>
-
-
-
-<p class="wp-block-paragraph">This feature represents something I think we&#8217;re going to see more of across Microsoft Purview. The conversation is gradually moving away from:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Have you configured the control?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">towards:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Is the control actually working across your environment?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a much more mature approach to governance. It&#8217;s the difference between configuration and assurance.</p>
-
-
-
-<p class="wp-block-paragraph">You don&#8217;t just want to know that Endpoint DLP exists. You want to know:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Where it&#8217;s deployed</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Which devices are healthy</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Which devices aren&#8217;t</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Whether policies are synchronising</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Which features devices are ready for</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Where your protection gaps exist</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>And what needs to be fixed</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s where this dashboard becomes valuable.</p>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
-
-
-
-<p class="wp-block-paragraph">The most dangerous DLP control isn&#8217;t necessarily the one you haven&#8217;t configured, it could be the one you think is working.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s why device health matters, a DLP policy is only as effective as the devices that are expected to enforce it.</p>
-
-
-
-<p class="wp-block-paragraph">So don&#8217;t just ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Have we deployed Endpoint DLP?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Can we prove that our endpoints are ready to protect our data?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That, to me, is the real value of the Device Health Reporting Dashboard.</p>
-
-
-
-<p class="wp-block-paragraph">Policy is configuration.</p>
-
-
-
-<p class="wp-block-paragraph">Health is assurance.</p>
-
-
-
-<p class="wp-block-paragraph">And assurance is what turns a security control into effective governance.</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/09/07/%f0%9f%9a%a8-youve-deployed-endpoint-dlp-but-is-it-actually-ready-to-protect-your-devices/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">306</post-id>	</item>
 	</channel>
 </rss>
