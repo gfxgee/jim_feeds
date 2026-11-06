@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Tue, 03 Nov 2026 12:08:37 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 06 Nov 2026 09:56:05 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,474 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🚨 Microsoft Purview Roadmap 575284: Retention Doesn&#8217;t Have to Mean Keeping Every File Version Forever</title>
+		<link>https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/</link>
+					<comments>https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Fri, 06 Nov 2026 09:56:05 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=442</guid>
+
+					<description><![CDATA[If you manage Microsoft 365, particularly SharePoint Online and OneDrive, you&#8217;ll probably be familiar with the storage challenges that come with document version history. Versioning is incredibly useful. It allows users to recover previous versions of documents, investigate changes and restore content when something goes wrong. But there&#8217;s another side to it. In organisations with [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="576" data-attachment-id="443" data-permalink="https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/microsoft-purview-streamlined-storage-infographic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Streamlined Storage Infographic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1024%2C576&amp;ssl=1" data-id="443" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-443" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">If you manage Microsoft 365, particularly SharePoint Online and OneDrive, you&#8217;ll probably be familiar with the storage challenges that come with document version history.</p>
+
+
+
+<p class="wp-block-paragraph">Versioning is incredibly useful. It allows users to recover previous versions of documents, investigate changes and restore content when something goes wrong.</p>
+
+
+
+<p class="wp-block-paragraph">But there&#8217;s another side to it.</p>
+
+
+
+<p class="wp-block-paragraph">In organisations with large SharePoint environments, heavily edited documents can accumulate significant numbers of versions. Multiply that across thousands of sites, libraries and users, and the storage footprint can become substantial.</p>
+
+
+
+<p class="wp-block-paragraph">Now add Microsoft Purview retention policies into the equation.</p>
+
+
+
+<p class="wp-block-paragraph">Historically, content subject to a retention policy or eDiscovery hold has been protected from normal SharePoint version history limits. This is important from a compliance perspective, but it can also mean that version storage grows beyond the limits administrators would normally expect.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft roadmap item <strong>575284</strong> is looking to address this.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What is Microsoft Purview Roadmap 575284?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The roadmap item is titled:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Purview: Data Lifecycle Management – Enable version trimming for data covered by retention policies in OneDrive and SharePoint.</strong></p>
+
+
+
+<p class="wp-block-paragraph">The planned capability will allow administrators with the appropriate Purview permissions to enable version cleanup for SharePoint and OneDrive content, even when retention policies are in effect.</p>
+
+
+
+<p class="wp-block-paragraph">The intention is to allow SharePoint version management to trim file versions according to configured limits, while maintaining the necessary protections for specific content that must be preserved.</p>
+
+
+
+<p class="wp-block-paragraph">In other words, Microsoft is looking to give organisations more control over the storage impact of version history without simply removing their retention controls.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Roadmap details:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Roadmap ID: 575284</strong></li>
+
+
+
+<li>Product: Microsoft Purview – Data Lifecycle Management</li>
+
+
+
+<li>Status: In development</li>
+
+
+
+<li>Planned preview: <strong>November 2026</strong></li>
+
+
+
+<li>Planned rollout: <strong>January 2027</strong></li>
+
+
+
+<li>Platform: Web</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">These are planned dates, not guaranteed delivery dates. Check the roadmap for the latest status before making deployment plans.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why does this matter?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Let&#8217;s consider a practical example.</p>
+
+
+
+<p class="wp-block-paragraph">Imagine an organisation with 20,000 SharePoint sites and several million documents.</p>
+
+
+
+<p class="wp-block-paragraph">A particular Finance document might be updated dozens of times each month. Each update creates another version.</p>
+
+
+
+<p class="wp-block-paragraph">Under normal circumstances, SharePoint version history settings help control how many versions are retained.</p>
+
+
+
+<p class="wp-block-paragraph">However, if that document is subject to a retention policy, the normal version history limits may not apply in the same way.</p>
+
+
+
+<p class="wp-block-paragraph">This is intentional. Microsoft needs to ensure that retention and eDiscovery obligations are honoured.</p>
+
+
+
+<p class="wp-block-paragraph">But consider the consequences:</p>
+
+
+
+<ul class="wp-block-list">
+<li>More versions are retained than administrators anticipated.</li>
+
+
+
+<li>Storage consumption increases.</li>
+
+
+
+<li>Administrators have less flexibility when managing version history.</li>
+
+
+
+<li>Storage planning becomes more complicated.</li>
+
+
+
+<li>Organisations may struggle to balance recovery requirements, compliance and storage costs.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><strong>Roadmap 575284</strong> is intended to give administrators another option.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What could administrators do with this?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The most interesting aspect is the potential to bring version management and retention management closer together.</p>
+
+
+
+<p class="wp-block-paragraph">Here are three areas where I think this could make a difference.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Better SharePoint storage management</strong></p>
+
+
+
+<p class="wp-block-paragraph">Organisations could potentially apply more controlled version history limits to content covered by retention policies.</p>
+
+
+
+<p class="wp-block-paragraph">This could help reduce unnecessary version accumulation and improve storage management across large SharePoint and OneDrive estates.</p>
+
+
+
+<p class="wp-block-paragraph">However, don&#8217;t assume this means every historical version can be deleted. Specific protected cases will continue to require preservation.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. More flexibility for retention policies</strong></p>
+
+
+
+<p class="wp-block-paragraph">Retention policies exist to meet business, regulatory and legal requirements.</p>
+
+
+
+<p class="wp-block-paragraph">They aren&#8217;t necessarily designed to retain every intermediate version of every document indefinitely.</p>
+
+
+
+<p class="wp-block-paragraph">There is an important distinction between retaining the information an organisation is obligated to preserve and retaining every historical version generated during normal document collaboration.</p>
+
+
+
+<p class="wp-block-paragraph">This roadmap item is interesting because it recognises that distinction.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Better alignment between compliance and operational requirements</strong></p>
+
+
+
+<p class="wp-block-paragraph">Historically, administrators have often had to consider retention and version management as separate concerns.</p>
+
+
+
+<p class="wp-block-paragraph">This capability could provide more flexibility to manage both together.</p>
+
+
+
+<p class="wp-block-paragraph">For example, an organisation might want to preserve information for seven years while applying sensible version history limits to reduce unnecessary storage consumption.</p>
+
+
+
+<p class="wp-block-paragraph">The important thing will be understanding exactly which versions remain protected and how the new behaviour interacts with retention policies, eDiscovery holds and records.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What should you be doing now?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Although the feature is still in development, there are several things I&#8217;d recommend reviewing before it arrives.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Understand your current version storage</strong></p>
+
+
+
+<p class="wp-block-paragraph">Look at your SharePoint and OneDrive storage consumption.</p>
+
+
+
+<p class="wp-block-paragraph">Identify sites and libraries where version history is contributing significantly to storage usage.</p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t assume the largest sites are necessarily the biggest contributors. A smaller library containing frequently updated documents can accumulate substantial version history.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Review your version history settings</strong></p>
+
+
+
+<p class="wp-block-paragraph">Understand the version limits currently applied at tenant, site and library level.</p>
+
+
+
+<p class="wp-block-paragraph">Remember that SharePoint supports different configuration levels, and individual sites or libraries can have settings that differ from the organisation defaults.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Review retention policies and eDiscovery holds</strong></p>
+
+
+
+<p class="wp-block-paragraph">Identify which SharePoint sites and OneDrive accounts are covered by retention policies or eDiscovery holds.</p>
+
+
+
+<p class="wp-block-paragraph">Understand why the content is being retained and whether the organisation has documented requirements around historical versions.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Identify records and regulated content</strong></p>
+
+
+
+<p class="wp-block-paragraph">Pay particular attention to records management requirements.</p>
+
+
+
+<p class="wp-block-paragraph">A document declared as a record has additional protection considerations. Do not assume that version trimming will treat records in the same way as ordinary documents.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Establish a governance position</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before enabling any version trimming capability, agree:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Which workloads and sites are in scope?</li>
+
+
+
+<li>What version history limits are appropriate?</li>
+
+
+
+<li>Which content must retain historical versions?</li>
+
+
+
+<li>What recovery requirements apply?</li>
+
+
+
+<li>Who is authorised to configure and approve changes?</li>
+
+
+
+<li>How will the impact be assessed and monitored?</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">I would strongly recommend testing with a representative set of sites before applying any new configuration more broadly.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>One important distinction: retention versus version history</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is the part I think administrators need to understand.</p>
+
+
+
+<p class="wp-block-paragraph">Retention and version history solve different problems.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Retention</strong> is about ensuring information is preserved for a defined period or according to a particular business or regulatory requirement.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Version history</strong> is about maintaining previous iterations of a document so that changes can be reviewed or content can be restored.</p>
+
+
+
+<p class="wp-block-paragraph">They overlap, but they aren&#8217;t the same thing.</p>
+
+
+
+<p class="wp-block-paragraph">A retention policy doesn&#8217;t automatically mean that every version must be retained forever. Equally, reducing version history doesn&#8217;t mean that an organisation can ignore its retention obligations.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft&#8217;s existing documentation explains how SharePoint version trimming interacts with retention policies and eDiscovery holds. It is worth reading before planning any changes.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway:</strong></p>
+
+
+
+<p class="wp-block-paragraph">I think roadmap <strong>575284</strong> is a welcome development for organisations managing large SharePoint and OneDrive environments.</p>
+
+
+
+<p class="wp-block-paragraph">For years, administrators have had to balance three competing considerations:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Protecting information to meet compliance obligations.</li>
+
+
+
+<li>Maintaining useful document recovery capabilities.</li>
+
+
+
+<li>Controlling the storage footprint of Microsoft 365.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">This update has the potential to give organisations more flexibility in managing that balance.</p>
+
+
+
+<p class="wp-block-paragraph">But the real opportunity isn&#8217;t simply deleting old versions to save storage.</p>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s being able to make more informed decisions about what needs to be retained, what needs to remain recoverable and what version history can be managed more efficiently.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Good information governance isn&#8217;t about keeping everything forever. It&#8217;s about retaining the right information, for the right reasons, for the right amount of time.</strong></p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s the conversation I&#8217;d be having before enabling this capability.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>Further reading</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.microsoft.com/en-gb/microsoft-365/roadmap?id=575284">Microsoft 365 Roadmap – ID 575284</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/trim-versions">Microsoft Learn – Trim existing versions in SharePoint</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/document-library-version-history-limits">Microsoft Learn – Version history limits for SharePoint and OneDrive</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/purview/whats-new">Microsoft Purview – What&#8217;s new</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><em>Roadmap information checked: 6 November 2026. Feature availability and timelines are subject to change.</em></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">442</post-id>	</item>
+		<item>
 		<title>🤔 Did You Know? Microsoft Purview Insider Risk Management Connects to More of Microsoft 365 Than You Might Think</title>
 		<link>https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/</link>
 					<comments>https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/#respond</comments>
@@ -39,8 +507,8 @@
 
 					<description><![CDATA[When people talk about Microsoft Purview Insider Risk Management (IRM), the conversation often focuses on detecting suspicious user activity. Perhaps someone is downloading large volumes of files before leaving the organisation. Maybe sensitive information is being uploaded to an unauthorised cloud service, or a user is attempting to remove or downgrade sensitivity labels. But here&#8217;s [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="576" data-attachment-id="436" data-permalink="https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/microsoft-purview-insider-risk-hub/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Insider Risk Hub" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1024%2C576&amp;ssl=1" data-id="436" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-436" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="436" data-permalink="https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/microsoft-purview-insider-risk-hub/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Insider Risk Hub" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1024%2C576&amp;ssl=1" data-id="436" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-436" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -505,7 +973,7 @@
 
 					<description><![CDATA[Microsoft Purview is continuing to improve how organisations delegate administrative responsibilities without compromising security. Roadmap ID 577187 introduces a new View-Only Device Management role for the device onboarding experience in Microsoft Purview Endpoint Data Loss Prevention (Endpoint DLP). For organisations working towards least-privilege administration, this is a small but meaningful change. The principle is simple: [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="1024" data-attachment-id="422" data-permalink="https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/read-only-device-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-title="Read-Only Device image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1024%2C1024&amp;ssl=1" data-id="422" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-422" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -799,8 +1267,8 @@
 
 					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Administrative Units &#124; AI Governance As organisations introduce Microsoft 365 Copilot, Copilot Chat and Copilot Cowork, protecting sensitive information is only part of the challenge. Another question quickly follows: How do you let regional or departmental teams manage their own DLP policies without giving them control over the [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="683" data-attachment-id="415" data-permalink="https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/delegating-copilot/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Delegating Copilot" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1024%2C683&amp;ssl=1" data-id="415" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-415" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="415" data-permalink="https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/delegating-copilot/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Delegating Copilot" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1024%2C683&amp;ssl=1" data-id="415" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-415" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1003,7 +1471,7 @@
 
 					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Microsoft Entra Global Secure Access How do you protect sensitive information when users upload it to a website your organisation hasn&#8217;t explicitly identified or sanctioned? It&#8217;s a challenge for information security teams. Organisations can build detailed Data Loss Prevention (DLP) policies for known cloud applications, but users can [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="407" data-permalink="https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/designer-1-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Designer (1)" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1024%2C683&amp;ssl=1" data-id="407" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-407" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1223,7 +1691,7 @@
 
 					<description><![CDATA[Microsoft Purview is extending sensitivity labels to Microsoft Entra cloud security groups. Here&#8217;s why that matters for identity, access management and information governance. Sensitivity labels are an important part of Microsoft Purview Information Protection. They help organisations classify information and, when configured for supported workloads, apply protection and governance settings. But what happens when we [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="399" data-permalink="https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/image-sensitivity-labels-to-security-groups/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Image &amp;#8211; Sensitivity labels to Security Groups" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1024%2C683&amp;ssl=1" data-id="399" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-399" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1509,7 +1977,7 @@
 
 					<description><![CDATA[If your organisation is still using the classic Microsoft Purview Data Security Posture Management experiences, there is a change coming that you should put on the radar now. Microsoft Message Center update MC1481315 confirms that Microsoft is retiring: The retirement begins 30 November 2026, with the classic experiences expected to be fully retired by 31 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2281,7 +2749,7 @@
 
 					<description><![CDATA[Microsoft is bringing new Copilot readiness and Data Explorer experiences into Purview DSPM, and this could change how we think about AI readiness. If you&#8217;ve been following Microsoft Purview over the last couple of years, you&#8217;ll probably have noticed something. The conversation has changed. We used to ask: &#8220;Have we classified our data?&#8221; Then: &#8220;Have [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="342" data-permalink="https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/chatgpt-image-sep-16-2026-04_32_40-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1672%2C940&amp;ssl=1" data-orig-size="1672,940" data-comments-opened="1" data-image-title="ChatGPT Image Sep 16, 2026, 04_32_40 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1024%2C576&amp;ssl=1" data-id="342" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-342" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3111,7 +3579,7 @@
 
 					<description><![CDATA[👉 Why AI governance is becoming less about what an agent can access &#8211; and more about what it can do with what it&#8217;s allowed to access Here&#8217;s an uncomfortable thought. Your AI agent might not be doing anything wrong. It might be following every permission you&#8217;ve given it, it might be operating exactly as [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="335" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/chatgpt-image-sep-15-2026-05_31_17-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 05_31_17 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1024%2C683&amp;ssl=1" data-id="335" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-335" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4355,7 +4823,7 @@
 
 					<description><![CDATA[There is a relatively small Microsoft Purview change coming that could have a bigger operational impact than its roadmap description suggests. Microsoft Purview Endpoint Data Loss Prevention is gaining the ability to scope Just-in-Time Audit by user or group. The change is associated with Microsoft 365 Roadmap ID 562991 and Message Center announcement MC1387575. Microsoft [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="331" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/chatgpt-image-sep-15-2026-12_34_43-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 12_34_43 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1024%2C683&amp;ssl=1" data-id="331" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-331" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -5009,753 +5477,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">330</post-id>	</item>
-		<item>
-		<title>Accessibility Isn&#8217;t a Feature &#8211; It&#8217;s Part of Quality</title>
-		<link>https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/</link>
-					<comments>https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Mon, 14 Sep 2026 15:19:59 +0000</pubDate>
-				<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=324</guid>
-
-					<description><![CDATA[We often talk about accessibility as though it is something we need to add for a particular group of people. I think we should look at it differently. Accessibility is about removing unnecessary barriers so people can participate independently. That distinction matters. An estimated 1.3 billion people &#8211; around 1 in 6 globally &#8211; experience [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="325" data-permalink="https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/chatgpt-image-sep-14-2026-04_17_45-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 14, 2026, 04_17_45 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?fit=1024%2C683&amp;ssl=1" data-id="325" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-325" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-14-2026-04_17_45-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph">We often talk about accessibility as though it is something we need to <em>add</em> for a particular group of people.</p>
-
-
-
-<p class="wp-block-paragraph">I think we should look at it differently.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Accessibility is about removing unnecessary barriers so people can participate independently.</strong></p>
-
-
-
-<p class="wp-block-paragraph">That distinction matters.</p>
-
-
-
-<p class="wp-block-paragraph">An estimated <strong>1.3 billion people &#8211; around 1 in 6 globally &#8211; experience significant disability</strong>. Microsoft itself describes its accessibility commitment as designing products and services for everyone, including more than one billion people with disabilities.</p>
-
-
-
-<p class="wp-block-paragraph">But accessibility isn&#8217;t only about disability.</p>
-
-
-
-<p class="wp-block-paragraph">Accessible content is often:</p>
-
-
-
-<ul class="wp-block-list">
-<li>easier to understand</li>
-
-
-
-<li>easier to navigate</li>
-
-
-
-<li>clearer to read</li>
-
-
-
-<li>easier to search</li>
-
-
-
-<li>easier to consume in different ways</li>
-
-
-
-<li>more usable for everyone</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s why I believe accessibility should be treated as a quality standard, not a specialist feature.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Accessibility isn&#8217;t about &#8220;making things available&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s about removing the barriers that get in the way.</p>
-
-
-
-<p class="wp-block-paragraph">Think about a document with:</p>
-
-
-
-<ul class="wp-block-list">
-<li>no headings</li>
-
-
-
-<li>tiny text</li>
-
-
-
-<li>poor colour contrast</li>
-
-
-
-<li>meaningless hyperlinks</li>
-
-
-
-<li>images with no descriptions</li>
-
-
-
-<li>complicated language</li>
-
-
-
-<li>tables being used purely for layout</li>
-
-
-
-<li>information communicated only through colour</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Technically, the document exists.</p>
-
-
-
-<p class="wp-block-paragraph">But can everyone actually use it?</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s the question we should be asking.</p>
-
-
-
-<p class="wp-block-paragraph">Accessibility is about giving people more than one way to access, understand and interact with information.</p>
-
-
-
-<p class="wp-block-paragraph">That might mean reading instead of listening.</p>
-
-
-
-<p class="wp-block-paragraph">Listening instead of reading.</p>
-
-
-
-<p class="wp-block-paragraph">Using a keyboard instead of a mouse.</p>
-
-
-
-<p class="wp-block-paragraph">Captions instead of audio.</p>
-
-
-
-<p class="wp-block-paragraph">A structured document instead of trying to interpret a visual layout.</p>
-
-
-
-<p class="wp-block-paragraph">Plain language instead of unnecessary complexity.</p>
-
-
-
-<p class="wp-block-paragraph">And importantly, these aren&#8217;t necessarily niche requirements.</p>
-
-
-
-<p class="wp-block-paragraph">We&#8217;ve all had moments when we&#8217;ve benefited from them.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Microsoft&#8217;s approach to accessibility</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s accessibility thinking is built around some powerful principles.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Recognise exclusion</strong></p>
-
-
-
-<p class="wp-block-paragraph">Start by identifying where a product, meeting or document creates a barrier to participation.</p>
-
-
-
-<p class="wp-block-paragraph">Don&#8217;t wait for someone to tell you they can&#8217;t use it.</p>
-
-
-
-<p class="wp-block-paragraph">Look for the barrier.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Learn from diversity</strong></p>
-
-
-
-<p class="wp-block-paragraph">People work, communicate and consume information differently.</p>
-
-
-
-<p class="wp-block-paragraph">Understanding those differences &#8211; particularly through lived experience &#8211; helps us design better experiences.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Solve for one, extend to many</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is one of my favourite concepts.</p>
-
-
-
-<p class="wp-block-paragraph">A feature designed to solve a specific accessibility challenge can benefit a much wider audience.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Captions aren&#8217;t only for people who are deaf or hard of hearing.</strong></p>
-
-
-
-<p class="wp-block-paragraph">They can help when you&#8217;re:</p>
-
-
-
-<ul class="wp-block-list">
-<li>in a noisy environment</li>
-
-
-
-<li>somewhere you can&#8217;t play audio</li>
-
-
-
-<li>working in another language</li>
-
-
-
-<li>struggling to hear a speaker</li>
-
-
-
-<li>trying to search through a meeting afterwards</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">The same principle applies across Microsoft 365.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Accessibility by default</strong></p>
-
-
-
-<p class="wp-block-paragraph">Accessibility shouldn&#8217;t be something we remember at the end of a project.</p>
-
-
-
-<p class="wp-block-paragraph">It should be part of the workflow.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s own Microsoft 365 accessibility guidance recommends keeping accessibility capabilities available, increasing use of Accessibility Checker, making accessibility resources visible and keeping users on appropriate update channels so they benefit from newer accessibility features.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Think of accessibility as publishing quality</strong></p>
-
-
-
-<p class="wp-block-paragraph">For me, this is the simplest way to explain it.</p>
-
-
-
-<p class="wp-block-paragraph">When you&#8217;re creating a document, presentation, email, meeting or SharePoint page, think:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Structure.<br>Describe.<br>Contrast.<br>Navigate.<br>Caption.<br>Simplify.<br>Check.</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s accessibility.</p>
-
-
-
-<p class="wp-block-paragraph">And it&#8217;s also just good content design.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>A practical accessibility checklist</strong></p>
-
-
-
-<p class="wp-block-paragraph">Before you publish something, ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Structure</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Have I used built-in headings?</li>
-
-
-
-<li>Is the document logically structured?</li>
-
-
-
-<li>Is the reading order correct?</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Language</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Is the language clear and concise?</li>
-
-
-
-<li>Have I removed unnecessary jargon?</li>
-
-
-
-<li>Could someone quickly understand the key message?</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Visuals</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Does meaningful imagery have useful alt text?</li>
-
-
-
-<li>Is there sufficient colour contrast?</li>
-
-
-
-<li>Am I relying on colour alone to communicate meaning?</li>
-
-
-
-<li>Are fonts and sizes readable?</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Links</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Instead of:</strong></p>
-
-
-
-<p class="wp-block-paragraph">Click here</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Use:</strong></p>
-
-
-
-<p class="wp-block-paragraph">Read the Microsoft accessibility guidance</p>
-
-
-
-<p class="wp-block-paragraph">The link should tell the user where it goes.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Tables</strong></p>
-
-
-
-<p class="wp-block-paragraph">Use tables for <strong>data</strong>, not simply because they make a document layout easier.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Meetings and media</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Are audio/video recordings captioned?</li>
-
-
-
-<li>Can people access the important information without relying solely on audio?</li>
-
-
-
-<li>Are key decisions captured somewhere people can find them?</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>Documents</strong></p>
-
-
-
-<p class="wp-block-paragraph">Avoid scanned-image-only PDFs where possible.</p>
-
-
-
-<p class="wp-block-paragraph">And use the <strong>Accessibility Checker</strong> before publishing.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s Accessibility Checker identifies potential accessibility issues and provides recommendations for addressing them. Microsoft also provides policy options to increase its use, including configuring it to run automatically in supported Office apps.</p>
-
-
-
-<p class="wp-block-paragraph">But there&#8217;s an important caveat:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>The Accessibility Checker is a quality gate, not a replacement for human judgement or testing.</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Do this. Avoid that.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Do</strong></p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Use headings and structure<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Describe meaningful images<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Use live captions in meetings<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Make links descriptive<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Use plain language<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Test with a keyboard and screen reader where possible<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" alt="✅" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Check your content before publishing</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Avoid</strong></p>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Relying on colour alone<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Using images of text unnecessarily<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Ignoring reading order<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Burying important decisions in chat<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Assuming everyone consumes information in the same way<br><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/274c.png" alt="❌" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Treating Accessibility Checker warnings as noise</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Accessibility needs adoption, not just awareness</strong></p>
-
-
-
-<p class="wp-block-paragraph">Buying technology with accessibility features isn&#8217;t enough.</p>
-
-
-
-<p class="wp-block-paragraph">People need to know those features exist.</p>
-
-
-
-<p class="wp-block-paragraph">And they need to know when and how to use them.</p>
-
-
-
-<p class="wp-block-paragraph">I like a simple four-stage approach:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>1. Awareness</strong></p>
-
-
-
-<p class="wp-block-paragraph">Explain <strong>why</strong> accessibility matters.</p>
-
-
-
-<p class="wp-block-paragraph">Show people the built-in capabilities already available to them.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>2. Enablement</strong></p>
-
-
-
-<p class="wp-block-paragraph">Give people practical resources:</p>
-
-
-
-<ul class="wp-block-list">
-<li>templates</li>
-
-
-
-<li>checklists</li>
-
-
-
-<li>training</li>
-
-
-
-<li>short demonstrations</li>
-
-
-
-<li>quick-reference guides</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"><strong>3. Governance</strong></p>
-
-
-
-<p class="wp-block-paragraph">Make accessibility part of your publishing standards.</p>
-
-
-
-<p class="wp-block-paragraph">Define what &#8220;good&#8221; looks like.</p>
-
-
-
-<p class="wp-block-paragraph">Use the available Microsoft 365 controls and policies where appropriate.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>4. Community</strong></p>
-
-
-
-<p class="wp-block-paragraph">Create feedback routes.</p>
-
-
-
-<p class="wp-block-paragraph">Encourage accessibility champions.</p>
-
-
-
-<p class="wp-block-paragraph">Share examples of good practice.</p>
-
-
-
-<p class="wp-block-paragraph">And, importantly, listen to people with lived experience.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>The bigger picture</strong></p>
-
-
-
-<p class="wp-block-paragraph">WCAG 2.2 provides a useful framework around four principles:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Perceivable.<br>Operable.<br>Understandable.<br>Robust.</strong></p>
-
-
-
-<p class="wp-block-paragraph">These principles aren&#8217;t just technical terminology. They provide a useful way of asking whether people can actually access and use the information we&#8217;re providing.</p>
-
-
-
-<p class="wp-block-paragraph">And there&#8217;s an important point here.</p>
-
-
-
-<p class="wp-block-paragraph">Even conformance with WCAG doesn&#8217;t mean every possible user need has been solved. Accessibility is broader than checking boxes against a standard.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s why people have to remain at the centre of accessibility.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>My challenge to Microsoft 365 administrators</strong></p>
-
-
-
-<p class="wp-block-paragraph">Don&#8217;t ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Does Microsoft 365 have accessibility features?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">We already know the answer is yes.</p>
-
-
-
-<p class="wp-block-paragraph">Ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Are we actually making those features part of how our organisation works?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Are your templates accessible?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Are your meetings accessible?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Are your documents structured?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Are people using captions?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Are your publishers checking their content?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Are your accessibility resources easy to find?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Are people comfortable telling you when something doesn&#8217;t work for them?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s where accessibility moves from technology capability to organisational culture.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Accessibility is not a feature</strong></p>
-
-
-
-<p class="wp-block-paragraph">It is a way of designing better work.</p>
-
-
-
-<p class="wp-block-paragraph">It removes unnecessary barriers.</p>
-
-
-
-<p class="wp-block-paragraph">It gives people choices.</p>
-
-
-
-<p class="wp-block-paragraph">It improves the quality of our content.</p>
-
-
-
-<p class="wp-block-paragraph">And very often, the thing we build to help one person ends up helping many more.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Don&#8217;t ask: &#8220;Do we have accessibility features?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Are we using them?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Every person.<br>Every ability.<br>Every day.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Useful resources</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li><a href="https://www.microsoft.com/en-us/accessibility?utm_source=chatgpt.com" target="_blank" rel="noopener">Microsoft Accessibility</a></li>
-
-
-
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365-apps/deploy/accessibility-guide?utm_source=chatgpt.com" target="_blank" rel="noopener">Microsoft 365 Accessibility Guide</a></li>
-
-
-
-<li><a href="https://learn.microsoft.com/en-us/training/paths/accessibility-fundamental/?utm_source=chatgpt.com" target="_blank" rel="noopener">Microsoft Learn — Accessibility Fundamentals</a></li>
-
-
-
-<li><a href="https://www.microsoft.com/en-us/design/inclusive/?utm_source=chatgpt.com" target="_blank" rel="noopener">Microsoft Inclusive Design</a></li>
-
-
-
-<li><a href="https://www.w3.org/TR/WCAG22/?utm_source=chatgpt.com" target="_blank" rel="noopener">WCAG 2.2 — W3C</a></li>
-</ul>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/09/14/accessibility-isnt-a-feature-its-part-of-quality/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">324</post-id>	</item>
 	</channel>
 </rss>
