@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Fri, 06 Nov 2026 09:56:05 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Nov 2026 17:10:36 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,596 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>🔥 5 Microsoft Purview Controls Every Organisation Should Review Before Deploying AI Agents</title>
+		<link>https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/</link>
+					<comments>https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 17:10:36 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=449</guid>
+
+					<description><![CDATA[AI agents are moving beyond answering questions. They&#8217;re searching SharePoint, summarising documents, retrieving customer information, interacting with business applications, calling APIs and, increasingly, taking actions on behalf of employees. That creates a very different data governance challenge. A traditional application might allow an employee to open a document. An AI agent could potentially retrieve information [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="576" data-attachment-id="450" data-permalink="https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/ai-governance-and-security-ecosystem/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="AI Governance and Security Ecosystem" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?fit=1024%2C576&amp;ssl=1" data-id="450" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem-1024x576.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-450" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph">AI agents are moving beyond answering questions. They&#8217;re searching SharePoint, summarising documents, retrieving customer information, interacting with business applications, calling APIs and, increasingly, taking actions on behalf of employees.</p>
+
+
+
+<p class="wp-block-paragraph">That creates a very different data governance challenge.</p>
+
+
+
+<p class="wp-block-paragraph">A traditional application might allow an employee to open a document. An AI agent could potentially retrieve information from multiple documents, combine it, summarise it and send the result somewhere else.</p>
+
+
+
+<p class="wp-block-paragraph">The agent might be working exactly as designed. The problem could be that the underlying data is overshared, insufficiently classified or not adequately protected.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AI agents don&#8217;t remove existing information governance problems, they can amplify them.</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before deploying agents into your organisation, I recommend reviewing these five Microsoft Purview control areas.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>1. Data Security Posture Management (DSPM): Know what your agents can see</strong></p>
+
+
+
+<p class="wp-block-paragraph">You cannot govern what you cannot see.</p>
+
+
+
+<p class="wp-block-paragraph">Before deploying agents, establish where sensitive information exists, where it is exposed and how AI is interacting with organisational data.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview Data Security Posture Management (DSPM), including its AI-related capabilities, can help organisations understand data exposure and AI usage.</p>
+
+
+
+<p class="wp-block-paragraph">Review:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Where sensitive information is stored across Microsoft 365.</li>
+
+
+
+<li>Whether SharePoint sites and OneDrive content are overshared.</li>
+
+
+
+<li>Whether sensitive information is appropriately classified and labelled.</li>
+
+
+
+<li>Which supported AI applications and agents are being used.</li>
+
+
+
+<li>Whether AI interactions are exposing sensitive information.</li>
+
+
+
+<li>Which recommended remediation actions should be prioritised.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Pay particular attention to inherited permissions, broad access groups, stale content and documents that have never been classified.</p>
+
+
+
+<p class="wp-block-paragraph">Imagine an agent designed to help HR employees answer policy questions. If its users have access to an old SharePoint site containing confidential employee information, the agent may be able to retrieve that information too.</p>
+
+
+
+<p class="wp-block-paragraph">The agent isn&#8217;t necessarily the problem. The data access model is.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f58b.png" alt="🖋" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Jim&#8217;s takeaway:</strong> Assess your information estate before connecting agents to it. Fix oversharing and data exposure before expanding AI access.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>2. Sensitivity Labels and Information Protection: Give your data context</strong></p>
+
+
+
+<p class="wp-block-paragraph">An AI agent needs more than permission to access information. Your organisation needs to understand the sensitivity of that information and apply the appropriate protection.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview sensitivity labels help classify and protect organisational information.</p>
+
+
+
+<p class="wp-block-paragraph">Before deploying agents, review:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Your sensitivity label taxonomy.</li>
+
+
+
+<li>Whether labels are consistently applied to important information.</li>
+
+
+
+<li>Whether appropriate encryption and access restrictions are configured.</li>
+
+
+
+<li>Whether labels are available to the supported AI workloads.</li>
+
+
+
+<li>Whether your policies restrict agents from processing particular sensitive content.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">For example, you might have labels such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Public</li>
+
+
+
+<li>General</li>
+
+
+
+<li>Confidential</li>
+
+
+
+<li>Highly Confidential</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">A document labelled Highly Confidential may require stronger controls than a document labelled General.</p>
+
+
+
+<p class="wp-block-paragraph">For supported Copilot Studio scenarios, Purview can use sensitivity labels to restrict processing of protected SharePoint knowledge sources through applicable DLP policies. Sensitivity label support also varies by agent type and knowledge source.</p>
+
+
+
+<p class="wp-block-paragraph">Do not assume that applying a sensitivity label automatically blocks every AI agent from accessing the content. The label, encryption, user permissions, agent type and applicable policy configuration all matter.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f58b.png" alt="🖋" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Jim&#8217;s takeaway:</strong> Your labels need to mean something operationally. A classification scheme that is inconsistently applied or not connected to enforcement policies provides limited protection.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>3. Data Loss Prevention (DLP): Control what agents can process and share</strong></p>
+
+
+
+<p class="wp-block-paragraph">This is one of the most important controls to review before introducing autonomous or semi-autonomous agents.</p>
+
+
+
+<p class="wp-block-paragraph">An agent may retrieve information from one system and use it in another. It might send an email, create a Teams message, update a record or pass information to an external service.</p>
+
+
+
+<p class="wp-block-paragraph">You need to understand where DLP can inspect and restrict those activities.</p>
+
+
+
+<p class="wp-block-paragraph">Review:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Which AI application locations are covered by your DLP policies.</li>
+
+
+
+<li>Whether sensitive information in prompts and responses is detected.</li>
+
+
+
+<li>Whether labelled content can be restricted from supported agent interactions.</li>
+
+
+
+<li>Whether external sharing and communication actions are controlled.</li>
+
+
+
+<li>Whether endpoint DLP protects users interacting with third-party AI services.</li>
+
+
+
+<li>Whether custom connectors, HTTP actions and external integrations have been assessed separately.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">For example, consider an agent that can retrieve customer information from SharePoint and send an email.</p>
+
+
+
+<p class="wp-block-paragraph">You should establish whether the relevant Purview DLP policies can detect and restrict sensitive information in the supported interaction and communication paths.</p>
+
+
+
+<p class="wp-block-paragraph">For Copilot Studio agents, Microsoft documents specific DLP and sensitivity-label support, including restrictions for supported SharePoint knowledge-source scenarios. Do not assume every agent action or external connector is automatically inspected by Purview DLP.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f58b.png" alt="🖋" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Jim&#8217;s takeaway:</strong> Don&#8217;t just ask what data an agent can read. Ask where that data can go next, and which controls can prevent it from leaving an approved boundary.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>4. Insider Risk Management: Detect risky AI behaviour</strong></p>
+
+
+
+<p class="wp-block-paragraph">Not every AI-related incident starts with a malicious employee.</p>
+
+
+
+<p class="wp-block-paragraph">An employee might accidentally provide sensitive information in a prompt. An agent might be manipulated through prompt injection. Someone might attempt to use AI to access or extract information they should not be handling.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview Insider Risk Management (IRM) can help identify and investigate supported risky AI usage.</p>
+
+
+
+<p class="wp-block-paragraph">Review:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Whether the Risky AI Usage policy template is configured.</li>
+
+
+
+<li>Whether relevant AI activities are being monitored.</li>
+
+
+
+<li>Whether prompt injection and attempts to access protected materials are included in your risk assessment.</li>
+
+
+
+<li>Whether investigation teams have appropriate permissions.</li>
+
+
+
+<li>Whether privacy controls, including pseudonymisation, are configured.</li>
+
+
+
+<li>Whether alerts can be investigated and escalated through your existing security processes.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">The objective is not to treat every unusual AI interaction as misconduct.</p>
+
+
+
+<p class="wp-block-paragraph">It is to identify activity that may indicate data theft, inappropriate use or an attempt to bypass organisational controls.</p>
+
+
+
+<p class="wp-block-paragraph">For example, an employee repeatedly attempting to use an agent to retrieve restricted information may warrant investigation, particularly when combined with other relevant risk indicators.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f58b.png" alt="🖋" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Jim&#8217;s takeaway:</strong> AI governance needs to consider user behaviour as well as agent behaviour. You need visibility into how people are using agents, not simply whether an agent has been deployed.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>5. Audit, Retention and eDiscovery: Know what happened and preserve the evidence</strong></p>
+
+
+
+<p class="wp-block-paragraph">If an AI agent accesses sensitive information, produces an unexpected response or takes an inappropriate action, can your organisation establish what happened?</p>
+
+
+
+<p class="wp-block-paragraph">This is where audit and compliance controls become essential.</p>
+
+
+
+<p class="wp-block-paragraph">Review:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Whether supported agent interactions are captured in the unified audit log.</li>
+
+
+
+<li>Whether prompts, responses and relevant activity records are available.</li>
+
+
+
+<li>Whether the records provide sufficient context for an investigation.</li>
+
+
+
+<li>Whether retention policies cover the relevant AI interaction data.</li>
+
+
+
+<li>Whether eDiscovery teams can search, review and preserve relevant evidence.</li>
+
+
+
+<li>Whether communication compliance policies are appropriate for supported AI interactions.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview Audit can capture supported AI activity, including prompts and responses, depending on the application and integration.</p>
+
+
+
+<p class="wp-block-paragraph">Data Lifecycle Management can help manage the retention and deletion of supported AI interaction data. eDiscovery can support the preservation, collection and review of relevant information where supported.</p>
+
+
+
+<p class="wp-block-paragraph">This is particularly important for regulated organisations.</p>
+
+
+
+<p class="wp-block-paragraph">You should be able to answer questions such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Which user or agent initiated the interaction?</li>
+
+
+
+<li>What information was accessed?</li>
+
+
+
+<li>What was generated?</li>
+
+
+
+<li>When did the activity happen?</li>
+
+
+
+<li>What evidence is available?</li>
+
+
+
+<li>How long must the relevant records be retained?</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">Remember that logging an interaction is not the same as retaining every piece of source data or recording every action taken by an external system. Validate the actual audit coverage for each agent platform.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f58b.png" alt="🖋" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Jim&#8217;s takeaway:</strong> If you cannot reconstruct what an agent did, you will struggle to investigate incidents, demonstrate compliance or establish accountability.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>The important point: Purview coverage is not identical for every agent</strong></p>
+
+
+
+<p class="wp-block-paragraph">These controls are not a universal switch that protects every AI agent.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft publishes capability and application-specific guidance for Microsoft 365 Copilot agents, Copilot Studio agents, Agent 365 and other supported AI applications.</p>
+
+
+
+<p class="wp-block-paragraph">For example, Microsoft&#8217;s Copilot Studio guidance identifies support for DSPM, auditing, data classification and sensitivity labels, with specific DLP and Insider Risk Management capabilities. Some scenarios also require pay-as-you-go billing, particularly for agents published to non-Microsoft channels.</p>
+
+
+
+<p class="wp-block-paragraph">Before deployment, validate:</p>
+
+
+
+<ol start="1" class="wp-block-list">
+<li>Which agent platform you are using.</li>
+
+
+
+<li>Where the agent is published.</li>
+
+
+
+<li>Which knowledge sources it accesses.</li>
+
+
+
+<li>Which connectors and tools it can call.</li>
+
+
+
+<li>Which Purview capabilities are supported for that exact scenario.</li>
+
+
+
+<li>Whether additional licensing, billing or configuration is required.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">Also remember that Purview is one part of the governance model. It does not replace Microsoft Entra identity controls, least-privilege permissions, agent ownership, connector governance, secure development or operational monitoring.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>My recommended pre-deployment checklist</strong></p>
+
+
+
+<p class="wp-block-paragraph">Before an agent is approved for production, I would want evidence that these five areas have been reviewed.</p>
+
+
+
+<ul class="wp-block-list">
+<li>DSPM: Sensitive data exposure and AI usage assessed.</li>
+
+
+
+<li>Information Protection: Sensitivity labels and protection policies reviewed.</li>
+
+
+
+<li>DLP: Supported agent interactions and data movement protected.</li>
+
+
+
+<li>Insider Risk Management: Risky AI usage detection and investigation considered.</li>
+
+
+
+<li>Audit and compliance: Logging, retention and eDiscovery requirements validated.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">I would also require an identified business owner, a technical owner, approved knowledge sources, documented permissions and a process to disable the agent if something goes wrong.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway:</strong></p>
+
+
+
+<p class="wp-block-paragraph">Organisations are rightly excited about what AI agents can do. But giving an agent access to business information is not simply another application deployment.</p>
+
+
+
+<p class="wp-block-paragraph">It introduces a new way for information to be discovered, combined, processed and acted upon.</p>
+
+
+
+<p class="wp-block-paragraph">We have spent years building governance around what employees can access and what they can share. Now we need to apply those principles to what agents can access and what they can do with it.</p>
+
+
+
+<p class="wp-block-paragraph">My framework remains:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>DATA → IDENTITY → AGENT → TOOLS → ACTION → OUTCOME</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview plays a critical role in governing the data and compliance aspects of that journey.</p>
+
+
+
+<p class="wp-block-paragraph">But the real objective is not to deploy more controls. It is to make sure that when an AI agent is given the ability to act, the organisation understands the data it can reach, the boundaries it must respect and the evidence it leaves behind.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Don&#8217;t deploy the agent first and work out the governance afterwards. Make governance part of the deployment decision.</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft resources</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://learn.microsoft.com/en-us/purview/ai-agents">Microsoft Purview – Data security and compliance for AI agents</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/purview/ai-copilot-studio">Microsoft Purview – Copilot Studio agent security and compliance</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/purview/protect-sensitive-data-to-get-ready-for-ai">Microsoft Purview – Protect sensitive data to get ready for AI</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/purview/ai-microsoft-purview">Microsoft Purview – Data security and compliance for generative AI apps</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/purview/insider-risk-management">Microsoft Purview – Insider Risk Management</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/purview/audit-solutions-overview">Microsoft Purview – Audit</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><em>Always validate current licensing, feature availability and supported agent scenarios against Microsoft&#8217;s documentation before implementing controls.</em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">449</post-id>	</item>
+		<item>
 		<title>🚨 Microsoft Purview Roadmap 575284: Retention Doesn&#8217;t Have to Mean Keeping Every File Version Forever</title>
 		<link>https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/</link>
 					<comments>https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/#respond</comments>
@@ -39,8 +629,8 @@
 
 					<description><![CDATA[If you manage Microsoft 365, particularly SharePoint Online and OneDrive, you&#8217;ll probably be familiar with the storage challenges that come with document version history. Versioning is incredibly useful. It allows users to recover previous versions of documents, investigate changes and restore content when something goes wrong. But there&#8217;s another side to it. In organisations with [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="576" data-attachment-id="443" data-permalink="https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/microsoft-purview-streamlined-storage-infographic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Streamlined Storage Infographic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1024%2C576&amp;ssl=1" data-id="443" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-443" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="443" data-permalink="https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/microsoft-purview-streamlined-storage-infographic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Streamlined Storage Infographic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1024%2C576&amp;ssl=1" data-id="443" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-443" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -507,7 +1097,7 @@
 
 					<description><![CDATA[When people talk about Microsoft Purview Insider Risk Management (IRM), the conversation often focuses on detecting suspicious user activity. Perhaps someone is downloading large volumes of files before leaving the organisation. Maybe sensitive information is being uploaded to an unauthorised cloud service, or a user is attempting to remove or downgrade sensitivity labels. But here&#8217;s [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="436" data-permalink="https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/microsoft-purview-insider-risk-hub/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Insider Risk Hub" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1024%2C576&amp;ssl=1" data-id="436" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-436" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -973,8 +1563,8 @@
 
 					<description><![CDATA[Microsoft Purview is continuing to improve how organisations delegate administrative responsibilities without compromising security. Roadmap ID 577187 introduces a new View-Only Device Management role for the device onboarding experience in Microsoft Purview Endpoint Data Loss Prevention (Endpoint DLP). For organisations working towards least-privilege administration, this is a small but meaningful change. The principle is simple: [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="1024" data-attachment-id="422" data-permalink="https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/read-only-device-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-title="Read-Only Device image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1024%2C1024&amp;ssl=1" data-id="422" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-422" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" data-attachment-id="422" data-permalink="https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/read-only-device-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-title="Read-Only Device image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1024%2C1024&amp;ssl=1" data-id="422" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-422" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1267,7 +1857,7 @@
 
 					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Administrative Units &#124; AI Governance As organisations introduce Microsoft 365 Copilot, Copilot Chat and Copilot Cowork, protecting sensitive information is only part of the challenge. Another question quickly follows: How do you let regional or departmental teams manage their own DLP policies without giving them control over the [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="415" data-permalink="https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/delegating-copilot/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Delegating Copilot" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1024%2C683&amp;ssl=1" data-id="415" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-415" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1471,7 +2061,7 @@
 
 					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Microsoft Entra Global Secure Access How do you protect sensitive information when users upload it to a website your organisation hasn&#8217;t explicitly identified or sanctioned? It&#8217;s a challenge for information security teams. Organisations can build detailed Data Loss Prevention (DLP) policies for known cloud applications, but users can [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="407" data-permalink="https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/designer-1-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Designer (1)" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1024%2C683&amp;ssl=1" data-id="407" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-407" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1691,7 +2281,7 @@
 
 					<description><![CDATA[Microsoft Purview is extending sensitivity labels to Microsoft Entra cloud security groups. Here&#8217;s why that matters for identity, access management and information governance. Sensitivity labels are an important part of Microsoft Purview Information Protection. They help organisations classify information and, when configured for supported workloads, apply protection and governance settings. But what happens when we [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="399" data-permalink="https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/image-sensitivity-labels-to-security-groups/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Image &amp;#8211; Sensitivity labels to Security Groups" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1024%2C683&amp;ssl=1" data-id="399" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-399" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1977,7 +2567,7 @@
 
 					<description><![CDATA[If your organisation is still using the classic Microsoft Purview Data Security Posture Management experiences, there is a change coming that you should put on the radar now. Microsoft Message Center update MC1481315 confirms that Microsoft is retiring: The retirement begins 30 November 2026, with the classic experiences expected to be fully retired by 31 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2749,7 +3339,7 @@
 
 					<description><![CDATA[Microsoft is bringing new Copilot readiness and Data Explorer experiences into Purview DSPM, and this could change how we think about AI readiness. If you&#8217;ve been following Microsoft Purview over the last couple of years, you&#8217;ll probably have noticed something. The conversation has changed. We used to ask: &#8220;Have we classified our data?&#8221; Then: &#8220;Have [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="342" data-permalink="https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/chatgpt-image-sep-16-2026-04_32_40-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1672%2C940&amp;ssl=1" data-orig-size="1672,940" data-comments-opened="1" data-image-title="ChatGPT Image Sep 16, 2026, 04_32_40 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1024%2C576&amp;ssl=1" data-id="342" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-342" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3579,7 +4169,7 @@
 
 					<description><![CDATA[👉 Why AI governance is becoming less about what an agent can access &#8211; and more about what it can do with what it&#8217;s allowed to access Here&#8217;s an uncomfortable thought. Your AI agent might not be doing anything wrong. It might be following every permission you&#8217;ve given it, it might be operating exactly as [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="335" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/chatgpt-image-sep-15-2026-05_31_17-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 05_31_17 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1024%2C683&amp;ssl=1" data-id="335" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-335" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4811,671 +5401,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">334</post-id>	</item>
-		<item>
-		<title>🚨 Microsoft Purview JIT Audit Is Getting More Granular &#8211; And That Matters</title>
-		<link>https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/</link>
-					<comments>https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Tue, 15 Sep 2026 11:41:06 +0000</pubDate>
-				<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=330</guid>
-
-					<description><![CDATA[There is a relatively small Microsoft Purview change coming that could have a bigger operational impact than its roadmap description suggests. Microsoft Purview Endpoint Data Loss Prevention is gaining the ability to scope Just-in-Time Audit by user or group. The change is associated with Microsoft 365 Roadmap ID 562991 and Message Center announcement MC1387575. Microsoft [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="331" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/chatgpt-image-sep-15-2026-12_34_43-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 12_34_43 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?fit=1024%2C683&amp;ssl=1" data-id="331" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-331" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-12_34_43-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph">There is a relatively small Microsoft Purview change coming that could have a bigger operational impact than its roadmap description suggests.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Microsoft Purview Endpoint Data Loss Prevention is gaining the ability to scope Just-in-Time Audit by user or group.</strong></p>
-
-
-
-<p class="wp-block-paragraph">The change is associated with <strong>Microsoft 365 Roadmap ID 562991</strong> and Message Center announcement <strong>MC1387575</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft currently says rollout will begin in <strong>December 2026</strong>, with completion expected by the end of December. The timeline was previously scheduled for early July.</p>
-
-
-
-<p class="wp-block-paragraph">At first glance, this might sound like just another configuration option.</p>
-
-
-
-<p class="wp-block-paragraph">I think it&#8217;s more interesting than that.</p>
-
-
-
-<p class="wp-block-paragraph">It moves JIT Audit towards a more deliberate and risk-based model.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>First, what is changing?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft says that administrators will be able to determine which users or groups have their activities audited when Just-in-Time protection is enabled in Endpoint DLP.</p>
-
-
-
-<p class="wp-block-paragraph">Previously, when Just-in-Time protection was enabled, user activities could be logged automatically for users who weren&#8217;t targeted by DLP policies.</p>
-
-
-
-<p class="wp-block-paragraph">The new approach means audit logging can be explicitly configured so that only users or groups included in the audit scope have their activities logged. Microsoft says this gives organisations greater control over audit signal collection and helps reduce unnecessary audit noise.</p>
-
-
-
-<p class="wp-block-paragraph">And that last part is important.</p>
-
-
-
-<p class="wp-block-paragraph">Audit more doesn&#8217;t necessarily mean monitor better.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>More data isn&#8217;t always better data</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is something we regularly encounter in security and compliance.</p>
-
-
-
-<p class="wp-block-paragraph">We turn on a capability.</p>
-
-
-
-<p class="wp-block-paragraph">It starts generating signals.</p>
-
-
-
-<p class="wp-block-paragraph">The security team gets more events.</p>
-
-
-
-<p class="wp-block-paragraph">The dashboards get busier.</p>
-
-
-
-<p class="wp-block-paragraph">And eventually someone asks:</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;Which of this actually matters?&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s where JIT Audit becomes interesting.</p>
-
-
-
-<p class="wp-block-paragraph">If you have thousands of users, do you necessarily want the same level of audit activity generated for everyone?</p>
-
-
-
-<p class="wp-block-paragraph">Probably not.</p>
-
-
-
-<p class="wp-block-paragraph">There may be groups where increased visibility makes sense.</p>
-
-
-
-<p class="wp-block-paragraph">For example:</p>
-
-
-
-<ul class="wp-block-list">
-<li>users working with particularly sensitive information</li>
-
-
-
-<li>privileged or highly privileged users</li>
-
-
-
-<li>administrators</li>
-
-
-
-<li>users in higher-risk business functions</li>
-
-
-
-<li>users participating in a DLP pilot</li>
-
-
-
-<li>specific groups being investigated</li>
-
-
-
-<li>users subject to particular organisational controls</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">The right answer will obviously depend on your organisation and risk model.</p>
-
-
-
-<p class="wp-block-paragraph">But the important thing is that you can start making that decision deliberately.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>JIT Audit shouldn&#8217;t be confused with DLP policy scope</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is where I think administrators need to be careful.</p>
-
-
-
-<p class="wp-block-paragraph">There are two different questions:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>1. Who is my DLP policy protecting?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s about policy scope.</p>
-
-
-
-<p class="wp-block-paragraph">Who is covered by your Endpoint DLP controls?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>2. Who do I want additional audit visibility for?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s about audit scope.</p>
-
-
-
-<p class="wp-block-paragraph">Those aren&#8217;t necessarily the same thing.</p>
-
-
-
-<p class="wp-block-paragraph">And that&#8217;s a useful distinction.</p>
-
-
-
-<p class="wp-block-paragraph">You might have a broad Endpoint DLP policy covering a large population while wanting more targeted JIT Audit visibility for a smaller group.</p>
-
-
-
-<p class="wp-block-paragraph">That allows you to separate:</p>
-
-
-
-<p class="wp-block-paragraph">Protection</p>
-
-
-
-<p class="wp-block-paragraph">from</p>
-
-
-
-<p class="wp-block-paragraph">additional visibility and investigation.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why reduce audit noise?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Because audit data isn&#8217;t free from an operational perspective.</p>
-
-
-
-<p class="wp-block-paragraph">Someone has to:</p>
-
-
-
-<ul class="wp-block-list">
-<li>collect it</li>
-
-
-
-<li>understand it</li>
-
-
-
-<li>investigate it</li>
-
-
-
-<li>correlate it</li>
-
-
-
-<li>retain it</li>
-
-
-
-<li>build processes around it</li>
-
-
-
-<li>potentially integrate it into wider security operations</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Microsoft Purview Audit provides extensive capabilities for searching and investigating user and administrator activity, including filtering by users and activities.</p>
-
-
-
-<p class="wp-block-paragraph">But there&#8217;s a difference between:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;We can collect this.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">and:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;We need to collect this.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Good governance is often about making that distinction.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Think risk-based, not everything-based</strong></p>
-
-
-
-<p class="wp-block-paragraph">One of the biggest lessons I&#8217;ve taken from working with security and compliance technologies is this:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Don&#8217;t automatically apply the maximum level of monitoring everywhere.</strong></p>
-
-
-
-<p class="wp-block-paragraph">Instead, think about:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Risk → People → Data → Activity → Control</strong></p>
-
-
-
-<p class="wp-block-paragraph">Who is high risk?</p>
-
-
-
-<p class="wp-block-paragraph">What data are they working with?</p>
-
-
-
-<p class="wp-block-paragraph">What activities matter?</p>
-
-
-
-<p class="wp-block-paragraph">What level of visibility do we actually need?</p>
-
-
-
-<p class="wp-block-paragraph">And what are we going to do with the information once we&#8217;ve collected it?</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a much more mature conversation than:</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;Let&#8217;s turn on all the auditing.&#8221;</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>This could be particularly useful for pilots</strong></p>
-
-
-
-<p class="wp-block-paragraph">There&#8217;s another scenario I like here.</p>
-
-
-
-<p class="wp-block-paragraph">Imagine you&#8217;re introducing Endpoint DLP and want to understand what JIT Audit looks like before rolling it out more widely.</p>
-
-
-
-<p class="wp-block-paragraph">Rather than immediately generating audit activity across a huge population, you could potentially use a controlled group to understand:</p>
-
-
-
-<ul class="wp-block-list">
-<li>what activity is being generated</li>
-
-
-
-<li>how much signal you&#8217;re getting</li>
-
-
-
-<li>whether the data is useful</li>
-
-
-
-<li>whether your investigation processes work</li>
-
-
-
-<li>whether your SOC understands the events</li>
-
-
-
-<li>whether your policies need adjusting</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Then expand.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a much more sensible adoption pattern.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Pilot → Validate → Tune → Expand</strong></p>
-
-
-
-<p class="wp-block-paragraph">Rather than:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Enable → Generate everything → Figure it out later</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What should administrators be thinking about?</strong></p>
-
-
-
-<p class="wp-block-paragraph">If you&#8217;re using Endpoint DLP and JIT protection, I&#8217;d be asking a few questions.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Who should be in scope?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Don&#8217;t automatically assume everyone.</p>
-
-
-
-<p class="wp-block-paragraph">Document the reason for your chosen users and groups.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Why are they in scope?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Is it risk?</p>
-
-
-
-<p class="wp-block-paragraph">Sensitivity?</p>
-
-
-
-<p class="wp-block-paragraph">Role?</p>
-
-
-
-<p class="wp-block-paragraph">Privilege?</p>
-
-
-
-<p class="wp-block-paragraph">A pilot?</p>
-
-
-
-<p class="wp-block-paragraph">An investigation?</p>
-
-
-
-<p class="wp-block-paragraph">Have a reason.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What will you do with the audit data?</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is an important one.</p>
-
-
-
-<p class="wp-block-paragraph">If nobody is going to review or act on the information, why are you collecting it?</p>
-
-
-
-<p class="wp-block-paragraph"><strong>How does this align with your DLP policies?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Make sure your audit scope and protection scope make sense together.</p>
-
-
-
-<p class="wp-block-paragraph">They don&#8217;t necessarily need to be identical.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>How will you review it?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Think about Purview, SOC workflows, investigation processes and any downstream integrations.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What happens when the group changes?</strong></p>
-
-
-
-<p class="wp-block-paragraph">If you&#8217;re using Entra ID groups, consider the lifecycle of those groups.</p>
-
-
-
-<p class="wp-block-paragraph">People join.</p>
-
-
-
-<p class="wp-block-paragraph">People leave.</p>
-
-
-
-<p class="wp-block-paragraph">Roles change.</p>
-
-
-
-<p class="wp-block-paragraph">Your risk profile changes.</p>
-
-
-
-<p class="wp-block-paragraph">Your controls should be able to keep up.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>There&#8217;s a bigger governance lesson here</strong></p>
-
-
-
-<p class="wp-block-paragraph">I think this change represents something we&#8217;re seeing across Microsoft Purview more broadly.</p>
-
-
-
-<p class="wp-block-paragraph">Controls are becoming more granular.</p>
-
-
-
-<p class="wp-block-paragraph">We&#8217;re moving away from:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Turn the feature on.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Towards:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Define exactly where, why, for whom and under what conditions the feature should operate.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a much better place to be.</p>
-
-
-
-<p class="wp-block-paragraph">Because governance isn&#8217;t about collecting everything.</p>
-
-
-
-<p class="wp-block-paragraph">It&#8217;s about collecting the right information, for the right reason, with the right level of control.</p>
-
-
-
-<p class="wp-block-paragraph">And that applies just as much to audit as it does to DLP, retention, sensitivity labels and AI governance.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
-
-
-
-<p class="wp-block-paragraph">Roadmap ID 562991 might look like a small Endpoint DLP configuration change.</p>
-
-
-
-<p class="wp-block-paragraph">But I think the underlying direction is worth paying attention to.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft is giving organisations more control over who generates JIT Audit activity.</p>
-
-
-
-<p class="wp-block-paragraph">That means we can start thinking about JIT Audit less as:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Audit everything.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">and more as:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Give me the visibility I actually need to manage my risk.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a much more mature approach to compliance and security.</p>
-
-
-
-<p class="wp-block-paragraph">And as our Microsoft 365 environments become more complex, reducing noise while increasing useful visibility is going to become increasingly important.</p>
-
-
-
-<p class="wp-block-paragraph">More audit isn&#8217;t necessarily better governance.</p>
-
-
-
-<p class="wp-block-paragraph">Better-targeted audit might be.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>Microsoft references</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>Microsoft Message Center <strong>MC1387575 / Roadmap ID 562991</strong> &#8211; Scope Just-in-Time Audit by user or group.</li>
-
-
-
-<li>Microsoft Purview Audit &#8211; Search and investigate audited activity.</li>
-</ul>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/09/15/%f0%9f%9a%a8-microsoft-purview-jit-audit-is-getting-more-granular-and-that-matters/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">330</post-id>	</item>
 	</channel>
 </rss>
