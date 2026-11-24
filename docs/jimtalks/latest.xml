@@ -12,7 +12,7 @@
 	<atom:link href="https://jimtalks.co.uk/feed/" rel="self" type="application/rss+xml" />
 	<link>https://jimtalks.co.uk</link>
 	<description>Building trusted data foundations that make AI and agents work securely &#124; AI &#38; Agent Governance &#124; Microsoft Purview</description>
-	<lastBuildDate>Mon, 16 Nov 2026 17:10:36 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 24 Nov 2026 16:08:32 +0000</lastBuildDate>
 	<language>en-GB</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,254 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">256663161</site>	<item>
+		<title>Your Teams Meeting Is Labelled. Are Its Recordings and Notes?</title>
+		<link>https://jimtalks.co.uk/2026/11/24/your-teams-meeting-is-labelled-are-its-recordings-and-notes/</link>
+					<comments>https://jimtalks.co.uk/2026/11/24/your-teams-meeting-is-labelled-are-its-recordings-and-notes/#respond</comments>
+		
+		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
+		<pubDate>Tue, 24 Nov 2026 16:08:32 +0000</pubDate>
+				<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://jimtalks.co.uk/?p=460</guid>
+
+					<description><![CDATA[Microsoft Purview Roadmap ID: 581739 We spend a lot of time talking about protecting documents, emails and SharePoint sites with Microsoft Purview sensitivity labels. But what happens when that information is discussed in a Teams meeting? A meeting might be labelled Confidential, yet the recording, transcript and meeting notes become separate files stored in SharePoint [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/24/your-teams-meeting-is-labelled-are-its-recordings-and-notes/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="683" data-attachment-id="461" data-permalink="https://jimtalks.co.uk/2026/11/24/your-teams-meeting-is-labelled-are-its-recordings-and-notes/protection-follows-meeting-information/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Protection-Follows-Meeting-Information.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Protection Follows Meeting Information" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Protection-Follows-Meeting-Information.png?fit=1024%2C683&amp;ssl=1" data-id="461" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Protection-Follows-Meeting-Information.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-461" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Protection-Follows-Meeting-Information.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Protection-Follows-Meeting-Information.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Protection-Follows-Meeting-Information.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Protection-Follows-Meeting-Information.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Microsoft Purview Roadmap ID: 581739</strong></p>
+
+
+
+<p class="wp-block-paragraph">We spend a lot of time talking about protecting documents, emails and SharePoint sites with Microsoft Purview sensitivity labels. But what happens when that information is discussed in a Teams meeting?</p>
+
+
+
+<p class="wp-block-paragraph">A meeting might be labelled Confidential, yet the recording, transcript and meeting notes become separate files stored in SharePoint or OneDrive. If those files aren&#8217;t protected consistently, you can end up with a gap in your information protection strategy.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft is addressing this with sensitivity label inheritance for Teams meeting artifacts.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>What&#8217;s changing?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Purview Roadmap item <strong>581739</strong> introduces the ability for Teams meeting artifacts to inherit the sensitivity label applied to the meeting.</p>
+
+
+
+<p class="wp-block-paragraph">The artifacts include:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Recordings</strong> &#8211; MP4 files.</li>
+
+
+
+<li><strong>Transcripts</strong> &#8211; associated with the meeting recording.</li>
+
+
+
+<li><strong>Meeting notes</strong> &#8211; Loop files.</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">When configured, these artifacts automatically receive the meeting&#8217;s sensitivity label when they are saved to SharePoint or OneDrive.</p>
+
+
+
+<p class="wp-block-paragraph">The aim is simple: reduce reliance on users remembering to classify every piece of content created during a meeting.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Why does this matter?</strong></p>
+
+
+
+<p class="wp-block-paragraph">Think about a meeting labelled <strong>Highly Confidential</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">The discussion covers a sensitive acquisition, financial results or an upcoming organisational restructure. The meeting is appropriately classified, but the recording and transcript contain the same sensitive information.</p>
+
+
+
+<p class="wp-block-paragraph">Without consistent labelling, those files could be treated differently from the meeting itself.</p>
+
+
+
+<p class="wp-block-paragraph">Automatic inheritance helps close that gap by carrying the meeting&#8217;s classification into the content generated from it.</p>
+
+
+
+<p class="wp-block-paragraph">This is particularly important as organisations use Teams recordings, transcripts, intelligent recap and AI-powered meeting experiences more frequently.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>How does it work?</strong></p>
+
+
+
+<p class="wp-block-paragraph">The administrator configures the <strong>Apply meeting label to artifacts</strong> option in the Microsoft Purview sensitivity label publishing policy.</p>
+
+
+
+<p class="wp-block-paragraph">When enabled, the meeting&#8217;s sensitivity label is applied to supported recordings, transcripts and Loop meeting notes as they are saved to SharePoint or OneDrive.</p>
+
+
+
+<p class="wp-block-paragraph">There are a few important implementation details:</p>
+
+
+
+<ol start="1" class="wp-block-list">
+<li><strong>MP4 support matters.</strong> Sensitivity labelling support for MP4 files must be enabled for recordings and transcripts to receive the label. If it isn&#8217;t enabled, selecting the policy option won&#8217;t label those files.</li>
+
+
+
+<li><strong>It&#8217;s applied when the artifact is saved.</strong> If someone changes the meeting&#8217;s sensitivity label afterwards, the existing artifacts do not automatically inherit that new label.</li>
+
+
+
+<li><strong>Encryption has consequences.</strong> Recordings and transcripts with an encryption-enabled label can be played in supported browser experiences, but cannot be downloaded. Where the label doesn&#8217;t apply encryption, a downloaded copy does not retain the sensitivity label.</li>
+
+
+
+<li><strong>Publishing matters.</strong> The relevant sensitivity labels must be published to meeting organisers and participants.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">These details are important when designing the experience. Automatic labelling is useful, but it needs to align with how people access, share and retain meeting content.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>What should administrators do?</strong></p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;d approach this in five steps:</p>
+
+
+
+<p class="wp-block-paragraph"><strong>1. Review your sensitivity label strategy</strong></p>
+
+
+
+<p class="wp-block-paragraph">Make sure your labels represent meaningful business classifications. Avoid creating a complicated taxonomy that users cannot understand.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>2. Review meeting label publishing policies</strong></p>
+
+
+
+<p class="wp-block-paragraph">Decide which users can apply labels to meetings and whether a default meeting label or mandatory labelling is appropriate.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>3. Enable artifact inheritance</strong></p>
+
+
+
+<p class="wp-block-paragraph">Configure the Apply meeting label to artifacts setting in the relevant publishing policy.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>4. Validate MP4 support and encryption</strong></p>
+
+
+
+<p class="wp-block-paragraph">Test recordings, transcripts and Loop notes. Confirm that the resulting files receive the expected label and that encryption behaves as intended.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>5. Test the end-to-end experience</strong></p>
+
+
+
+<p class="wp-block-paragraph">Check access, sharing, playback, downloads and retention. In particular, test what happens when the meeting label changes after the artifacts have been created.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>A roadmap detail worth noting</strong></p>
+
+
+
+<p class="wp-block-paragraph">Roadmap ID <strong>581739</strong> is currently listed as In development, with General Availability targeted for December 2026. Its listed cloud environments are GCC, GCC High and DoD.</p>
+
+
+
+<p class="wp-block-paragraph">There is an important distinction for commercial tenants: Microsoft previously listed the same capability under roadmap ID <strong>558686</strong>, which was marked Launched for Worldwide commercial tenants. So don&#8217;t assume 581739 represents a brand-new commercial rollout. Check the existing capability and your tenant&#8217;s availability.</p>
+
+
+
+<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway:</strong></p>
+
+
+
+<p class="wp-block-paragraph">Sensitivity labels shouldn&#8217;t stop at the meeting invitation.</p>
+
+
+
+<p class="wp-block-paragraph">The information discussed in a meeting can become a recording, transcript, Loop note or AI-generated recap. Those artifacts may contain exactly the same sensitive information as the original conversation.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>The governance principle is simple: protection should follow the information, not depend on someone remembering to apply it again.</strong></p>
+
+
+
+<p class="wp-block-paragraph">As organisations increasingly rely on AI to capture, summarise and act on meetings, consistent classification becomes even more important.</p>
+
+
+
+<p class="wp-block-paragraph">Don&#8217;t just label the meeting. Think about everything the meeting creates.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><strong>References</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li><a href="https://www.microsoft.com/microsoft-365/roadmap?id=581739">Microsoft 365 Roadmap – ID 581739</a></li>
+
+
+
+<li><a href="https://www.microsoft.com/microsoft-365/roadmap?id=558686">Microsoft 365 Roadmap – ID 558686</a></li>
+
+
+
+<li><a href="https://learn.microsoft.com/en-us/purview/sensitivity-labels-meetings">Microsoft Learn – Use sensitivity labels to protect calendar items, Teams meetings, and chat</a></li>
+</ul>
+
+
+
+<p class="wp-block-paragraph"><em>Roadmap status and dates checked 21 November 2026.</em></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://jimtalks.co.uk/2026/11/24/your-teams-meeting-is-labelled-are-its-recordings-and-notes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">460</post-id>	</item>
+		<item>
 		<title>🔥 5 Microsoft Purview Controls Every Organisation Should Review Before Deploying AI Agents</title>
 		<link>https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/</link>
 					<comments>https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/#respond</comments>
@@ -39,8 +287,8 @@
 
 					<description><![CDATA[AI agents are moving beyond answering questions. They&#8217;re searching SharePoint, summarising documents, retrieving customer information, interacting with business applications, calling APIs and, increasingly, taking actions on behalf of employees. That creates a very different data governance challenge. A traditional application might allow an employee to open a document. An AI agent could potentially retrieve information [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="1024" height="576" data-attachment-id="450" data-permalink="https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/ai-governance-and-security-ecosystem/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="AI Governance and Security Ecosystem" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?fit=1024%2C576&amp;ssl=1" data-id="450" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem-1024x576.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-450" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="450" data-permalink="https://jimtalks.co.uk/2026/11/16/%f0%9f%94%a5-5-microsoft-purview-controls-every-organisation-should-review-before-deploying-ai-agents/ai-governance-and-security-ecosystem/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="AI Governance and Security Ecosystem" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?fit=1024%2C576&amp;ssl=1" data-id="450" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem-1024x576.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-450" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/AI-Governance-and-Security-Ecosystem.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -629,7 +877,7 @@
 
 					<description><![CDATA[If you manage Microsoft 365, particularly SharePoint Online and OneDrive, you&#8217;ll probably be familiar with the storage challenges that come with document version history. Versioning is incredibly useful. It allows users to recover previous versions of documents, investigate changes and restore content when something goes wrong. But there&#8217;s another side to it. In organisations with [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="443" data-permalink="https://jimtalks.co.uk/2026/11/06/%f0%9f%9a%a8-microsoft-purview-roadmap-575284-retention-doesnt-have-to-mean-keeping-every-file-version-forever/microsoft-purview-streamlined-storage-infographic/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Streamlined Storage Infographic" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?fit=1024%2C576&amp;ssl=1" data-id="443" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-443" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Streamlined-Storage-Infographic.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1097,8 +1345,8 @@
 
 					<description><![CDATA[When people talk about Microsoft Purview Insider Risk Management (IRM), the conversation often focuses on detecting suspicious user activity. Perhaps someone is downloading large volumes of files before leaving the organisation. Maybe sensitive information is being uploaded to an unauthorised cloud service, or a user is attempting to remove or downgrade sensitivity labels. But here&#8217;s [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" decoding="async" width="1024" height="576" data-attachment-id="436" data-permalink="https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/microsoft-purview-insider-risk-hub/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Insider Risk Hub" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1024%2C576&amp;ssl=1" data-id="436" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-436" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="436" data-permalink="https://jimtalks.co.uk/2026/11/03/%f0%9f%a4%94-did-you-know-microsoft-purview-insider-risk-management-connects-to-more-of-microsoft-365-than-you-might-think/microsoft-purview-insider-risk-hub/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1672%2C941&amp;ssl=1" data-orig-size="1672,941" data-comments-opened="1" data-image-title="Microsoft Purview Insider Risk Hub" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?fit=1024%2C576&amp;ssl=1" data-id="436" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-436" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/11/Microsoft-Purview-Insider-Risk-Hub.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
 
@@ -1563,7 +1811,7 @@
 
 					<description><![CDATA[Microsoft Purview is continuing to improve how organisations delegate administrative responsibilities without compromising security. Roadmap ID 577187 introduces a new View-Only Device Management role for the device onboarding experience in Microsoft Purview Endpoint Data Loss Prevention (Endpoint DLP). For organisations working towards least-privilege administration, this is a small but meaningful change. The principle is simple: [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="1024" data-attachment-id="422" data-permalink="https://jimtalks.co.uk/2026/10/21/%f0%9f%9a%a8-microsoft-purview-roadmap-577187-read-only-device-onboarding-access-is-coming/read-only-device-image/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1254%2C1254&amp;ssl=1" data-orig-size="1254,1254" data-comments-opened="1" data-image-title="Read-Only Device image" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?fit=1024%2C1024&amp;ssl=1" data-id="422" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&#038;ssl=1" alt="" class="wp-image-422" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Read-Only-Device-image.png?w=1254&amp;ssl=1 1254w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -1857,7 +2105,7 @@
 
 					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Administrative Units &#124; AI Governance As organisations introduce Microsoft 365 Copilot, Copilot Chat and Copilot Cowork, protecting sensitive information is only part of the challenge. Another question quickly follows: How do you let regional or departmental teams manage their own DLP policies without giving them control over the [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="415" data-permalink="https://jimtalks.co.uk/2026/10/19/%f0%9f%9a%a8-microsoft-purview-roadmap-575287-delegating-copilot-dlp-without-giving-away-the-keys/delegating-copilot/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Delegating Copilot" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?fit=1024%2C683&amp;ssl=1" data-id="415" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-415" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Delegating-Copilot.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2061,7 +2309,7 @@
 
 					<description><![CDATA[Microsoft Purview &#124; Data Loss Prevention &#124; Microsoft Entra Global Secure Access How do you protect sensitive information when users upload it to a website your organisation hasn&#8217;t explicitly identified or sanctioned? It&#8217;s a challenge for information security teams. Organisations can build detailed Data Loss Prevention (DLP) policies for known cloud applications, but users can [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-6 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="407" data-permalink="https://jimtalks.co.uk/2026/10/13/%f0%9f%9a%a8-microsoft-purview-roadmap-575285-extending-network-dlp-beyond-known-cloud-apps/designer-1-2/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Designer (1)" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?fit=1024%2C683&amp;ssl=1" data-id="407" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-407" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Designer-1-1.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2281,7 +2529,7 @@
 
 					<description><![CDATA[Microsoft Purview is extending sensitivity labels to Microsoft Entra cloud security groups. Here&#8217;s why that matters for identity, access management and information governance. Sensitivity labels are an important part of Microsoft Purview Information Protection. They help organisations classify information and, when configured for supported workloads, apply protection and governance settings. But what happens when we [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-7 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="399" data-permalink="https://jimtalks.co.uk/2026/10/09/%f0%9f%9a%a8-microsoft-purview-roadmap-568217-sensitivity-labels-are-coming-to-entra-security-groups/image-sensitivity-labels-to-security-groups/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="Image &amp;#8211; Sensitivity labels to Security Groups" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?fit=1024%2C683&amp;ssl=1" data-id="399" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-399" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/10/Image-Sensitivity-labels-to-Security-Groups.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -2567,7 +2815,7 @@
 
 					<description><![CDATA[If your organisation is still using the classic Microsoft Purview Data Security Posture Management experiences, there is a change coming that you should put on the radar now. Microsoft Message Center update MC1481315 confirms that Microsoft is retiring: The retirement begins 30 November 2026, with the classic experiences expected to be fully retired by 31 [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-8 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="385" data-permalink="https://jimtalks.co.uk/2026/09/29/%f0%9f%9a%a8-microsoft-purview-is-retiring-dspm-classic-heres-what-you-need-to-do/chatgpt-image-sep-29-2026-05_37_59-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 29, 2026, 05_37_59 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?fit=1024%2C683&amp;ssl=1" data-id="385" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-385" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-29-2026-05_37_59-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -3339,7 +3587,7 @@
 
 					<description><![CDATA[Microsoft is bringing new Copilot readiness and Data Explorer experiences into Purview DSPM, and this could change how we think about AI readiness. If you&#8217;ve been following Microsoft Purview over the last couple of years, you&#8217;ll probably have noticed something. The conversation has changed. We used to ask: &#8220;Have we classified our data?&#8221; Then: &#8220;Have [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-9 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
 <figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="576" data-attachment-id="342" data-permalink="https://jimtalks.co.uk/2026/09/16/%f0%9f%9a%a8-microsoft-purview-roadmap-571157-copilot-readiness-is-about-to-get-a-lot-more-interesting/chatgpt-image-sep-16-2026-04_32_40-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1672%2C940&amp;ssl=1" data-orig-size="1672,940" data-comments-opened="1" data-image-title="ChatGPT Image Sep 16, 2026, 04_32_40 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?fit=1024%2C576&amp;ssl=1" data-id="342" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&#038;ssl=1" alt="" class="wp-image-342" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1024%2C576&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=768%2C432&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?resize=1536%2C864&amp;ssl=1 1536w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-16-2026-04_32_40-PM.png?w=1672&amp;ssl=1 1672w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
 </figure>
 
@@ -4157,1249 +4405,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">341</post-id>	</item>
-		<item>
-		<title>🔥 Your AI Agent Isn&#8217;t Breaking the Rules,  It&#8217;s Following Them!</title>
-		<link>https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/</link>
-					<comments>https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/#respond</comments>
-		
-		<dc:creator><![CDATA[JimTalksGovernance]]></dc:creator>
-		<pubDate>Tue, 15 Sep 2026 16:33:10 +0000</pubDate>
-				<category><![CDATA[Microsoft]]></category>
-		<guid isPermaLink="false">https://jimtalks.co.uk/?p=334</guid>
-
-					<description><![CDATA[👉 Why AI governance is becoming less about what an agent can access &#8211; and more about what it can do with what it&#8217;s allowed to access Here&#8217;s an uncomfortable thought. Your AI agent might not be doing anything wrong. It might be following every permission you&#8217;ve given it, it might be operating exactly as [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure data-carousel-extra='{&quot;blog_id&quot;:1,&quot;permalink&quot;:&quot;https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/&quot;}'  class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-10 is-layout-flex wp-block-gallery-is-layout-flex">
-<figure class="wp-block-image size-large"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="683" data-attachment-id="335" data-permalink="https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/chatgpt-image-sep-15-2026-05_31_17-pm/" data-orig-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1536%2C1024&amp;ssl=1" data-orig-size="1536,1024" data-comments-opened="1" data-image-title="ChatGPT Image Sep 15, 2026, 05_31_17 PM" data-image-description="" data-image-caption="" data-large-file="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?fit=1024%2C683&amp;ssl=1" data-id="335" src="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&#038;ssl=1" alt="" class="wp-image-335" srcset="https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=1024%2C683&amp;ssl=1 1024w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=300%2C200&amp;ssl=1 300w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?resize=768%2C512&amp;ssl=1 768w, https://i0.wp.com/jimtalks.co.uk/wp-content/uploads/2026/09/ChatGPT-Image-Sep-15-2026-05_31_17-PM.png?w=1536&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
-</figure>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Why AI governance is becoming less about what an agent can access &#8211; and more about what it can do with what it&#8217;s allowed to access</strong></p>
-
-
-
-<p class="wp-block-paragraph">Here&#8217;s an uncomfortable thought.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Your AI agent might not be doing anything wrong.</strong></p>
-
-
-
-<p class="wp-block-paragraph">It might be following every permission you&#8217;ve given it, it might be operating exactly as designed. It might even be accessing information that the user is legitimately allowed to access.</p>
-
-
-
-<p class="wp-block-paragraph">And yet&#8230;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>you could still have a serious governance problem.</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s because we&#8217;re entering a world where traditional access control isn&#8217;t enough.</p>
-
-
-
-<p class="wp-block-paragraph">For years, we&#8217;ve asked:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Can this person access this information?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">With AI agents, we increasingly need to ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What can an agent do with everything this person is allowed to access?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a very different question.</p>
-
-
-
-<p class="wp-block-paragraph">And I think it&#8217;s one of the most important questions in AI governance right now.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>The permission problem</strong></p>
-
-
-
-<p class="wp-block-paragraph">Let&#8217;s imagine a fairly normal Microsoft 365 environment.</p>
-
-
-
-<p class="wp-block-paragraph">A user has access to:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>SharePoint sites</strong></li>
-
-
-
-<li><strong>OneDrive</strong></li>
-
-
-
-<li><strong>Teams</strong></li>
-
-
-
-<li><strong>email</strong></li>
-
-
-
-<li><strong>business documents</strong></li>
-
-
-
-<li><strong>project information</strong></li>
-
-
-
-<li><strong>HR information relevant to his role</strong></li>
-
-
-
-<li><strong>financial information relevant to their role</strong></li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Nothing is necessarily wrong with that.</p>
-
-
-
-<p class="wp-block-paragraph">Their permissions might be perfectly legitimate.</p>
-
-
-
-<p class="wp-block-paragraph">Now give the user an AI agent. The agent can potentially search across the information available to the user, understand it, connect information from different sources and produce an answer.</p>
-
-
-
-<p class="wp-block-paragraph">Suddenly, something changes. The user might never have manually opened 50 documents.</p>
-
-
-
-<p class="wp-block-paragraph">The agent can.</p>
-
-
-
-<p class="wp-block-paragraph">The user might never have thought to connect information from five different SharePoint sites.</p>
-
-
-
-<p class="wp-block-paragraph">The agent can.</p>
-
-
-
-<p class="wp-block-paragraph">The user might never have noticed that three pieces of information, individually harmless, become highly sensitive when combined. The agent can potentially make that connection.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>The agent hasn&#8217;t necessarily bypassed security.</strong></p>
-
-
-
-<p class="wp-block-paragraph">It may simply have used the access it was given &#8211; and that&#8217;s the uncomfortable bit.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Access control answers one question</strong></p>
-
-
-
-<p class="wp-block-paragraph">Traditional access control is incredibly important.</p>
-
-
-
-<p class="wp-block-paragraph">It answers:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Can you access this?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s still fundamental.</p>
-
-
-
-<p class="wp-block-paragraph">Sensitivity labels, permissions, groups, Conditional Access, DLP and other controls all contribute to protecting information.</p>
-
-
-
-<p class="wp-block-paragraph">But AI introduces another question:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What can you do with what you&#8217;re allowed to access?</strong></p>
-
-
-
-<p class="wp-block-paragraph">And when &#8220;you&#8221; is an autonomous or semi-autonomous agent, that question becomes considerably more complicated. Because an agent doesn&#8217;t necessarily consume information in the same way a human does.</p>
-
-
-
-<p class="wp-block-paragraph">A human might read three documents.</p>
-
-
-
-<p class="wp-block-paragraph">An agent can potentially search thousands.</p>
-
-
-
-<p class="wp-block-paragraph">A human might make one decision.</p>
-
-
-
-<p class="wp-block-paragraph">An agent can potentially execute a multi-step workflow.</p>
-
-
-
-<p class="wp-block-paragraph">A human might copy information into an email.</p>
-
-
-
-<p class="wp-block-paragraph">An agent can potentially retrieve information, combine it, transform it and pass it to another tool.</p>
-
-
-
-<p class="wp-block-paragraph">That is the shift.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>AI didn&#8217;t create the data governance problem</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is where I think organisations need to be honest with themselves. AI hasn&#8217;t suddenly created all these information governance problems.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>It&#8217;s exposing them.</strong></p>
-
-
-
-<p class="wp-block-paragraph">Think about the Microsoft 365 environment that has accumulated over the last decade. You&#8217;ve probably got:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>old SharePoint sites</strong></li>
-
-
-
-<li><strong>inherited permissions</strong></li>
-
-
-
-<li><strong>former employees&#8217; content</strong></li>
-
-
-
-<li><strong>documents nobody owns</strong></li>
-
-
-
-<li><strong>stale information</strong></li>
-
-
-
-<li><strong>broadly shared files</strong></li>
-
-
-
-<li><strong>&#8220;Everyone except external users&#8221; permissions</strong></li>
-
-
-
-<li><strong>anonymous or &#8220;Anyone&#8221; links</strong></li>
-
-
-
-<li><strong>sensitive information without labels</strong></li>
-
-
-
-<li><strong>inconsistent retention</strong></li>
-
-
-
-<li><strong>duplicate documents</strong></li>
-
-
-
-<li><strong>project sites that were never closed</strong></li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">A human user may never have found some of that information.</p>
-
-
-
-<p class="wp-block-paragraph">An AI agent might.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s current guidance for securing and governing Microsoft 365 Copilot agents specifically recommends discovering oversharing risks, identifying sensitive information in grounding data and addressing stale information before deploying agents broadly.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a really important message.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Your AI governance programme starts with your data governance programme.</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Grounding data is now part of the security boundary</strong></p>
-
-
-
-<p class="wp-block-paragraph">The term <strong>grounding data</strong> is becoming increasingly important. It&#8217;s the information an AI system can use to formulate its response.</p>
-
-
-
-<p class="wp-block-paragraph">For Microsoft 365 Copilot agents, this can include information from places such as SharePoint and Microsoft Dataverse.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s deployment guidance explicitly treats protection of grounding data as a separate stage of securing agents. It recommends applying sensitivity labels, reducing stale data, restricting sensitive files from Copilot processing and addressing oversharing.</p>
-
-
-
-<p class="wp-block-paragraph">That changes how I think about SharePoint. For years, we could say:</p>
-
-
-
-<p class="wp-block-paragraph">&#8220;This is a SharePoint permissions problem.&#8221;</p>
-
-
-
-<p class="wp-block-paragraph">Increasingly, I&#8217;d say: <strong>&#8220;This is an AI security boundary.&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">Because the permissions and data quality decisions you make today can directly influence what an agent can discover tomorrow.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Sensitivity labels become even more important</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is where Microsoft Purview starts to become particularly interesting. Sensitivity labels aren&#8217;t simply about putting a classification on a document.</p>
-
-
-
-<p class="wp-block-paragraph">They can provide protection that travels with the content. Microsoft&#8217;s current agent guidance states that sensitivity labels applied to SharePoint and Dataverse grounding data are respected by Microsoft 365 Copilot agents, with responses limited to content the user has appropriate permissions to access.</p>
-
-
-
-<p class="wp-block-paragraph">That gives us an important control layer. But there&#8217;s another question.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What if the user is allowed to access the document?</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is where DLP becomes interesting. Microsoft&#8217;s current guidance says Purview DLP can restrict Microsoft 365 Copilot from processing sensitive files, including files with particular sensitivity labels, even where the user has access to the file.</p>
-
-
-
-<p class="wp-block-paragraph">That is a subtle but important distinction.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Permission doesn&#8217;t automatically mean &#8220;AI should process this.&#8221;</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>That&#8217;s a new governance conversation</strong></p>
-
-
-
-<p class="wp-block-paragraph">Imagine: A user can open the document.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s one decision.</p>
-
-
-
-<p class="wp-block-paragraph">Now:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Should Copilot use that document to answer the user’s question?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s another. And:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Should an agent use that information as part of an automated workflow?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s potentially another. And:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Should the agent send the resulting information to another system?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s another again.</p>
-
-
-
-<p class="wp-block-paragraph">We are moving from a simple permission model towards a chain of decisions.</p>
-
-
-
-<p class="wp-block-paragraph">I&#8217;d represent it like this: <strong>DATA → IDENTITY → AGENT → ACTION → OUTCOME</strong></p>
-
-
-
-<p class="wp-block-paragraph">At each stage we should be asking:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What data?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Whose identity?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Which agent?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>What action?</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>What happened as a result?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s the governance model I think we need to start developing.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Then agents start acting</strong></p>
-
-
-
-<p class="wp-block-paragraph">And this is where things get really interesting. An AI that reads information and produces a summary is one thing.</p>
-
-
-
-<p class="wp-block-paragraph">An AI agent that can <strong>take action</strong> is something else. Microsoft&#8217;s security research describes this transition from AI systems that primarily read and respond towards agents that can plan multi-step tasks, decide which tools to invoke and execute actions.</p>
-
-
-
-<p class="wp-block-paragraph">That could mean:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>sending an email</strong></li>
-
-
-
-<li><strong>creating a document</strong></li>
-
-
-
-<li><strong>updating a record</strong></li>
-
-
-
-<li><strong>querying a database</strong></li>
-
-
-
-<li><strong>calling an API</strong></li>
-
-
-
-<li><strong>interacting with a business application</strong></li>
-
-
-
-<li><strong>sharing information</strong></li>
-
-
-
-<li><strong>initiating a workflow</strong></li>
-
-
-
-<li><strong>invoking another agent</strong></li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">The risk profile changes. A prompt injection against a summarisation tool might produce a bad answer.</p>
-
-
-
-<p class="wp-block-paragraph">A prompt injection against an agent with access to tools could potentially cause an action.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s recent research highlights exactly this problem, including <strong>MCP tool poisoning</strong>, where malicious instructions can be embedded in tool metadata and influence agent behaviour.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>And that&#8217;s where I think the phrase &#8220;least privilege&#8221; isn&#8217;t enough anymore.</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>We need least agency</strong></p>
-
-
-
-<p class="wp-block-paragraph">We&#8217;ve spent years talking about <strong>Least privilege</strong></p>
-
-
-
-<p class="wp-block-paragraph">Give users and applications only the permissions they need. That&#8217;s still essential. But agents introduce another dimension:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Least agency</strong></p>
-
-
-
-<p class="wp-block-paragraph">Give an agent only the ability to perform the actions it actually needs. An agent might legitimately need access to a customer record.</p>
-
-
-
-<p class="wp-block-paragraph">That doesn&#8217;t mean it should be allowed to:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>delete that record</strong></li>
-
-
-
-<li><strong>email the customer</strong></li>
-
-
-
-<li><strong>export the entire database</strong></li>
-
-
-
-<li><strong>call any external API</strong></li>
-
-
-
-<li><strong>share the information externally</strong></li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Access isn&#8217;t the same as authority to act. That&#8217;s a distinction I think we&#8217;re going to hear a lot more about.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>What about MCP?</strong></p>
-
-
-
-<p class="wp-block-paragraph">This becomes even more relevant as organisations connect agents to tools through mechanisms such as <strong>Model Context Protocol (MCP)</strong>.</p>
-
-
-
-<p class="wp-block-paragraph">MCP can give agents access to external tools and systems. That&#8217;s incredibly powerful. It&#8217;s also another trust boundary.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s recent security research describes MCP tool poisoning as a supply-chain risk and recommends treating MCP servers as production dependencies, maintaining approved tool inventories, reviewing tool descriptions, limiting tool access and using human approval for high-impact actions.</p>
-
-
-
-<p class="wp-block-paragraph">That means your AI governance programme now needs to consider more than:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What data can the agent see?</strong></p>
-
-
-
-<p class="wp-block-paragraph">It also needs to consider:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What tools can the agent call?</strong></p>
-
-
-
-<p class="wp-block-paragraph">And:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What can those tools do?</strong></p>
-
-
-
-<p class="wp-block-paragraph">And:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Who approved them?</strong></p>
-
-
-
-<p class="wp-block-paragraph">And:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What happens when the tool changes?</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s not traditional information governance, but it&#8217;s becoming part of AI governance.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Where does Microsoft Purview fit?</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is where I think Purview becomes much more than a compliance portal.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s current deployment model for securing and governing Microsoft 365 Copilot agents breaks the approach into four stages:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>1. Discover risks and gaps</strong></p>
-
-
-
-<p class="wp-block-paragraph">Understand:</p>
-
-
-
-<ul class="wp-block-list">
-<li>what agents are being used</li>
-
-
-
-<li>where sensitive information exists</li>
-
-
-
-<li>where oversharing exists</li>
-
-
-
-<li>what risky AI activity is happening</li>
-
-
-
-<li>where governance gaps exist</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Purview Audit, data risk assessments, DSPM for AI and Compliance Manager all have roles here.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>2. Protect grounding data</strong></p>
-
-
-
-<p class="wp-block-paragraph">Use:</p>
-
-
-
-<ul class="wp-block-list">
-<li>sensitivity labels</li>
-
-
-
-<li>DLP</li>
-
-
-
-<li>Data Lifecycle Management</li>
-
-
-
-<li>Dataverse data policies</li>
-
-
-
-<li>oversharing controls</li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">The goal is to make sure sensitive or inappropriate information doesn&#8217;t simply become AI knowledge because it happens to be accessible.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>3. Protect interactions</strong></p>
-
-
-
-<p class="wp-block-paragraph">Now look at the conversation itself.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s guidance includes sensitivity label inheritance, DLP restrictions on sensitive files referenced during interactions and Insider Risk Management for risky AI usage.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>4. Govern interactions</strong></p>
-
-
-
-<p class="wp-block-paragraph">And finally:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>retain</strong></li>
-
-
-
-<li><strong>investigate</strong></li>
-
-
-
-<li><strong>discover</strong></li>
-
-
-
-<li><strong>apply compliance controls</strong></li>
-
-
-
-<li><strong>manage the lifecycle of AI interactions</strong></li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Purview&#8217;s guidance explicitly includes Data Lifecycle Management, Communication Compliance, eDiscovery and Data Security Investigations in this stage.</p>
-
-
-
-<p class="wp-block-paragraph">That is a much broader model than:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;Let&#8217;s put a DLP policy on Copilot.&#8221;</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Don&#8217;t forget the data lifecycle</strong></p>
-
-
-
-<p class="wp-block-paragraph">Here&#8217;s another area I think is going to become increasingly important.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Stale data.</strong></p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s agent guidance specifically recommends using Data Lifecycle Management to reduce stale information in SharePoint and OneDrive because outdated information can affect agent response accuracy.</p>
-
-
-
-<p class="wp-block-paragraph">This is fascinating. Retention isn&#8217;t just about: <strong>&#8220;Are we keeping this information for the legally required period?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">It can increasingly become: <strong>&#8220;Should this information still be available as AI grounding data?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s a different conversation. An old document may still be legally retained, but that doesn&#8217;t necessarily mean you want an agent treating it as current business knowledge.</p>
-
-
-
-<p class="wp-block-paragraph">And that brings us back to the distinction between:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Retention</strong> and <strong>AI relevance.</strong></p>
-
-
-
-<p class="wp-block-paragraph">They&#8217;re related, they&#8217;re not the same thing.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>AI governance is becoming information governance</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is probably the biggest point I&#8217;d take away from all of this. We sometimes talk about:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>AI Governance</strong> and <strong>Information Governance</strong></p>
-
-
-
-<p class="wp-block-paragraph">as though they&#8217;re separate programmes. I don&#8217;t think they can remain completely separate. If your AI uses enterprise information, then:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>data quality matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>permissions matter.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>classification matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>retention matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>ownership matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>DLP matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>audit matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>eDiscovery matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>lifecycle management matters.</strong></p>
-
-
-
-<p class="wp-block-paragraph">AI hasn&#8217;t replaced information governance.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>It&#8217;s made it more important.</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>And now we have AI agents governing AI</strong></p>
-
-
-
-<p class="wp-block-paragraph">There&#8217;s another interesting twist. Microsoft is already introducing AI-powered agents inside Purview itself.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft Purview currently provides Security Copilot agents for tasks including DLP and Insider Risk Management alert triage, with posture and investigation agents also available in preview.</p>
-
-
-
-<p class="wp-block-paragraph">So we&#8217;re getting to a fascinating situation.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>AI agents are being used to govern AI agents.</strong></p>
-
-
-
-<p class="wp-block-paragraph">Which means the governance chain becomes:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Human → Governance → AI Agent → Data → Tools → Action</strong></p>
-
-
-
-<p class="wp-block-paragraph">and potentially:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Human → Purview Agent → Investigation → AI Activity → Decision</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s going to create a whole new set of questions around agent identity, accountability, auditability and human oversight.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>So what should organisations actually do?</strong></p>
-
-
-
-<p class="wp-block-paragraph">I wouldn&#8217;t start by building hundreds of policies. I&#8217;d start with five questions.</p>
-
-
-
-<ol class="wp-block-list">
-<li><strong>What agents do we actually have?</strong></li>
-
-
-
-<li><o:p> </o:p></li>
-</ol>
-
-
-
-<p class="wp-block-paragraph">You can&#8217;t govern what you can&#8217;t see. Build an inventory.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft Agent 365 and Microsoft&#8217;s broader agent security tooling are increasingly focused on central visibility of agents, their identities, permissions, activity and security posture.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>2. What data can those agents access?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Start with:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>SharePoint.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>OneDrive.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Dataverse.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Email.</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Teams.</strong></p>
-
-
-
-<p class="wp-block-paragraph">Find the oversharing.</p>
-
-
-
-<p class="wp-block-paragraph">Find the sensitive data.</p>
-
-
-
-<p class="wp-block-paragraph">Find the stale data.</p>
-
-
-
-<p class="wp-block-paragraph">Find the orphaned data.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>3. What controls apply?</strong></p>
-
-
-
-<p class="wp-block-paragraph">Ask:</p>
-
-
-
-<ul class="wp-block-list">
-<li>Are sensitivity labels applied?</li>
-
-
-
-<li>Are permissions appropriate?</li>
-
-
-
-<li>Are DLP policies covering the agent scenario?</li>
-
-
-
-<li>Are sensitive files excluded from processing where necessary?</li>
-
-
-
-<li>Are risky interactions monitored?</li>
-
-
-
-<li>Are retention policies appropriate?</li>
-
-
-
-<li>Is audit enabled?</li>
-
-
-
-<li> </li>
-</ul>
-
-
-
-<p class="wp-block-paragraph">Don&#8217;t assume that because you have a policy for humans, it automatically covers every agent scenario.</p>
-
-
-
-<p class="wp-block-paragraph">Microsoft&#8217;s current training guidance explicitly warns that coverage varies across agent types and that some agents behave differently from users, potentially creating policy coverage and enforcement gaps.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>4. What can the agent actually do?</strong></p>
-
-
-
-<p class="wp-block-paragraph">This is the new question. Don&#8217;t stop at &#8220;What can it read?&#8221;, ask:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What can it change?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What can it send?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What tools can it invoke?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What systems can it reach?&#8221;</strong></p>
-
-
-
-<p class="wp-block-paragraph"><strong>&#8220;What happens without human approval?&#8221;</strong></p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong>5. Can we prove what happened?</strong></p>
-
-
-
-<p class="wp-block-paragraph">If something goes wrong, can you reconstruct:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Who → Agent → Data → Tool → Action → Outcome</strong></p>
-
-
-
-<p class="wp-block-paragraph">If you can&#8217;t, you&#8217;ve got a governance problem. Auditability isn&#8217;t an optional extra. It&#8217;s part of trust.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>A simple agent governance model</strong></p>
-
-
-
-<p class="wp-block-paragraph">Here&#8217;s the model I&#8217;d recommend organisations start thinking about:</p>
-
-
-
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><td><strong>Layer</strong></td><td><strong>Governance question</strong></td></tr></thead><tbody><tr><td><strong>Data</strong></td><td>What information can be accessed?</td></tr><tr><td><strong>Identity</strong></td><td>Whose authority is the agent operating under?</td></tr><tr><td><strong>Agent</strong></td><td>What is the agent allowed to do?</td></tr><tr><td><strong>Tools</strong></td><td>Which tools and systems can it invoke?</td></tr><tr><td><strong>Action</strong></td><td>Which actions require approval?</td></tr><tr><td><strong>Outcome</strong></td><td>Can we audit and investigate what happened?</td></tr><tr><td><o:p>&nbsp;</o:p></td><td>&nbsp;</td></tr></tbody></table></figure>
-
-
-
-<p class="wp-block-paragraph">And sitting across all of it:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Purview + Entra + Defender + Sentinel + governance processes</strong></p>
-
-
-
-<p class="wp-block-paragraph">Because this isn&#8217;t just a compliance problem. It&#8217;s an identity problem. It&#8217;s a security problem. It&#8217;s a data problem. It&#8217;s an architecture problem. And ultimately, it&#8217;s a <strong>governance problem</strong>.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><strong><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4a1.png" alt="💡" class="wp-smiley" style="height: 1em; max-height: 1em;" /> The Jim Talks takeaway</strong></p>
-
-
-
-<p class="wp-block-paragraph">Here&#8217;s the thought I want people to leave with. Your AI agent might not be breaking the rules.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>It might be following them perfectly.</strong></p>
-
-
-
-<p class="wp-block-paragraph">The problem could be that the rules were designed for humans. We gave a person access to a SharePoint site because they needed it.</p>
-
-
-
-<p class="wp-block-paragraph">We didn&#8217;t necessarily design those permissions around an autonomous system that can search, correlate, summarise and act at machine speed.</p>
-
-
-
-<p class="wp-block-paragraph">We gave an agent permission to call a tool because the business process required it. We didn&#8217;t necessarily consider what happens if that tool&#8217;s instructions change.</p>
-
-
-
-<p class="wp-block-paragraph">We gave an agent access to information because the user was authorised. We didn&#8217;t necessarily ask whether that information should be used as AI grounding.</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s the governance gap.</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png" alt="👉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>We spent 20 years governing what humans could access</strong></p>
-
-
-
-<p class="wp-block-paragraph">Now we need to govern something different.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>What AI can do with everything humans can access.</strong></p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s the next chapter of information governance.</p>
-
-
-
-<p class="wp-block-paragraph">And I think the organisations that get this right won&#8217;t be the ones with the most AI policies.</p>
-
-
-
-<p class="wp-block-paragraph">They&#8217;ll be the ones that understand the relationship between:</p>
-
-
-
-<p class="wp-block-paragraph"><strong>Data.<br>Identity.<br>Agents.<br>Tools.<br>Actions.<br>Outcomes.</strong></p>
-
-
-
-<p class="wp-block-paragraph">Because AI governance isn&#8217;t about teaching the agent the rules.</p>
-
-
-
-<p class="wp-block-paragraph"><strong>It&#8217;s about making sure the rules, permissions and data we&#8217;ve given the agent are worth following in the first place.</strong></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://jimtalks.co.uk/2026/09/15/%f0%9f%94%a5-your-ai-agent-isnt-breaking-the-rules-its-following-them/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">334</post-id>	</item>
 	</channel>
 </rss>
